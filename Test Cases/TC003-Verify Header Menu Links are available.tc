@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003-Verify Header Menu Links are available</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edca57bf-b9af-46a6-b596-230573c53cf2</testCaseGuid>
+</TestCaseEntity>

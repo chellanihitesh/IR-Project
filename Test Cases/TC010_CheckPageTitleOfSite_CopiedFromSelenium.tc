@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010_CheckPageTitleOfSite_CopiedFromSelenium</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02c600a6-b7f1-4d6f-bfd6-adde84ddec0d</testCaseGuid>
+</TestCaseEntity>
