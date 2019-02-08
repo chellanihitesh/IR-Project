@@ -1,0 +1,123 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-02-08 12:41:39,2019-02-08 12:46:45,5m - 5.591s,ERROR
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 71.0.3578.98,,2019-02-08 12:41:39,2019-02-08 12:42:34,55.271s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:41:39,2019-02-08 12:41:39,0.017s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:41:40,2019-02-08 12:42:31,51.299s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-02-08 12:42:31,2019-02-08 12:42:31,0.057s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 71.0.3578.98,,2019-02-08 12:42:31,2019-02-08 12:42:31,0.149s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-02-08 12:42:31,2019-02-08 12:42:31,0.022s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-02-08 12:42:31,2019-02-08 12:42:32,1.086s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-08 12:42:32,2019-02-08 12:42:32,0.008s,PASSED
+ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-02-08 12:42:32,2019-02-08 12:42:32,0.027s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Chrome 71.0.3578.98,,2019-02-08 12:42:32,2019-02-08 12:42:32,0.002s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Chrome 71.0.3578.98,"Comparing PDF url to expected one
+",2019-02-08 12:42:32,2019-02-08 12:42:32,0.012s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-02-08 12:42:32,2019-02-08 12:42:32,0.013s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:42:32,2019-02-08 12:42:32,0.007s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-02-08 12:42:34,2019-02-08 12:43:17,42.450s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:42:34,2019-02-08 12:42:35,0.009s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-08 12:42:35,2019-02-08 12:42:59,24.440s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Chrome 71.0.3578.98,,2019-02-08 12:42:59,2019-02-08 12:43:14,14.806s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Chrome 71.0.3578.98,,2019-02-08 12:43:14,2019-02-08 12:43:15,1.026s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:43:15,2019-02-08 12:43:15,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Chrome 71.0.3578.98,,2019-02-08 12:43:17,2019-02-08 12:45:27,2m - 9.754s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:43:17,2019-02-08 12:43:17,0.003s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:43:17,2019-02-08 12:44:10,53.040s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:44:10,2019-02-08 12:44:10,0.124s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-08 12:44:10,2019-02-08 12:44:11,0.157s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-08 12:44:11,2019-02-08 12:44:11,0.064s,PASSED
+"verifyMatch(lblHeader, findTestData(""Excel_Screenames"").getValue(1, 1), false, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Using input from excel
+",2019-02-08 12:44:11,2019-02-08 12:44:12,1.146s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.032s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.031s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.028s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.118s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.028s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.032s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Dividend History""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.035s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Dividend History""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:12,0.015s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:12,2019-02-08 12:44:22,10.001s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Dividend History""))",Chrome 71.0.3578.98,,2019-02-08 12:44:22,2019-02-08 12:44:22,0.171s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Dividend History""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:22,2019-02-08 12:44:22,0.038s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:44:22,2019-02-08 12:44:22,0.050s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-08 12:44:22,2019-02-08 12:44:32,10.004s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_DSSPDrip""))",Chrome 71.0.3578.98,,2019-02-08 12:44:32,2019-02-08 12:44:32,0.139s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-02-08 12:44:32,2019-02-08 12:44:32,0.017s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-08 12:44:32,2019-02-08 12:44:42,10.003s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-08 12:44:42,2019-02-08 12:44:42,0.007s,PASSED
+DSSDrip_ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-02-08 12:44:42,2019-02-08 12:44:44,1.024s,PASSED
+"DSSDrip_ExpectedUrl = ""https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK""",Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.001s,PASSED
+if (DSSDrip_ActualUrl == DSSDrip_ExpectedUrl),Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.011s,PASSED
+closeWindowIndex(1),Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.077s,PASSED
+switchToWindowIndex(0),Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.010s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.039s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""), 0)",Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.034s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""), 0)",Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:44,0.017s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-08 12:44:44,2019-02-08 12:44:54,10.002s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""))",Chrome 71.0.3578.98,,2019-02-08 12:44:54,2019-02-08 12:44:54,0.118s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Analyst Coverage""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:44:54,2019-02-08 12:44:54,0.026s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:44:54,2019-02-08 12:44:54,0.056s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_FAQ""), 0)",Chrome 71.0.3578.98,,2019-02-08 12:44:54,2019-02-08 12:44:54,0.028s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-08 12:44:54,2019-02-08 12:45:04,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_FAQ""))",Chrome 71.0.3578.98,,2019-02-08 12:45:04,2019-02-08 12:45:04,0.119s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_FAQ""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:45:04,2019-02-08 12:45:04,0.027s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Financial Reports""))",Chrome 71.0.3578.98,,2019-02-08 12:45:04,2019-02-08 12:45:04,0.041s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Annual Reports  Proxy Statem""), 0)",Chrome 71.0.3578.98,,2019-02-08 12:45:04,2019-02-08 12:45:04,0.029s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-08 12:45:04,2019-02-08 12:45:14,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Annual Reports  Proxy Statem""))",Chrome 71.0.3578.98,,2019-02-08 12:45:14,2019-02-08 12:45:14,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Annual Reports  Proxy State""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:45:14,2019-02-08 12:45:14,0.037s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Financial Reports""))",Chrome 71.0.3578.98,,2019-02-08 12:45:14,2019-02-08 12:45:14,0.045s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_SEC Filings""), 0)",Chrome 71.0.3578.98,,2019-02-08 12:45:14,2019-02-08 12:45:14,0.027s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-08 12:45:14,2019-02-08 12:45:24,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_SEC Filings""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:45:24,2019-02-08 12:45:25,0.126s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_SEC Filings""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:45:25,2019-02-08 12:45:25,0.033s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:45:25,2019-02-08 12:45:25,0.002s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Chrome 71.0.3578.98,,2019-02-08 12:45:27,2019-02-08 12:45:29,2.290s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:45:27,2019-02-08 12:45:27,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Chrome 71.0.3578.98,,2019-02-08 12:45:27,2019-02-08 12:45:27,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:45:27,2019-02-08 12:45:27,0.001s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Chrome 71.0.3578.98,,2019-02-08 12:45:29,2019-02-08 12:45:31,2.147s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:45:29,2019-02-08 12:45:29,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Chrome 71.0.3578.98,,2019-02-08 12:45:29,2019-02-08 12:45:29,0.002s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:45:29,2019-02-08 12:45:29,0.002s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Chrome 71.0.3578.98,,2019-02-08 12:45:31,2019-02-08 12:46:38,1m - 6.381s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:45:31,2019-02-08 12:45:31,0.003s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:45:31,2019-02-08 12:46:23,51.501s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:46:23,2019-02-08 12:46:23,0.054s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-08 12:46:23,2019-02-08 12:46:23,0.186s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:46:23,2019-02-08 12:46:23,0.104s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-08 12:46:23,2019-02-08 12:46:28,5.003s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Chrome 71.0.3578.98,"Click Calendar Control
+",2019-02-08 12:46:28,2019-02-08 12:46:28,0.118s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-08 12:46:28,2019-02-08 12:46:33,5.002s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Chrome 71.0.3578.98,"Select Year 2018
+	",2019-02-08 12:46:33,2019-02-08 12:46:34,0.334s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Chrome 71.0.3578.98,Select Month 'December',2019-02-08 12:46:34,2019-02-08 12:46:34,0.310s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Chrome 71.0.3578.98,Select Date '31',2019-02-08 12:46:34,2019-02-08 12:46:34,0.091s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Chrome 71.0.3578.98,Optionally enter date text,2019-02-08 12:46:34,2019-02-08 12:46:34,0.001s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""95"")",Chrome 71.0.3578.98,,2019-02-08 12:46:34,2019-02-08 12:46:34,0.200s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Chrome 71.0.3578.98,,2019-02-08 12:46:34,2019-02-08 12:46:34,0.074s,PASSED
+"inputvalue = getAttribute(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""value"")",Chrome 71.0.3578.98,,2019-02-08 12:46:34,2019-02-08 12:46:34,0.032s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 71.0.3578.98,,2019-02-08 12:46:34,2019-02-08 12:46:34,0.001s,PASSED
+"log.logInfo(""Input price is "" + inputvalue)",Chrome 71.0.3578.98,,2019-02-08 12:46:34,2019-02-08 12:46:34,0.002s,PASSED
+"DynValue = getText(findTestObject(""Object Repository/Investment Calculator/h1_basicPrice""))",Chrome 71.0.3578.98,,2019-02-08 12:46:34,2019-02-08 12:46:35,1.060s,PASSED
+"NewDynValue = DynValue.replaceAll(""$"", """")",Chrome 71.0.3578.98,,2019-02-08 12:46:35,2019-02-08 12:46:35,0.003s,PASSED
+"log.logInfo(""Input price is "" + NewDynValue)",Chrome 71.0.3578.98,,2019-02-08 12:46:35,2019-02-08 12:46:35,0.001s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Chrome 71.0.3578.98,,2019-02-08 12:46:35,2019-02-08 12:46:35,0.041s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:46:35,2019-02-08 12:46:35,0.001s,PASSED
+,,,,,,
+Test Cases/TC009-Verify Analyst Coverage with checkpoint,Chrome 71.0.3578.98,,2019-02-08 12:46:38,2019-02-08 12:46:40,2.224s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:46:38,2019-02-08 12:46:38,0.002s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/AnalystCoverage""), false)",Chrome 71.0.3578.98,,2019-02-08 12:46:38,2019-02-08 12:46:38,0.074s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:46:38,2019-02-08 12:46:38,0.001s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Chrome 71.0.3578.98,,2019-02-08 12:46:40,2019-02-08 12:46:42,2.156s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:46:40,2019-02-08 12:46:40,0.002s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Chrome 71.0.3578.98,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-08 12:46:40,2019-02-08 12:46:40,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:46:40,2019-02-08 12:46:40,0.001s,PASSED

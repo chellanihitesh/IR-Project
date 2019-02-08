@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Firefox 65.0,,2019-02-08 12:55:43,2019-02-08 13:00:25,4m - 42.549s,ERROR
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Firefox 65.0,,2019-02-08 12:55:43,2019-02-08 12:56:56,1m - 13.197s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 12:55:43,2019-02-08 12:55:43,0.018s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 65.0,,2019-02-08 12:55:44,2019-02-08 12:56:48,1m - 3.989s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Firefox 65.0,,2019-02-08 12:56:48,2019-02-08 12:56:48,0.069s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Firefox 65.0,,2019-02-08 12:56:48,2019-02-08 12:56:48,0.741s,PASSED
+switchToWindowIndex(1),Firefox 65.0,,2019-02-08 12:56:48,2019-02-08 12:56:48,0.025s,PASSED
+waitForPageLoad(10),Firefox 65.0,,2019-02-08 12:56:48,2019-02-08 12:56:54,5.659s,PASSED
+maximizeWindow(),Firefox 65.0,,2019-02-08 12:56:54,2019-02-08 12:56:54,0.008s,PASSED
+ActualUrl = getUrl(),Firefox 65.0,,2019-02-08 12:56:54,2019-02-08 12:56:54,0.022s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Firefox 65.0,,2019-02-08 12:56:54,2019-02-08 12:56:54,0.004s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Firefox 65.0,"Comparing PDF url to expected one
+",2019-02-08 12:56:54,2019-02-08 12:56:54,0.009s,PASSED
+utilities.BasicFunctions.closeApplication(),Firefox 65.0,,2019-02-08 12:56:54,2019-02-08 12:56:54,0.009s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 12:56:54,2019-02-08 12:56:54,0.003s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Firefox 65.0,,2019-02-08 12:56:56,2019-02-08 12:57:57,1m - 0.880s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 12:56:56,2019-02-08 12:56:56,0.030s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-08 12:56:57,2019-02-08 12:57:35,38.448s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Firefox 65.0,,2019-02-08 12:57:35,2019-02-08 12:57:54,19.320s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Firefox 65.0,,2019-02-08 12:57:54,2019-02-08 12:57:55,0.778s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 12:57:55,2019-02-08 12:57:55,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Firefox 65.0,,2019-02-08 12:57:57,2019-02-08 12:59:01,1m - 3.439s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 12:57:57,2019-02-08 12:57:57,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 65.0,,2019-02-08 12:57:58,2019-02-08 12:58:57,58.944s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 65.0,,2019-02-08 12:58:57,2019-02-08 12:58:57,0.174s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Firefox 65.0,,2019-02-08 12:58:57,2019-02-08 12:58:57,0.395s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Firefox 65.0,,2019-02-08 12:58:57,2019-02-08 12:58:57,0.091s,PASSED
+"verifyMatch(lblHeader, findTestData(""Excel_Screenames"").getValue(1, 1), false, CONTINUE_ON_FAILURE)",Firefox 65.0,"Using input from excel
+",2019-02-08 12:58:57,2019-02-08 12:58:58,1.057s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 65.0,,2019-02-08 12:58:58,2019-02-08 12:58:58,0.138s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Firefox 65.0,,2019-02-08 12:58:58,2019-02-08 12:58:58,0.037s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Firefox 65.0,,2019-02-08 12:58:58,2019-02-08 12:58:59,0.023s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Firefox 65.0,,2019-02-08 12:58:59,2019-02-08 12:58:59,0.117s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 12:58:59,2019-02-08 12:58:59,0.002s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Firefox 65.0,,2019-02-08 12:59:01,2019-02-08 12:59:03,2.288s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 12:59:01,2019-02-08 12:59:01,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Firefox 65.0,,2019-02-08 12:59:01,2019-02-08 12:59:01,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 12:59:01,2019-02-08 12:59:01,0.002s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Firefox 65.0,,2019-02-08 12:59:03,2019-02-08 12:59:05,2.237s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 12:59:03,2019-02-08 12:59:03,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Firefox 65.0,,2019-02-08 12:59:03,2019-02-08 12:59:03,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 12:59:03,2019-02-08 12:59:03,0.003s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Firefox 65.0,,2019-02-08 12:59:05,2019-02-08 13:00:21,1m - 15.911s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 12:59:05,2019-02-08 12:59:05,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 65.0,,2019-02-08 12:59:06,2019-02-08 13:00:04,58.717s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 65.0,,2019-02-08 13:00:04,2019-02-08 13:00:04,0.146s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Firefox 65.0,,2019-02-08 13:00:04,2019-02-08 13:00:05,0.386s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Firefox 65.0,,2019-02-08 13:00:05,2019-02-08 13:00:05,0.149s,PASSED
+delay(5),Firefox 65.0,,2019-02-08 13:00:05,2019-02-08 13:00:10,5.002s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Firefox 65.0,"Click Calendar Control
+",2019-02-08 13:00:10,2019-02-08 13:00:10,0.367s,PASSED
+delay(5),Firefox 65.0,,2019-02-08 13:00:10,2019-02-08 13:00:15,5.003s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Firefox 65.0,"Select Year 2018
+	",2019-02-08 13:00:15,2019-02-08 13:00:16,1.196s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Firefox 65.0,Select Month 'December',2019-02-08 13:00:16,2019-02-08 13:00:17,0.757s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Firefox 65.0,Select Date '31',2019-02-08 13:00:17,2019-02-08 13:00:18,0.273s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Firefox 65.0,Optionally enter date text,2019-02-08 13:00:18,2019-02-08 13:00:18,0.003s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""95"")",Firefox 65.0,,2019-02-08 13:00:18,2019-02-08 13:00:18,0.104s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Firefox 65.0,,2019-02-08 13:00:18,2019-02-08 13:00:18,0.273s,PASSED
+"inputvalue = getAttribute(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""value"")",Firefox 65.0,,2019-02-08 13:00:18,2019-02-08 13:00:18,0.032s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Firefox 65.0,,2019-02-08 13:00:18,2019-02-08 13:00:18,0.001s,PASSED
+"log.logInfo(""Input price is "" + inputvalue)",Firefox 65.0,,2019-02-08 13:00:18,2019-02-08 13:00:18,0.002s,PASSED
+"DynValue = getText(findTestObject(""Object Repository/Investment Calculator/h1_basicPrice""))",Firefox 65.0,,2019-02-08 13:00:18,2019-02-08 13:00:19,1.054s,PASSED
+"NewDynValue = DynValue.replaceAll(""$"", """")",Firefox 65.0,,2019-02-08 13:00:19,2019-02-08 13:00:19,0.004s,PASSED
+"log.logInfo(""Input price is "" + NewDynValue)",Firefox 65.0,,2019-02-08 13:00:19,2019-02-08 13:00:19,0.002s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Firefox 65.0,,2019-02-08 13:00:19,2019-02-08 13:00:19,0.057s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 13:00:19,2019-02-08 13:00:19,0.001s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Firefox 65.0,,2019-02-08 13:00:21,2019-02-08 13:00:23,2.181s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,2019-02-08 13:00:21,2019-02-08 13:00:21,0.003s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Firefox 65.0,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-08 13:00:21,2019-02-08 13:00:21,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 65.0,,2019-02-08 13:00:21,2019-02-08 13:00:21,0.002s,PASSED

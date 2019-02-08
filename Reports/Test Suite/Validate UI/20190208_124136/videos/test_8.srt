@@ -1,0 +1,8 @@
+1
+00:00:00,194 --> 00:00:00,195
+3. Call the Selenium Script designed and call in Katalon. It will verifies the page title.
+
+2
+00:00:00,199 --> 00:00:00,200
+1. if (getTestCaseId().contains("Sample Tests"))
+

@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate UI" time="305" tests="2" failures="1" errors="5">
+   <testsuite name="Validate UI" tests="2" failures="1" errors="5" time="305" timestamp="2019-02-08 12:41:39" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Test Suite/Validate UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\git\\IR-Project\\Reports\\Test Suite\\Validate UI\\20190208_124135"/>
+         <property name="logFiles" value="D:\\git\\IR-Project\\Reports\\Test Suite\\Validate UI\\20190208_124135\\execution0.log"/>
+         <property name="attachments" value="D:\\git\\IR-Project\\Reports\\Test Suite\\Validate UI\\20190208_124135\\1549609994968.png"/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.10.11.27"/>
+         <property name="sessionId" value="97e34cad80925b32717aaf95d9502921"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001-Check Factsheet URL on home page" classname="Test Cases/TC001-Check Factsheet URL on home page" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-08 12:41:39 - [TEST_CASE][ERROR] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:41:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:41:39 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:41:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-08 12:41:40 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-02-08 12:41:40 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-08 12:41:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-08 12:41:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-08 12:42:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-08 12:42:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:42:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:42:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-08 12:42:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-08 12:42:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-08 12:42:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30): Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-02-08 12:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-02-08 12:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/a_Fact Sheet")): Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-02-08 12:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-02-08 12:42:31 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-02-08 12:42:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-02-08 12:42:31 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-08 12:42:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-08 12:42:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - ActualUrl = getUrl(): Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-02-08 12:42:32 - [MESSAGE][PASSED] - Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - ExpectedUrl = "https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae": null
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - if (ActualUrl.equals(ExpectedUrl)): URL for the factshet is as expected
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - comment("URL for the factshet is as expected"): URL for the factshet is as expected
+
+2019-02-08 12:42:32 - [MESSAGE][INFO] - URL for the factshet is as expected
+
+2019-02-08 12:42:32 - [TEST_STEP][ERROR] - utilities.BasicFunctions.closeApplication(): utilities.BasicFunctions.closeApplication() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:42:32 - [MESSAGE][ERROR] - utilities.BasicFunctions
+
+2019-02-08 12:42:32 - [MESSAGE][ERROR] - utilities.BasicFunctions.closeApplication() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:42:32 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-08 12:41:39 - [TEST_CASE][ERROR] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002-Check Tooltips on Historical Pricing" classname="Test Cases/TC002-Check Tooltips on Historical Pricing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50155}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 21e2df665b6208d253e3fa53962ec565)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-08 12:42:34 - [TEST_CASE][FAILED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50155}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 21e2df665b6208d253e3fa53962ec565)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:42:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:42:35 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:42:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-08 12:42:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-08 12:42:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-08 12:42:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-08 12:42:59 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com/#/home"): Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-02-08 12:43:14 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-02-08 12:43:14 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar")): click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50155}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 21e2df665b6208d253e3fa53962ec565)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:43:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50155}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 21e2df665b6208d253e3fa53962ec565)
+[[ATTACHMENT|D:\\git\\IR-Project\\Reports\\Test Suite\\Validate UI\\20190208_124135\\1549609994968.png]]
+
+2019-02-08 12:43:15 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50155}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 21e2df665b6208d253e3fa53962ec565)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:43:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:43:15 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-08 12:42:34 - [TEST_CASE][FAILED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50155}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 21e2df665b6208d253e3fa53962ec565)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003-Verify Header Menu Links are available" classname="Test Cases/TC003-Verify Header Menu Links are available" status="PASSED">
+         <system-out><![CDATA[2019-02-08 12:43:17 - [TEST_CASE][PASSED] - Test Cases/TC003-Verify Header Menu Links are available: Test Cases/TC003-Verify Header Menu Links are available
+
+2019-02-08 12:43:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:43:17 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:43:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-08 12:43:17 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-02-08 12:43:17 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-08 12:43:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-08 12:43:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-08 12:43:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-08 12:43:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:44:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:44:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-08 12:44:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-08 12:44:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-08 12:44:10 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-08 12:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-08 12:44:11 - [TEST_STEP][PASSED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-02-08 12:44:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-02-08 12:44:11 - [TEST_STEP][PASSED] - verifyMatch(lblHeader, findTestData("Excel_Screenames").getValue(1, 1), false, CONTINUE_ON_FAILURE): Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")): Object: 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is clicked on
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is clicked on
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Historical Pricing"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Historical Pricing' is present
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Historical Pricing' is present
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Dividend History"), 10, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' successfully
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' successfully
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Dividend History"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is present
+
+2019-02-08 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is present
+
+2019-02-08 12:44:12 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2019-02-08 12:44:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:44:22 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Dividend History")): Object: 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is clicked on
+
+2019-02-08 12:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is clicked on
+
+2019-02-08 12:44:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Dividend History"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Dividend History' is present
+
+2019-02-08 12:44:22 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Dividend History' is present
+
+2019-02-08 12:44:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:44:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_DSSPDrip")): Object: 'Object Repository/Menu_SubMenu_Links/a_DSSPDrip' is clicked on
+
+2019-02-08 12:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_DSSPDrip' is clicked on
+
+2019-02-08 12:44:32 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-02-08 12:44:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-02-08 12:44:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:44:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:44:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-08 12:44:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-08 12:44:42 - [TEST_STEP][PASSED] - DSSDrip_ActualUrl = getUrl(): Current window's url is: 'https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK'
+
+2019-02-08 12:44:44 - [MESSAGE][PASSED] - Current window's url is: 'https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK'
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - DSSDrip_ExpectedUrl = "https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK": null
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - if (DSSDrip_ActualUrl == DSSDrip_ExpectedUrl): null
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - out.println("DSSDrip URL is correct"): null
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-02-08 12:44:44 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-02-08 12:44:44 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Analyst Coverage"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' successfully
+
+2019-02-08 12:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:44:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' successfully
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Analyst Coverage"), 0): Object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is present
+
+2019-02-08 12:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:44:44 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is present
+
+2019-02-08 12:44:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:44:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Analyst Coverage")): Object: 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is clicked on
+
+2019-02-08 12:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is clicked on
+
+2019-02-08 12:44:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Analyst Coverage"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Analyst Coverage' is present
+
+2019-02-08 12:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:44:54 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Analyst Coverage' is present
+
+2019-02-08 12:44:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:44:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_FAQ"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_FAQ' successfully
+
+2019-02-08 12:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:44:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_FAQ' successfully
+
+2019-02-08 12:44:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:45:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_FAQ")): Object: 'Object Repository/Menu_SubMenu_Links/a_FAQ' is clicked on
+
+2019-02-08 12:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_FAQ' is clicked on
+
+2019-02-08 12:45:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_FAQ"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_FAQ' is present
+
+2019-02-08 12:45:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_FAQ' is present
+
+2019-02-08 12:45:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Financial Reports")): Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-08 12:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-08 12:45:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Annual Reports  Proxy Statem"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' successfully
+
+2019-02-08 12:45:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:45:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' successfully
+
+2019-02-08 12:45:04 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:45:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Annual Reports  Proxy Statem")): Object: 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' is clicked on
+
+2019-02-08 12:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' is clicked on
+
+2019-02-08 12:45:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Annual Reports  Proxy State"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Annual Reports  Proxy State' is present
+
+2019-02-08 12:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Annual Reports  Proxy State' is present
+
+2019-02-08 12:45:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Financial Reports")): Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-08 12:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-08 12:45:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_SEC Filings"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' successfully
+
+2019-02-08 12:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:45:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' successfully
+
+2019-02-08 12:45:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:45:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_SEC Filings"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' is clicked on
+
+2019-02-08 12:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' is clicked on
+
+2019-02-08 12:45:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_SEC Filings"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_SEC Filings' is present
+
+2019-02-08 12:45:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-08 12:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_SEC Filings' is present
+
+2019-02-08 12:45:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:45:25 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC005-Search" classname="Test Cases/TC005-Search" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC005-Search FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC005-Search.run(TC005-Search:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-08 12:45:27 - [TEST_CASE][ERROR] - Test Cases/TC005-Search: Test Cases/TC005-Search FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC005-Search.run(TC005-Search:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:45:27 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:45:27 - [TEST_STEP][ERROR] - utilities.BasicFunctions.invokeapplication(): utilities.BasicFunctions.invokeapplication() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC005-Search.run(TC005-Search:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:27 - [MESSAGE][ERROR] - utilities.BasicFunctions
+
+2019-02-08 12:45:27 - [MESSAGE][ERROR] - utilities.BasicFunctions.invokeapplication() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC005-Search.run(TC005-Search:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:45:27 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-08 12:45:27 - [TEST_CASE][ERROR] - Test Cases/TC005-Search: Test Cases/TC005-Search FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC005-Search.run(TC005-Search:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC006-Verify ContactUs aka Request materials" classname="Test Cases/TC006-Verify ContactUs aka Request materials" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC006-Verify ContactUs aka Request materials FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC006-Verify ContactUs aka Request materials.run(TC006-Verify ContactUs aka Request materials:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-08 12:45:29 - [TEST_CASE][ERROR] - Test Cases/TC006-Verify ContactUs aka Request materials: Test Cases/TC006-Verify ContactUs aka Request materials FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC006-Verify ContactUs aka Request materials.run(TC006-Verify ContactUs aka Request materials:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:45:29 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:45:29 - [TEST_STEP][ERROR] - utilities.BasicFunctions.invokeapplication(): utilities.BasicFunctions.invokeapplication() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC006-Verify ContactUs aka Request materials.run(TC006-Verify ContactUs aka Request materials:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:29 - [MESSAGE][ERROR] - utilities.BasicFunctions
+
+2019-02-08 12:45:29 - [MESSAGE][ERROR] - utilities.BasicFunctions.invokeapplication() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC006-Verify ContactUs aka Request materials.run(TC006-Verify ContactUs aka Request materials:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:45:29 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-08 12:45:29 - [TEST_CASE][ERROR] - Test Cases/TC006-Verify ContactUs aka Request materials: Test Cases/TC006-Verify ContactUs aka Request materials FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC006-Verify ContactUs aka Request materials.run(TC006-Verify ContactUs aka Request materials:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC007-Calculate Price appreciation or depreciation over period" classname="Test Cases/TC007-Calculate Price appreciation or depreciation over period" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC007-Calculate Price appreciation or depreciation over period FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-08 12:45:31 - [TEST_CASE][ERROR] - Test Cases/TC007-Calculate Price appreciation or depreciation over period: Test Cases/TC007-Calculate Price appreciation or depreciation over period FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:45:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:45:31 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:45:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-08 12:45:31 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-02-08 12:45:31 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-08 12:45:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-08 12:45:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-08 12:46:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-08 12:46:12 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-08 12:46:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-08 12:46:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-08 12:46:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-08 12:46:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-08 12:46:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-08 12:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-08 12:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-08 12:46:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Investment Calculator/i_Total Return_far fa-calendar"), STOP_ON_FAILURE): Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is hovered
+
+2019-02-08 12:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is hovered
+
+2019-02-08 12:46:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-08 12:46:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-08 12:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Investment Calculator/i_Total Return_far fa-calendar")): Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is clicked on
+
+2019-02-08 12:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is clicked on
+
+2019-02-08 12:46:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-08 12:46:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-08 12:46:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Investment Calculator/select_20082009201020112012201"), "2018", true): All options with value '2018' are selected in object 'Object Repository/Investment Calculator/select_20082009201020112012201'  using regular expression
+
+2019-02-08 12:46:34 - [MESSAGE][PASSED] - All options with value '2018' are selected in object 'Object Repository/Investment Calculator/select_20082009201020112012201'  using regular expression
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Investment Calculator/select_JanFebMarAprMayJunJulAu"), "12", true): All options with value '12' are selected in object 'Object Repository/Investment Calculator/select_JanFebMarAprMayJunJulAu'  using regular expression
+
+2019-02-08 12:46:34 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Investment Calculator/select_JanFebMarAprMayJunJulAu'  using regular expression
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Investment Calculator/div_28")): Object: 'Object Repository/Investment Calculator/div_28' is clicked on
+
+2019-02-08 12:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/div_28' is clicked on
+
+2019-02-08 12:46:34 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n"), "01/01/2019"): NOT_RUN: setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n"), "01/01/2019")
+
+2019-02-08 12:46:34 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n"), "01/01/2019")
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n_4"), "95"): Text '95' is set on object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4'
+
+2019-02-08 12:46:34 - [MESSAGE][PASSED] - Text '95' is set on object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4'
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Investment Calculator/button_Calculate Price")): Object: 'Object Repository/Investment Calculator/button_Calculate Price' is clicked on
+
+2019-02-08 12:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/button_Calculate Price' is clicked on
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - inputvalue = getAttribute(findTestObject("Investment Calculator/input_Total Return_txt w-100 n_4"), "value"): Attribute 'value' of object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4' is: '95'
+
+2019-02-08 12:46:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4' is: '95'
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - log.logInfo("Input price is " + inputvalue): Input price is 95
+
+2019-02-08 12:46:34 - [MESSAGE][INFO] - Input price is 95
+
+2019-02-08 12:46:34 - [TEST_STEP][PASSED] - DynValue = getText(findTestObject("Object Repository/Investment Calculator/h1_basicPrice")): Text of object 'Object Repository/Investment Calculator/h1_basicPrice' is: '$95.00'
+
+2019-02-08 12:46:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Investment Calculator/h1_basicPrice' is: '$95.00'
+
+2019-02-08 12:46:35 - [TEST_STEP][PASSED] - NewDynValue = DynValue.replaceAll("$", ""): null
+
+2019-02-08 12:46:35 - [TEST_STEP][PASSED] - log.logInfo("Input price is " + NewDynValue): Input price is $95.00
+
+2019-02-08 12:46:35 - [MESSAGE][INFO] - Input price is $95.00
+
+2019-02-08 12:46:35 - [TEST_STEP][ERROR] - TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price")): TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price")) FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:46:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Investment Calculator/p_Current Price' is: 'Current Price:'
+
+2019-02-08 12:46:35 - [MESSAGE][ERROR] - TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price")) FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:46:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:46:35 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-08 12:45:31 - [TEST_CASE][ERROR] - Test Cases/TC007-Calculate Price appreciation or depreciation over period: Test Cases/TC007-Calculate Price appreciation or depreciation over period FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC009-Verify Analyst Coverage with checkpoint" classname="Test Cases/TC009-Verify Analyst Coverage with checkpoint" status="PASSED">
+         <system-out><![CDATA[2019-02-08 12:46:38 - [TEST_CASE][PASSED] - Test Cases/TC009-Verify Analyst Coverage with checkpoint: Test Cases/TC009-Verify Analyst Coverage with checkpoint
+
+2019-02-08 12:46:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:46:38 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:46:38 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/AnalystCoverage"), false): Checkpoint data and Source data are matched
+
+2019-02-08 12:46:38 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2019-02-08 12:46:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:46:38 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium" classname="Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC010_CheckPageTitleOfSite_CopiedFromSelenium.run(TC010_CheckPageTitleOfSite_CopiedFromSelenium:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-08 12:46:40 - [TEST_CASE][ERROR] - Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium: Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC010_CheckPageTitleOfSite_CopiedFromSelenium.run(TC010_CheckPageTitleOfSite_CopiedFromSelenium:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:46:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-08 12:46:40 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-08 12:46:40 - [TEST_STEP][ERROR] - utilities.BasicFunctions.Sel_CheckPageTitle(): utilities.BasicFunctions.Sel_CheckPageTitle() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC010_CheckPageTitleOfSite_CopiedFromSelenium.run(TC010_CheckPageTitleOfSite_CopiedFromSelenium:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:46:40 - [MESSAGE][ERROR] - utilities.BasicFunctions
+
+2019-02-08 12:46:40 - [MESSAGE][ERROR] - utilities.BasicFunctions.Sel_CheckPageTitle() FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC010_CheckPageTitleOfSite_CopiedFromSelenium.run(TC010_CheckPageTitleOfSite_CopiedFromSelenium:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)
+
+
+2019-02-08 12:46:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-08 12:46:40 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-08 12:46:40 - [TEST_CASE][ERROR] - Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium: Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC010_CheckPageTitleOfSite_CopiedFromSelenium.run(TC010_CheckPageTitleOfSite_CopiedFromSelenium:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-08 12:41:39 - [TEST_SUITE][ERROR] - Validate UI: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-08 12:41:39 - [TEST_SUITE][ERROR] - Validate UI: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+java.lang.ClassNotFoundException: utilities.BasicFunctions
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:98)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:44)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549609895022.run(TempTestSuite1549609895022.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

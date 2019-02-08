@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-02-08 12:52:33,2019-02-08 12:55:31,2m - 58.314s,ERROR
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 71.0.3578.98,,2019-02-08 12:52:33,2019-02-08 12:53:30,57.384s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:52:33,2019-02-08 12:52:33,0.020s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:52:33,2019-02-08 12:53:27,53.292s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-02-08 12:53:27,2019-02-08 12:53:27,0.131s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 71.0.3578.98,,2019-02-08 12:53:27,2019-02-08 12:53:27,0.215s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-02-08 12:53:27,2019-02-08 12:53:27,0.029s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-02-08 12:53:27,2019-02-08 12:53:28,1.146s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-08 12:53:28,2019-02-08 12:53:28,0.009s,PASSED
+ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-02-08 12:53:28,2019-02-08 12:53:28,0.019s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Chrome 71.0.3578.98,,2019-02-08 12:53:28,2019-02-08 12:53:28,0.002s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Chrome 71.0.3578.98,"Comparing PDF url to expected one
+",2019-02-08 12:53:28,2019-02-08 12:53:28,0.010s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-02-08 12:53:28,2019-02-08 12:53:28,0.010s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:53:28,2019-02-08 12:53:28,0.006s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-02-08 12:53:30,2019-02-08 12:54:15,44.353s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:53:30,2019-02-08 12:53:30,0.003s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-08 12:53:31,2019-02-08 12:53:55,24.495s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Chrome 71.0.3578.98,,2019-02-08 12:53:55,2019-02-08 12:54:12,16.630s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Chrome 71.0.3578.98,,2019-02-08 12:54:12,2019-02-08 12:54:13,0.913s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:54:13,2019-02-08 12:54:13,0.082s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Chrome 71.0.3578.98,,2019-02-08 12:54:15,2019-02-08 12:54:17,2.248s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:54:15,2019-02-08 12:54:15,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Chrome 71.0.3578.98,,2019-02-08 12:54:15,2019-02-08 12:54:15,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:54:15,2019-02-08 12:54:15,0.002s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Chrome 71.0.3578.98,,2019-02-08 12:54:17,2019-02-08 12:54:19,2.288s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:54:17,2019-02-08 12:54:17,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Chrome 71.0.3578.98,,2019-02-08 12:54:17,2019-02-08 12:54:17,0.005s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:54:17,2019-02-08 12:54:17,0.003s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Chrome 71.0.3578.98,,2019-02-08 12:54:19,2019-02-08 12:55:28,1m - 8.491s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:54:19,2019-02-08 12:54:19,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:54:20,2019-02-08 12:55:12,52.573s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-08 12:55:12,2019-02-08 12:55:12,0.109s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-08 12:55:12,2019-02-08 12:55:13,0.226s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-08 12:55:13,2019-02-08 12:55:13,0.081s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-08 12:55:13,2019-02-08 12:55:18,5.002s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Chrome 71.0.3578.98,"Click Calendar Control
+",2019-02-08 12:55:18,2019-02-08 12:55:18,0.140s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-08 12:55:18,2019-02-08 12:55:23,5.003s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Chrome 71.0.3578.98,"Select Year 2018
+	",2019-02-08 12:55:23,2019-02-08 12:55:23,0.461s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Chrome 71.0.3578.98,Select Month 'December',2019-02-08 12:55:23,2019-02-08 12:55:24,0.437s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Chrome 71.0.3578.98,Select Date '31',2019-02-08 12:55:24,2019-02-08 12:55:24,0.215s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Chrome 71.0.3578.98,Optionally enter date text,2019-02-08 12:55:24,2019-02-08 12:55:24,0.039s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""95"")",Chrome 71.0.3578.98,,2019-02-08 12:55:24,2019-02-08 12:55:24,0.238s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Chrome 71.0.3578.98,,2019-02-08 12:55:24,2019-02-08 12:55:24,0.175s,PASSED
+"inputvalue = getAttribute(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""value"")",Chrome 71.0.3578.98,,2019-02-08 12:55:24,2019-02-08 12:55:24,0.040s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 71.0.3578.98,,2019-02-08 12:55:24,2019-02-08 12:55:24,0.002s,PASSED
+"log.logInfo(""Input price is "" + inputvalue)",Chrome 71.0.3578.98,,2019-02-08 12:55:24,2019-02-08 12:55:24,0.002s,PASSED
+"DynValue = getText(findTestObject(""Object Repository/Investment Calculator/h1_basicPrice""))",Chrome 71.0.3578.98,,2019-02-08 12:55:24,2019-02-08 12:55:26,1.142s,PASSED
+"NewDynValue = DynValue.replaceAll(""$"", """")",Chrome 71.0.3578.98,,2019-02-08 12:55:26,2019-02-08 12:55:26,0.040s,PASSED
+"log.logInfo(""Input price is "" + NewDynValue)",Chrome 71.0.3578.98,,2019-02-08 12:55:26,2019-02-08 12:55:26,0.002s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Chrome 71.0.3578.98,,2019-02-08 12:55:26,2019-02-08 12:55:26,0.164s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:55:26,2019-02-08 12:55:26,0.002s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Chrome 71.0.3578.98,,2019-02-08 12:55:28,2019-02-08 12:55:30,2.227s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-08 12:55:28,2019-02-08 12:55:28,0.002s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Chrome 71.0.3578.98,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-08 12:55:28,2019-02-08 12:55:28,0.005s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-08 12:55:28,2019-02-08 12:55:28,0.008s,PASSED

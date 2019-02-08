@@ -1,0 +1,57 @@
+1
+00:00:00,328 --> 00:00:00,329
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,404 --> 00:00:00,405
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+
+3
+00:00:49,258 --> 00:00:49,259
+7. For IE Load
+
+4
+00:00:59,261 --> 00:00:59,262
+11. maximizeWindow()
+
+5
+00:00:59,272 --> 00:00:59,273
+5. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+6
+00:00:59,447 --> 00:00:59,448
+9. click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator"))
+
+7
+00:00:59,842 --> 00:00:59,842
+13. lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator"))
+
+8
+00:00:59,933 --> 00:00:59,934
+19. Using input from excel
+
+
+9
+00:01:00,989 --> 00:01:00,990
+23. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+10
+00:01:01,128 --> 00:01:01,129
+27. scrollToElement(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10)
+
+11
+00:01:01,166 --> 00:01:01,166
+31. waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10, CONTINUE_ON_FAILURE)
+
+12
+00:01:01,188 --> 00:01:01,189
+35. click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"))
+
+13
+00:01:01,309 --> 00:01:01,309
+1. if (getTestCaseId().contains("Sample Tests"))
+
+14
+00:01:03,453 --> 00:01:03,453
+1. if (getTestCaseId().contains("Sample Tests"))
+

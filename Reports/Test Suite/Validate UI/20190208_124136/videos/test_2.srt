@@ -1,0 +1,12 @@
+1
+00:00:00,126 --> 00:00:00,127
+1. openBrowser("")
+
+2
+00:00:00,915 --> 00:00:00,916
+1. if (getTestCaseId().contains("Sample Tests"))
+
+3
+00:00:02,986 --> 00:00:03,001
+1. if (getTestCaseId().contains("Sample Tests"))
+

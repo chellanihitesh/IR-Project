@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Edge 17,,2019-02-08 12:48:53,2019-02-08 12:52:18,3m - 24.913s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Edge 17,,2019-02-08 12:48:54,2019-02-08 12:49:53,59.504s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:48:54,2019-02-08 12:48:54,0.018s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-08 12:48:54,2019-02-08 12:49:51,56.936s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:49:51,2019-02-08 12:49:51,0.003s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Edge 17,,2019-02-08 12:49:53,2019-02-08 12:50:35,41.709s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:49:53,2019-02-08 12:49:53,0.003s,PASSED
+"openBrowser("""")",Edge 17,,2019-02-08 12:49:54,2019-02-08 12:50:17,23.580s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Edge 17,,2019-02-08 12:50:17,2019-02-08 12:50:31,14.005s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Edge 17,,2019-02-08 12:50:31,2019-02-08 12:50:33,1.895s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:50:33,2019-02-08 12:50:33,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Edge 17,,2019-02-08 12:50:35,2019-02-08 12:51:23,48.229s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:50:35,2019-02-08 12:50:35,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-08 12:50:35,2019-02-08 12:51:21,45.906s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:51:21,2019-02-08 12:51:21,0.003s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Edge 17,,2019-02-08 12:51:23,2019-02-08 12:51:26,2.260s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:51:23,2019-02-08 12:51:23,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Edge 17,,2019-02-08 12:51:24,2019-02-08 12:51:24,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:51:24,2019-02-08 12:51:24,0.003s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Edge 17,,2019-02-08 12:51:26,2019-02-08 12:51:28,2.193s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:51:26,2019-02-08 12:51:26,0.003s,PASSED
+utilities.BasicFunctions.invokeapplication(),Edge 17,,2019-02-08 12:51:26,2019-02-08 12:51:26,0.006s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:51:26,2019-02-08 12:51:26,0.003s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Edge 17,,2019-02-08 12:51:28,2019-02-08 12:52:12,43.900s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:51:28,2019-02-08 12:51:28,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-08 12:51:28,2019-02-08 12:52:10,41.606s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:52:10,2019-02-08 12:52:10,0.002s,PASSED
+,,,,,,
+Test Cases/TC009-Verify Analyst Coverage with checkpoint,Edge 17,,2019-02-08 12:52:12,2019-02-08 12:52:15,3.071s,PASSED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:52:12,2019-02-08 12:52:12,0.004s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/AnalystCoverage""), false)",Edge 17,,2019-02-08 12:52:12,2019-02-08 12:52:13,0.908s,PASSED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:52:13,2019-02-08 12:52:13,0.001s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Edge 17,,2019-02-08 12:52:15,2019-02-08 12:52:17,2.207s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 12:52:15,2019-02-08 12:52:15,0.003s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Edge 17,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-08 12:52:15,2019-02-08 12:52:15,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 12:52:15,2019-02-08 12:52:15,0.008s,PASSED

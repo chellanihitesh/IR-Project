@@ -1,0 +1,12 @@
+1
+00:00:00,182 --> 00:00:00,183
+1. utilities.BasicFunctions.invokeapplication()
+
+2
+00:00:00,188 --> 00:00:00,188
+1. if (getTestCaseId().contains("Sample Tests"))
+
+3
+00:00:02,236 --> 00:00:02,236
+1. if (getTestCaseId().contains("Sample Tests"))
+

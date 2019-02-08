@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Edge 17,,2019-02-08 13:00:36,2019-02-08 13:03:32,2m - 55.598s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Edge 17,,2019-02-08 13:00:36,2019-02-08 13:01:22,45.536s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:00:36,2019-02-08 13:00:36,0.017s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-08 13:00:37,2019-02-08 13:01:20,42.945s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:01:20,2019-02-08 13:01:20,0.004s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Edge 17,,2019-02-08 13:01:22,2019-02-08 13:01:56,34.025s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:01:22,2019-02-08 13:01:22,0.004s,PASSED
+"openBrowser("""")",Edge 17,,2019-02-08 13:01:22,2019-02-08 13:01:45,23.483s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Edge 17,,2019-02-08 13:01:45,2019-02-08 13:01:53,7.312s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Edge 17,,2019-02-08 13:01:53,2019-02-08 13:01:54,1.006s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:01:54,2019-02-08 13:01:54,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Edge 17,,2019-02-08 13:01:56,2019-02-08 13:02:41,44.776s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:01:56,2019-02-08 13:01:56,0.003s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-08 13:01:56,2019-02-08 13:02:39,42.362s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:02:39,2019-02-08 13:02:39,0.002s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Edge 17,,2019-02-08 13:02:41,2019-02-08 13:02:43,2.262s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:02:41,2019-02-08 13:02:41,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Edge 17,,2019-02-08 13:02:41,2019-02-08 13:02:41,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:02:41,2019-02-08 13:02:41,0.002s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Edge 17,,2019-02-08 13:02:43,2019-02-08 13:02:45,2.199s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:02:43,2019-02-08 13:02:43,0.003s,PASSED
+utilities.BasicFunctions.invokeapplication(),Edge 17,,2019-02-08 13:02:43,2019-02-08 13:02:43,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:02:43,2019-02-08 13:02:43,0.002s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Edge 17,,2019-02-08 13:02:45,2019-02-08 13:03:29,43.363s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:02:45,2019-02-08 13:02:45,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-08 13:02:45,2019-02-08 13:03:26,41.082s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:03:26,2019-02-08 13:03:26,0.002s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Edge 17,,2019-02-08 13:03:29,2019-02-08 13:03:31,2.244s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-08 13:03:29,2019-02-08 13:03:29,0.005s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Edge 17,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-08 13:03:29,2019-02-08 13:03:29,0.005s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-08 13:03:29,2019-02-08 13:03:29,0.008s,PASSED

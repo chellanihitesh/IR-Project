@@ -1,0 +1,65 @@
+1
+00:00:00,233 --> 00:00:00,235
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,518 --> 00:00:00,520
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+
+3
+00:00:40,370 --> 00:00:40,371
+7. For IE Load
+
+4
+00:00:50,380 --> 00:00:50,382
+11. maximizeWindow()
+
+5
+00:00:51,531 --> 00:00:51,533
+5. verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30)
+
+6
+00:00:51,588 --> 00:00:51,589
+9. click(findTestObject("Home Page/a_Fact Sheet"))
+
+7
+00:00:51,738 --> 00:00:51,740
+13. switchToWindowIndex(1)
+
+8
+00:00:51,760 --> 00:00:51,762
+17. waitForPageLoad(10)
+
+9
+00:00:52,846 --> 00:00:52,848
+21. maximizeWindow()
+
+10
+00:00:52,854 --> 00:00:52,856
+25. ActualUrl = getUrl()
+
+11
+00:00:52,882 --> 00:00:52,883
+29. ExpectedUrl = "https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae"
+
+12
+00:00:52,885 --> 00:00:52,886
+35. Comparing PDF url to expected one
+
+
+13
+00:00:52,887 --> 00:00:52,889
+1. comment("URL for the factshet is as expected")
+
+14
+00:00:52,898 --> 00:00:52,899
+39. utilities.BasicFunctions.closeApplication()
+
+15
+00:00:52,919 --> 00:00:52,921
+1. if (getTestCaseId().contains("Sample Tests"))
+
+16
+00:00:55,009 --> 00:00:55,010
+1. if (getTestCaseId().contains("Sample Tests"))
+
