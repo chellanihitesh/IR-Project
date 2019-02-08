@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile" time="61" tests="0" failures="1" errors="0">
+   <testsuite name="Mobile" tests="0" failures="1" errors="0" time="61" timestamp="2019-01-31 16:11:05" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Mobile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Mobile\\20190131_161100"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Mobile\\20190131_161100\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Mobile\\20190131_161100\\1548931310201.png"/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 12"/>
+         <property name="hostAddress" value="10.10.12.73"/>
+         <property name="sessionId" value="169f113fae9c946b8245bc17c94d0155349d5a47"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001-Check Factsheet URL on home page" classname="Test Cases/TC001-Check Factsheet URL on home page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-31 16:11:05 - [TEST_CASE][FAILED] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+
+
+2019-01-31 16:11:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 16:11:05 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 16:11:05 - [TEST_STEP][FAILED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+
+
+2019-01-31 16:11:05 - [TEST_CASE][FAILED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+
+
+2019-01-31 16:11:06 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-01-31 16:11:06 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-01-31 16:11:06 - [MESSAGE][INFO] - User set preference: ['device', 'iPhone XS']
+
+2019-01-31 16:11:06 - [MESSAGE][INFO] - User set preference: ['realMobile', 'true']
+
+2019-01-31 16:11:06 - [MESSAGE][INFO] - User set preference: ['os_version', '12']
+
+2019-01-31 16:11:06 - [MESSAGE][INFO] - Connecting to remote web server 'http://cakedcteam1:nxGnf9inWKyiBnPZhodt@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-01-31 16:11:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 16:11:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-01-31 16:11:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-31 16:11:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-31 16:11:49 - [TEST_STEP][FAILED] - maximizeWindow(): maximizeWindow() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+
+
+2019-01-31 16:11:52 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+[[ATTACHMENT|D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Mobile\\20190131_161100\\1548931310201.png]]
+
+2019-01-31 16:11:52 - [MESSAGE][FAILED] - maximizeWindow() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+
+
+2019-01-31 16:11:52 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/TT001-Launch Application' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/TT001-Launch Application' failed)
+
+2019-01-31 16:11:52 - [MESSAGE][FAILED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)
+
+
+2019-01-31 16:11:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 16:11:52 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-01-31 16:11:05 - [TEST_CASE][FAILED] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 16:11:05 - [TEST_SUITE][FAILED] - Mobile: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-31 16:11:05 - [TEST_SUITE][FAILED] - Mobile: Test Cases/TC001-Check Factsheet URL on home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: Appium error: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.12.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appium_port: 8084, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browserstack.appiumLogs: true, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, databaseEnabled: false, detected_language: Apache-HttpClient/4.5.3 (Ja..., device: iphone, deviceName: iPhone XS, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone XS-12.1}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 12, os_version: 12, platform: MAC, platformName: MAC, platformVersion: 12.0, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008020-00182C481150003A, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 169f113fae9c946b8245bc17c94d0155349d5a47)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:279)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at TT001-Launch Application.run(TT001-Launch Application:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC001-Check Factsheet URL on home page.run(TC001-Check Factsheet URL on home page:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548931260806.run(TempTestSuite1548931260806.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

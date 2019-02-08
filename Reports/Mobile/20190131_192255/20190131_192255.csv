@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Safari 12,,2019-01-31 19:23:00,2019-01-31 19:23:58,58.549s,PASSED
+,,,,,,
+Test Cases/TC004_Check Analyst Coverage on mobile,Safari 12,,2019-01-31 19:23:00,2019-01-31 19:23:47,46.791s,PASSED
+Start listener action : sampleBeforeTestCase,Safari 12,,2019-01-31 19:23:00,2019-01-31 19:23:00,0.023s,PASSED
+"openBrowser("""")",Safari 12,,2019-01-31 19:23:01,2019-01-31 19:23:33,32.635s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Safari 12,,2019-01-31 19:23:33,2019-01-31 19:23:35,1.803s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl""))",Safari 12,,2019-01-31 19:23:35,2019-01-31 19:23:43,7.631s,PASSED
+"click(findTestObject(""Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang""))",Safari 12,,2019-01-31 19:23:43,2019-01-31 19:23:43,0.639s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage""))",Safari 12,,2019-01-31 19:23:43,2019-01-31 19:23:44,0.786s,PASSED
+"verifyElementPresent(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak""), 0)",Safari 12,,2019-01-31 19:23:44,2019-01-31 19:23:45,0.394s,PASSED
+"verifyElementPresent(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus""), 0)",Safari 12,,2019-01-31 19:23:45,2019-01-31 19:23:45,0.297s,PASSED
+Start listener action : sampleAfterTestCase,Safari 12,,2019-01-31 19:23:45,2019-01-31 19:23:45,0.002s,PASSED

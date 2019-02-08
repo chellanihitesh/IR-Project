@@ -1,0 +1,4 @@
+19
+00:01:08,307 --> 00:01:08,307
+1. if (getTestCaseId().contains("Sample Tests"))
+

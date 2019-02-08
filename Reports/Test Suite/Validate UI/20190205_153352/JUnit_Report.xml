@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate UI" time="475" tests="6" failures="1" errors="1">
+   <testsuite name="Validate UI" tests="6" failures="1" errors="1" time="475" timestamp="2019-02-05 15:33:56" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Test Suite/Validate UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Test Suite\\Validate UI\\20190205_153352"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Test Suite\\Validate UI\\20190205_153352\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Test Suite\\Validate UI\\20190205_153352\\1549361138460.png"/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.10.11.27"/>
+         <property name="sessionId" value="18137515decf37c0febfc884319fdd25"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001-Check Factsheet URL on home page" classname="Test Cases/TC001-Check Factsheet URL on home page" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:33:57 - [TEST_CASE][PASSED] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page
+
+2019-02-05 15:33:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:33:57 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:33:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-05 15:33:58 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-02-05 15:33:58 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-05 15:33:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:33:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-05 15:34:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-05 15:34:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:34:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:34:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-05 15:34:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:34:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-05 15:34:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30): Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-02-05 15:34:51 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-02-05 15:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/a_Fact Sheet")): Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-02-05 15:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-02-05 15:34:52 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-02-05 15:34:52 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-02-05 15:34:52 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-05 15:34:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-05 15:34:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-05 15:34:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:34:53 - [TEST_STEP][PASSED] - ActualUrl = getUrl(): Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-02-05 15:34:53 - [MESSAGE][PASSED] - Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-02-05 15:34:53 - [TEST_STEP][PASSED] - ExpectedUrl = "https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae": null
+
+2019-02-05 15:34:53 - [TEST_STEP][PASSED] - if (ActualUrl.equals(ExpectedUrl)): URL for the factshet is as expected
+
+2019-02-05 15:34:53 - [TEST_STEP][PASSED] - comment("URL for the factshet is as expected"): URL for the factshet is as expected
+
+2019-02-05 15:34:53 - [MESSAGE][INFO] - URL for the factshet is as expected
+
+2019-02-05 15:34:53 - [TEST_STEP][PASSED] - utilities.BasicFunctions.closeApplication(): utilities.BasicFunctions.closeApplication is PASSED
+
+2019-02-05 15:34:54 - [MESSAGE][PASSED] - Browser is closed
+
+2019-02-05 15:34:54 - [MESSAGE][PASSED] - utilities.BasicFunctions.closeApplication is PASSED
+
+2019-02-05 15:34:54 - [TEST_STEP][PASSED] - markPassed("Test completed succesfully!"): Test completed succesfully!
+
+2019-02-05 15:34:54 - [MESSAGE][PASSED] - Test completed succesfully!
+
+2019-02-05 15:34:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:34:54 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002-Check Tooltips on Historical Pricing" classname="Test Cases/TC002-Check Tooltips on Historical Pricing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-05 15:34:56 - [TEST_CASE][FAILED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+
+
+2019-02-05 15:34:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:34:56 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:34:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-05 15:34:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:35:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 15:35:21 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com/#/home"): Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-02-05 15:35:37 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-02-05 15:35:37 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar")): click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+
+
+2019-02-05 15:35:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+[[ATTACHMENT|D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Test Suite\\Validate UI\\20190205_153352\\1549361138460.png]]
+
+2019-02-05 15:35:38 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+
+
+2019-02-05 15:35:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:35:38 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-05 15:34:56 - [TEST_CASE][FAILED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003-Verify Header Menu Links are available" classname="Test Cases/TC003-Verify Header Menu Links are available" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:35:40 - [TEST_CASE][PASSED] - Test Cases/TC003-Verify Header Menu Links are available: Test Cases/TC003-Verify Header Menu Links are available
+
+2019-02-05 15:35:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:35:40 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:35:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-05 15:35:41 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-02-05 15:35:41 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-05 15:35:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-05 15:35:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:36:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-05 15:36:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:36:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:36:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-05 15:36:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:36:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-05 15:36:31 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-05 15:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-05 15:36:32 - [TEST_STEP][PASSED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-02-05 15:36:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-02-05 15:36:32 - [TEST_STEP][PASSED] - verifyMatch(lblHeader, findTestData("Excel_Screenames").getValue(1, 1), false, CONTINUE_ON_FAILURE): Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-02-05 15:36:33 - [MESSAGE][PASSED] - Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-02-05 15:36:33 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-02-05 15:36:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-02-05 15:36:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-02-05 15:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-02-05 15:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")): Object: 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is clicked on
+
+2019-02-05 15:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is clicked on
+
+2019-02-05 15:36:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Historical Pricing"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Historical Pricing' is present
+
+2019-02-05 15:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Historical Pricing' is present
+
+2019-02-05 15:36:33 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Dividend History"), 10, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' successfully
+
+2019-02-05 15:36:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' successfully
+
+2019-02-05 15:36:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Dividend History"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is present
+
+2019-02-05 15:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is present
+
+2019-02-05 15:36:34 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2019-02-05 15:36:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Dividend History")): Object: 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is clicked on
+
+2019-02-05 15:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Dividend History' is clicked on
+
+2019-02-05 15:36:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Dividend History"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Dividend History' is present
+
+2019-02-05 15:36:44 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Dividend History' is present
+
+2019-02-05 15:36:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:36:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:36:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_DSSPDrip")): Object: 'Object Repository/Menu_SubMenu_Links/a_DSSPDrip' is clicked on
+
+2019-02-05 15:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_DSSPDrip' is clicked on
+
+2019-02-05 15:36:54 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-02-05 15:36:54 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-02-05 15:36:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:37:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:37:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-05 15:37:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:37:04 - [TEST_STEP][PASSED] - DSSDrip_ActualUrl = getUrl(): Current window's url is: 'https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK'
+
+2019-02-05 15:37:05 - [MESSAGE][PASSED] - Current window's url is: 'https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK'
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - DSSDrip_ExpectedUrl = "https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK": null
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - if (DSSDrip_ActualUrl == DSSDrip_ExpectedUrl): null
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - out.println("DSSDrip URL is correct"): null
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-02-05 15:37:05 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-02-05 15:37:05 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Analyst Coverage"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' successfully
+
+2019-02-05 15:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' successfully
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Analyst Coverage"), 0): Object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is present
+
+2019-02-05 15:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:05 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is present
+
+2019-02-05 15:37:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:37:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Analyst Coverage")): Object: 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is clicked on
+
+2019-02-05 15:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Analyst Coverage' is clicked on
+
+2019-02-05 15:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Analyst Coverage"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Analyst Coverage' is present
+
+2019-02-05 15:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Analyst Coverage' is present
+
+2019-02-05 15:37:16 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:37:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_FAQ"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_FAQ' successfully
+
+2019-02-05 15:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_FAQ' successfully
+
+2019-02-05 15:37:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:37:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_FAQ")): Object: 'Object Repository/Menu_SubMenu_Links/a_FAQ' is clicked on
+
+2019-02-05 15:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_FAQ' is clicked on
+
+2019-02-05 15:37:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_FAQ"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_FAQ' is present
+
+2019-02-05 15:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_FAQ' is present
+
+2019-02-05 15:37:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Financial Reports")): Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-05 15:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-05 15:37:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Annual Reports  Proxy Statem"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' successfully
+
+2019-02-05 15:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' successfully
+
+2019-02-05 15:37:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:37:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Annual Reports  Proxy Statem")): Object: 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' is clicked on
+
+2019-02-05 15:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Annual Reports  Proxy Statem' is clicked on
+
+2019-02-05 15:37:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Annual Reports  Proxy State"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_Annual Reports  Proxy State' is present
+
+2019-02-05 15:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:36 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_Annual Reports  Proxy State' is present
+
+2019-02-05 15:37:36 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Financial Reports")): Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-05 15:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Financial Reports' is hovered
+
+2019-02-05 15:37:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_SEC Filings"), 0): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' successfully
+
+2019-02-05 15:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' successfully
+
+2019-02-05 15:37:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:37:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_SEC Filings"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' is clicked on
+
+2019-02-05 15:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_SEC Filings' is clicked on
+
+2019-02-05 15:37:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_SEC Filings"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Menu_SubMenu_Links/h1_SEC Filings' is present
+
+2019-02-05 15:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/h1_SEC Filings' is present
+
+2019-02-05 15:37:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:37:46 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC005-Search" classname="Test Cases/TC005-Search" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:37:48 - [TEST_CASE][PASSED] - Test Cases/TC005-Search: Test Cases/TC005-Search
+
+2019-02-05 15:37:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:37:48 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:37:49 - [TEST_STEP][PASSED] - utilities.BasicFunctions.invokeapplication(): utilities.BasicFunctions.invokeapplication is PASSED
+
+2019-02-05 15:37:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-05 15:37:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:38:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 15:38:28 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-02-05 15:38:58 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-02-05 15:38:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - utilities.BasicFunctions.invokeapplication is PASSED
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search/input_Search"), 0): Object 'Object Repository/Search/input_Search' is present
+
+2019-02-05 15:38:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Search/input_Search' is present
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search/input_Search"), findTestData("Search_Input").getValue(1, 1)): Keys 'investor' sent to object: 'Object Repository/Search/input_Search'
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Keys 'investor' sent to object: 'Object Repository/Search/input_Search'
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search/input_Search"), Keys.chord(ENTER, "")): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_Search'
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_Search'
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-02-05 15:38:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search/p_Results (100)"), 30): Object 'Object Repository/Search/p_Results (100)' is present
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/Search/p_Results (100)' is present
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Search/h1_Search"), "Search"): Actual text and expected text of test object 'Object Repository/Search/h1_Search' are matched.
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Search/h1_Search' are matched.
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-02-05 15:38:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:38:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-05 15:38:59 - [TEST_STEP][PASSED] - utilities.BasicFunctions.closeApplication(): utilities.BasicFunctions.closeApplication is PASSED
+
+2019-02-05 15:39:00 - [MESSAGE][PASSED] - Browser is closed
+
+2019-02-05 15:39:00 - [MESSAGE][PASSED] - utilities.BasicFunctions.closeApplication is PASSED
+
+2019-02-05 15:39:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:39:00 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC006-Verify ContactUs aka Request materials" classname="Test Cases/TC006-Verify ContactUs aka Request materials" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:39:02 - [TEST_CASE][PASSED] - Test Cases/TC006-Verify ContactUs aka Request materials: Test Cases/TC006-Verify ContactUs aka Request materials
+
+2019-02-05 15:39:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:39:02 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:39:03 - [TEST_STEP][PASSED] - utilities.BasicFunctions.invokeapplication(): utilities.BasicFunctions.invokeapplication is PASSED
+
+2019-02-05 15:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:39:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 15:39:41 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-02-05 15:40:11 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-02-05 15:40:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-05 15:40:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:40:12 - [MESSAGE][PASSED] - utilities.BasicFunctions.invokeapplication is PASSED
+
+2019-02-05 15:40:12 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/button_Contact Us")): Object: 'Object Repository/ContactUs aka RequestMaterials/button_Contact Us' is clicked on
+
+2019-02-05 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/button_Contact Us' is clicked on
+
+2019-02-05 15:40:12 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-02-05 15:40:12 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-02-05 15:40:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("ContactUs aka RequestMaterials/button_Request Materials")): NOT_RUN: click(findTestObject("ContactUs aka RequestMaterials/button_Request Materials"))
+
+2019-02-05 15:40:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ContactUs aka RequestMaterials/button_Request Materials"))
+
+2019-02-05 15:40:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/h2_Request Materials"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/h2_Request Materials' is present
+
+2019-02-05 15:40:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:12 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/h2_Request Materials' is present
+
+2019-02-05 15:40:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/p_or send us a questioncomment"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/p_or send us a questioncomment' is present
+
+2019-02-05 15:40:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:12 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/p_or send us a questioncomment' is present
+
+2019-02-05 15:40:12 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input__firstName"), "Hitesh"): Text 'Hitesh' is set on object 'Object Repository/ContactUs aka RequestMaterials/input__firstName'
+
+2019-02-05 15:40:13 - [MESSAGE][PASSED] - Text 'Hitesh' is set on object 'Object Repository/ContactUs aka RequestMaterials/input__firstName'
+
+2019-02-05 15:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input__lastName"), "Chellani"): Text 'Chellani' is set on object 'Object Repository/ContactUs aka RequestMaterials/input__lastName'
+
+2019-02-05 15:40:13 - [MESSAGE][PASSED] - Text 'Chellani' is set on object 'Object Repository/ContactUs aka RequestMaterials/input__lastName'
+
+2019-02-05 15:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input__email"), "hiteshc@Apporchid.com"): Text 'hiteshc@Apporchid.com' is set on object 'Object Repository/ContactUs aka RequestMaterials/input__email'
+
+2019-02-05 15:40:13 - [MESSAGE][PASSED] - Text 'hiteshc@Apporchid.com' is set on object 'Object Repository/ContactUs aka RequestMaterials/input__email'
+
+2019-02-05 15:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input_MailingAddress"), "Manikonda"): Text 'Manikonda' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_MailingAddress'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Text 'Manikonda' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_MailingAddress'
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input_City"), "Hyderabad"): Text 'Hyderabad' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_City'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Text 'Hyderabad' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_City'
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input_State"), "Telangana"): Text 'Telangana' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_State'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Text 'Telangana' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_State'
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input_zip"), "400051"): Text '400051' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_zip'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Text '400051' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_zip'
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/input_country"), "India"): Text 'India' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_country'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/ContactUs aka RequestMaterials/input_country'
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContactUs aka RequestMaterials/strong_Materials"), CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/strong_Materials' is visible
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/strong_Materials' is visible
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/ul_Annual Report"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/ul_Annual Report' is present
+
+2019-02-05 15:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/ul_Annual Report' is present
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_Annual Report")): Object: 'Object Repository/ContactUs aka RequestMaterials/input_Annual Report' is clicked on
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_Annual Report' is clicked on
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/li_Proxy Statement"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/li_Proxy Statement' is present
+
+2019-02-05 15:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/li_Proxy Statement' is present
+
+2019-02-05 15:40:14 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_Proxy Statement")): Object: 'Object Repository/ContactUs aka RequestMaterials/input_Proxy Statement' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_Proxy Statement' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContactUs aka RequestMaterials/li_Latest Earnings Release")): Object 'Object Repository/ContactUs aka RequestMaterials/li_Latest Earnings Release' is visible
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/li_Latest Earnings Release' is visible
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_Latest Earnings Release"), CONTINUE_ON_FAILURE): Object: 'Object Repository/ContactUs aka RequestMaterials/input_Latest Earnings Release' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_Latest Earnings Release' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/li_Latest Press Release"), 0): Object 'Object Repository/ContactUs aka RequestMaterials/li_Latest Press Release' is present
+
+2019-02-05 15:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/li_Latest Press Release' is present
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_Latest Press Release")): Object: 'Object Repository/ContactUs aka RequestMaterials/input_Latest Press Release' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_Latest Press Release' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("ContactUs aka RequestMaterials/input_Latest Press Release"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/input_Latest Press Release' is checked
+
+2019-02-05 15:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/input_Latest Press Release' is checked
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/li_10-K"), 0): Object 'Object Repository/ContactUs aka RequestMaterials/li_10-K' is present
+
+2019-02-05 15:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/li_10-K' is present
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_10K")): Object: 'Object Repository/ContactUs aka RequestMaterials/input_10K' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_10K' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContactUs aka RequestMaterials/li_10-Q"), CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/li_10-Q' is visible
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/li_10-Q' is visible
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_10Q")): Object: 'Object Repository/ContactUs aka RequestMaterials/input_10Q' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_10Q' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("ContactUs aka RequestMaterials/input_Other_other"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/ContactUs aka RequestMaterials/input_Other_other' is not checked
+
+2019-02-05 15:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/input_Other_other' is not checked
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/input_Other_other")): Object: 'Object Repository/ContactUs aka RequestMaterials/input_Other_other' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/input_Other_other' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - click(findTestObject("ContactUs aka RequestMaterials/li_Other")): Object: 'Object Repository/ContactUs aka RequestMaterials/li_Other' is clicked on
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUs aka RequestMaterials/li_Other' is clicked on
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUs aka RequestMaterials/textarea_Other_question"), "Questions Comments"): Text 'Questions Comments' is set on object 'Object Repository/ContactUs aka RequestMaterials/textarea_Other_question'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Text 'Questions Comments' is set on object 'Object Repository/ContactUs aka RequestMaterials/textarea_Other_question'
+
+2019-02-05 15:40:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("ContactUs aka RequestMaterials/Captcha")): NOT_RUN: click(findTestObject("ContactUs aka RequestMaterials/Captcha"))
+
+2019-02-05 15:40:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ContactUs aka RequestMaterials/Captcha"))
+
+2019-02-05 15:40:15 - [TEST_STEP][NOT_RUN] - click(findTestObject("ContactUs aka RequestMaterials/div_Submit")): NOT_RUN: click(findTestObject("ContactUs aka RequestMaterials/div_Submit"))
+
+2019-02-05 15:40:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("ContactUs aka RequestMaterials/div_Submit"))
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/p_Thank you for your interest"), 0): Object 'Object Repository/ContactUs aka RequestMaterials/p_Thank you for your interest' is present
+
+2019-02-05 15:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/p_Thank you for your interest' is present
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ContactUs aka RequestMaterials/p_Please let us know if you ha"), 0): Object 'Object Repository/ContactUs aka RequestMaterials/p_Please let us know if you ha' is present
+
+2019-02-05 15:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2019-02-05 15:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUs aka RequestMaterials/p_Please let us know if you ha' is present
+
+2019-02-05 15:40:15 - [TEST_STEP][PASSED] - utilities.BasicFunctions.closeApplication(): utilities.BasicFunctions.closeApplication is PASSED
+
+2019-02-05 15:40:16 - [MESSAGE][PASSED] - Browser is closed
+
+2019-02-05 15:40:16 - [MESSAGE][PASSED] - utilities.BasicFunctions.closeApplication is PASSED
+
+2019-02-05 15:40:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:40:16 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC007-Calculate Price appreciation or depreciation over period" classname="Test Cases/TC007-Calculate Price appreciation or depreciation over period" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC007-Calculate Price appreciation or depreciation over period FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-05 15:40:18 - [TEST_CASE][ERROR] - Test Cases/TC007-Calculate Price appreciation or depreciation over period: Test Cases/TC007-Calculate Price appreciation or depreciation over period FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+
+
+2019-02-05 15:40:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:40:19 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:40:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-05 15:40:19 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-02-05 15:40:19 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-05 15:40:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 15:40:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-02-05 15:40:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-05 15:41:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-05 15:41:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-05 15:41:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 15:41:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-02-05 15:41:10 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-02-05 15:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-05 15:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-02-05 15:41:11 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Investment Calculator/i_Total Return_far fa-calendar"), STOP_ON_FAILURE): Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is hovered
+
+2019-02-05 15:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is hovered
+
+2019-02-05 15:41:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-05 15:41:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-05 15:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Investment Calculator/i_Total Return_far fa-calendar")): Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is clicked on
+
+2019-02-05 15:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/i_Total Return_far fa-calendar' is clicked on
+
+2019-02-05 15:41:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-05 15:41:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-05 15:41:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Investment Calculator/select_20082009201020112012201"), "2018", true): All options with value '2018' are selected in object 'Object Repository/Investment Calculator/select_20082009201020112012201'  using regular expression
+
+2019-02-05 15:41:21 - [MESSAGE][PASSED] - All options with value '2018' are selected in object 'Object Repository/Investment Calculator/select_20082009201020112012201'  using regular expression
+
+2019-02-05 15:41:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Investment Calculator/select_JanFebMarAprMayJunJulAu"), "12", true): All options with value '12' are selected in object 'Object Repository/Investment Calculator/select_JanFebMarAprMayJunJulAu'  using regular expression
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Investment Calculator/select_JanFebMarAprMayJunJulAu'  using regular expression
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Investment Calculator/div_28")): Object: 'Object Repository/Investment Calculator/div_28' is clicked on
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/div_28' is clicked on
+
+2019-02-05 15:41:22 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n"), "01/01/2019"): NOT_RUN: setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n"), "01/01/2019")
+
+2019-02-05 15:41:22 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n"), "01/01/2019")
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n_4"), "100"): Text '100' is set on object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4'
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4'
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Investment Calculator/button_Calculate Price")): Object: 'Object Repository/Investment Calculator/button_Calculate Price' is clicked on
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Investment Calculator/button_Calculate Price' is clicked on
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - inputvalue = getText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n_4")): Text of object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4' is: ''
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Investment Calculator/input_Total Return_txt w-100 n_4' is: ''
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - println(inputvalue): null
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - DynValue = getText(findTestObject("Investment Calculator/h1_100.00")): Text of object 'Object Repository/Investment Calculator/h1_100.00' is: ''
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Investment Calculator/h1_100.00' is: ''
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - println(DynValue): null
+
+2019-02-05 15:41:22 - [TEST_STEP][ERROR] - TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price")): TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price")) FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+
+
+2019-02-05 15:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Investment Calculator/p_Current Price' is: 'Current Price:'
+
+2019-02-05 15:41:22 - [MESSAGE][ERROR] - TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price")) FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)
+
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:41:22 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-02-05 15:40:18 - [TEST_CASE][ERROR] - Test Cases/TC007-Calculate Price appreciation or depreciation over period: Test Cases/TC007-Calculate Price appreciation or depreciation over period FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'Current Price:' with class 'java.lang.String' to class 'int'
+	at TC007-Calculate Price appreciation or depreciation over period.run(TC007-Calculate Price appreciation or depreciation over period:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC009-Verify Analyst Coverage with checkpoint" classname="Test Cases/TC009-Verify Analyst Coverage with checkpoint" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:41:24 - [TEST_CASE][PASSED] - Test Cases/TC009-Verify Analyst Coverage with checkpoint: Test Cases/TC009-Verify Analyst Coverage with checkpoint
+
+2019-02-05 15:41:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:41:24 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:41:24 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/AnalystCoverage"), false): Checkpoint data and Source data are matched
+
+2019-02-05 15:41:24 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2019-02-05 15:41:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:41:24 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium" classname="Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:41:26 - [TEST_CASE][PASSED] - Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium: Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium
+
+2019-02-05 15:41:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:41:26 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:41:27 - [TEST_STEP][PASSED] - utilities.BasicFunctions.Sel_CheckPageTitle(): utilities.BasicFunctions.Sel_CheckPageTitle is PASSED
+
+2019-02-05 15:41:49 - [MESSAGE][PASSED] - utilities.BasicFunctions.Sel_CheckPageTitle is PASSED
+
+2019-02-05 15:41:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:41:49 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-05 15:33:56 - [TEST_SUITE][FAILED] - Validate UI: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-05 15:33:56 - [TEST_SUITE][FAILED] - Validate UI: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '10.10.11.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\hiteshc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52037}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2e62b7275ee134615cb64e5df679e100)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549361032993.run(TempTestSuite1549361032993.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

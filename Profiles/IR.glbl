@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>IR</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>AUT</description>
+      <initValue>'https://ir.amwater.com/'</initValue>
+      <name>G_Prod_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa-ir.amwaternp.net/'</initValue>
+      <name>G_QA_url</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

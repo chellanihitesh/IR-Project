@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Firefox 64.0,,2019-01-31 14:47:55,2019-01-31 14:50:18,2m - 23.175s,PASSED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Firefox 64.0,,2019-01-31 14:47:55,2019-01-31 14:49:17,1m - 22.256s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-01-31 14:47:55,2019-01-31 14:47:55,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-01-31 14:47:58,2019-01-31 14:49:04,1m - 5.807s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Firefox 64.0,,2019-01-31 14:49:04,2019-01-31 14:49:04,0.060s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Firefox 64.0,,2019-01-31 14:49:04,2019-01-31 14:49:05,0.378s,PASSED
+switchToWindowIndex(1),Firefox 64.0,,2019-01-31 14:49:05,2019-01-31 14:49:05,0.021s,PASSED
+waitForPageLoad(10),Firefox 64.0,,2019-01-31 14:49:05,2019-01-31 14:49:10,5.697s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-01-31 14:49:10,2019-01-31 14:49:14,3.522s,PASSED
+ActualUrl = getUrl(),Firefox 64.0,,2019-01-31 14:49:14,2019-01-31 14:49:14,0.043s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Firefox 64.0,,2019-01-31 14:49:14,2019-01-31 14:49:14,0.003s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Firefox 64.0,"Comparing PDF url to expected one
+",2019-01-31 14:49:14,2019-01-31 14:49:14,0.012s,PASSED
+utilities.BasicFunctions.closeApplication(),Firefox 64.0,,2019-01-31 14:49:14,2019-01-31 14:49:15,1.372s,PASSED
+"markPassed(""Test completed succesfully!"")",Firefox 64.0,,2019-01-31 14:49:15,2019-01-31 14:49:15,0.022s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-01-31 14:49:15,2019-01-31 14:49:15,0.006s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Firefox 64.0,,2019-01-31 14:49:17,2019-01-31 14:50:18,1m - 0.465s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-01-31 14:49:17,2019-01-31 14:49:17,0.017s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-01-31 14:49:17,2019-01-31 14:50:13,55.527s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Firefox 64.0,,2019-01-31 14:50:13,2019-01-31 14:50:13,0.430s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Firefox 64.0,,2019-01-31 14:50:13,2019-01-31 14:50:14,0.077s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Firefox 64.0,,2019-01-31 14:50:14,2019-01-31 14:50:14,0.329s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/li_Historical Pricing PDF""), 10, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-01-31 14:50:14,2019-01-31 14:50:14,0.046s,PASSED
+"attribute = getAttribute(findTestObject(""Historical Pricing/li_Historical Pricing PDF""), ""tooltip"")",Firefox 64.0,,2019-01-31 14:50:14,2019-01-31 14:50:14,0.034s,PASSED
+"verifyMatch(attribute, ""PDF"", false)",Firefox 64.0,"Verifying tooltip
+",2019-01-31 14:50:14,2019-01-31 14:50:14,0.008s,PASSED
+closeBrowser(),Firefox 64.0,,2019-01-31 14:50:14,2019-01-31 14:50:16,1.853s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-01-31 14:50:16,2019-01-31 14:50:16,0.006s,PASSED

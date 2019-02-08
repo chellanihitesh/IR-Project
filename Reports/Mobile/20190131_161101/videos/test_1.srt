@@ -1,0 +1,8 @@
+1
+00:00:00,212 --> 00:00:00,213
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,564 --> 00:00:00,566
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+

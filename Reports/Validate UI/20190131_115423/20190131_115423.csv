@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,IE 11,,2019-01-31 11:54:30,2019-01-31 11:57:52,3m - 21.381s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,IE 11,,2019-01-31 11:54:31,2019-01-31 11:55:55,1m - 23.941s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2019-01-31 11:54:31,2019-01-31 11:54:31,0.043s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-31 11:54:32,2019-01-31 11:55:34,1m - 1.605s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",IE 11,,2019-01-31 11:55:34,2019-01-31 11:55:34,0.406s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",IE 11,,2019-01-31 11:55:34,2019-01-31 11:55:36,2.115s,PASSED
+switchToWindowIndex(1),IE 11,,2019-01-31 11:55:36,2019-01-31 11:55:53,16.324s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2019-01-31 11:55:53,2019-01-31 11:55:53,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,IE 11,,2019-01-31 11:55:55,2019-01-31 11:56:53,57.853s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2019-01-31 11:55:55,2019-01-31 11:55:55,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-31 11:55:56,2019-01-31 11:56:49,52.877s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",IE 11,,2019-01-31 11:56:49,2019-01-31 11:56:50,1.042s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",IE 11,,2019-01-31 11:56:50,2019-01-31 11:56:51,1.124s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2019-01-31 11:56:51,2019-01-31 11:56:51,0.003s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,IE 11,,2019-01-31 11:56:53,2019-01-31 11:57:51,57.877s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2019-01-31 11:56:53,2019-01-31 11:56:53,0.005s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-31 11:56:53,2019-01-31 11:57:48,54.525s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",IE 11,,2019-01-31 11:57:48,2019-01-31 11:57:49,0.930s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2019-01-31 11:57:49,2019-01-31 11:57:49,0.002s,PASSED

@@ -1,0 +1,8 @@
+1
+00:00:00,113 --> 00:00:00,119
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,184 --> 00:00:00,185
+1. openBrowser("")
+

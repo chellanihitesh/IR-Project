@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Firefox 64.0,,2019-02-05 15:58:26,2019-02-05 16:00:27,2m - 0.947s,FAILED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Firefox 64.0,,2019-02-05 15:58:27,2019-02-05 15:59:13,45.833s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:58:27,2019-02-05 15:58:27,0.023s,PASSED
+"openBrowser("""")",Firefox 64.0,,2019-02-05 15:58:27,2019-02-05 15:58:54,26.431s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Firefox 64.0,,2019-02-05 15:58:54,2019-02-05 15:59:10,16.127s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Firefox 64.0,,2019-02-05 15:59:10,2019-02-05 15:59:11,0.890s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:59:11,2019-02-05 15:59:11,0.006s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Firefox 64.0,,2019-02-05 15:59:13,2019-02-05 16:00:26,1m - 13.095s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:59:13,2019-02-05 15:59:13,0.004s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:59:13,2019-02-05 16:00:11,57.865s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 16:00:11,2019-02-05 16:00:11,0.168s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Firefox 64.0,,2019-02-05 16:00:11,2019-02-05 16:00:11,0.421s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 16:00:11,2019-02-05 16:00:11,0.141s,PASSED
+delay(5),Firefox 64.0,,2019-02-05 16:00:11,2019-02-05 16:00:16,5.003s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Firefox 64.0,"Click Calendar Control
+",2019-02-05 16:00:16,2019-02-05 16:00:17,0.360s,PASSED
+delay(5),Firefox 64.0,,2019-02-05 16:00:17,2019-02-05 16:00:22,5.003s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Firefox 64.0,"Select Year 2018
+	",2019-02-05 16:00:22,2019-02-05 16:00:22,0.621s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Firefox 64.0,Select Month 'December',2019-02-05 16:00:22,2019-02-05 16:00:23,0.549s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Firefox 64.0,Select Date '31',2019-02-05 16:00:23,2019-02-05 16:00:23,0.239s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Firefox 64.0,Optionally enter date text,2019-02-05 16:00:23,2019-02-05 16:00:23,0.002s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""100"")",Firefox 64.0,,2019-02-05 16:00:23,2019-02-05 16:00:23,0.088s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Firefox 64.0,,2019-02-05 16:00:23,2019-02-05 16:00:24,0.247s,PASSED
+"inputvalue = getText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""))",Firefox 64.0,,2019-02-05 16:00:24,2019-02-05 16:00:24,0.040s,PASSED
+println(inputvalue),Firefox 64.0,,2019-02-05 16:00:24,2019-02-05 16:00:24,0.004s,PASSED
+"DynValue = getText(findTestObject(""Investment Calculator/h1_100.00""))",Firefox 64.0,,2019-02-05 16:00:24,2019-02-05 16:00:24,0.024s,PASSED
+println(DynValue),Firefox 64.0,,2019-02-05 16:00:24,2019-02-05 16:00:24,0.002s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Firefox 64.0,,2019-02-05 16:00:24,2019-02-05 16:00:24,0.031s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 16:00:24,2019-02-05 16:00:24,0.002s,PASSED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,,,2019-01-30 18:24:53,2019-01-30 18:24:54,0.887s,FAILED
+,,,,,,
+Test Cases/TT001-Launch Application,,,2019-01-30 18:24:53,2019-01-30 18:24:54,0.552s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-01-30 18:24:53,2019-01-30 18:24:53,0.021s,PASSED
+"openBrowser("""")",,,2019-01-30 18:24:53,2019-01-30 18:24:54,0.359s,FAILED
+Start listener action : sampleAfterTestCase,,,2019-01-30 18:24:54,2019-01-30 18:24:54,0.001s,PASSED

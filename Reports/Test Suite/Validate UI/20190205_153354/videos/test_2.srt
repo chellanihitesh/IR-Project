@@ -1,0 +1,20 @@
+1
+00:00:00,123 --> 00:00:00,124
+1. openBrowser("")
+
+2
+00:00:22,420 --> 00:00:22,421
+5. navigateToUrl("https://ir.amwater.com/#/home")
+
+3
+00:00:28,347 --> 00:00:28,348
+9. click(findTestObject("Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar"))
+
+4
+00:00:29,119 --> 00:00:29,120
+1. if (getTestCaseId().contains("Sample Tests"))
+
+5
+00:00:31,218 --> 00:00:31,218
+1. if (getTestCaseId().contains("Sample Tests"))
+

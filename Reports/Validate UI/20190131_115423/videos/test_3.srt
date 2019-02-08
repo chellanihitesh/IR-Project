@@ -1,0 +1,32 @@
+1
+00:00:00,297 --> 00:00:00,303
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,377 --> 00:00:00,377
+1. openBrowser("")
+
+3
+00:00:27,222 --> 00:00:27,223
+5. navigateToUrl(findTestData("URLs").getValue(1, 1))
+
+4
+00:00:44,817 --> 00:00:44,817
+11. For IE Load
+
+5
+00:00:54,819 --> 00:00:54,820
+15. maximizeWindow()
+
+6
+00:00:54,821 --> 00:00:54,822
+19. takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+7
+00:00:54,824 --> 00:00:54,828
+5. click(findTestObject("Historical Pricing/a_Investing With Us"))
+
+8
+00:00:55,760 --> 00:00:55,760
+1. if (getTestCaseId().contains("Sample Tests"))
+

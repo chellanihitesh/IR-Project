@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Edge 17,,2019-01-23 21:33:38,2019-01-23 21:41:58,8m - 19.873s,FAILED
+,,,,,,
+Test Cases/Open Factsheet on home page,Edge 17,,2019-01-23 21:33:40,2019-01-23 21:34:52,1m - 11.937s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:33:41,2019-01-23 21:34:48,1m - 6.555s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Edge 17,,2019-01-23 21:34:48,2019-01-23 21:34:48,0.145s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Edge 17,,2019-01-23 21:34:48,2019-01-23 21:34:49,0.615s,PASSED
+switchToWindowIndex(1),Edge 17,,2019-01-23 21:34:49,2019-01-23 21:34:49,0.030s,PASSED
+waitForPageLoad(10),Edge 17,,2019-01-23 21:34:49,2019-01-23 21:34:50,1.549s,PASSED
+titleActual = getWindowTitle(),Edge 17,,2019-01-23 21:34:50,2019-01-23 21:34:50,0.020s,PASSED
+"titleExpected = ""'PowerPoint Presentation - 2018_FactSheet_Final.pdf'""",Edge 17,For Firefox,2019-01-23 21:34:50,2019-01-23 21:34:50,0.000s,PASSED
+if (titleActual.equals(titleExpected)),Edge 17,,2019-01-23 21:34:50,2019-01-23 21:34:50,0.000s,PASSED
+else,Edge 17,,2019-01-23 21:34:50,2019-01-23 21:34:50,0.060s,PASSED
+closeBrowser(),Edge 17,,2019-01-23 21:34:50,2019-01-23 21:34:52,1.350s,PASSED
+,,,,,,
+Test Cases/Verify Header Menu Links are available,Edge 17,,2019-01-23 21:34:52,2019-01-23 21:35:55,1m - 3.268s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:34:52,2019-01-23 21:35:54,1m - 2.328s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:35:54,2019-01-23 21:35:55,0.035s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.239s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.066s,PASSED
+"verifyMatch(lblHeader, ""Investment Calculator"", false)",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.009s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.023s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.034s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.019s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:35:55,0.150s,FAILED
+,,,,,,
+Test Cases/Validate Historical Pricing UI,Edge 17,,2019-01-23 21:35:55,2019-01-23 21:36:55,1m - 0.169s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:35:55,2019-01-23 21:36:54,58.517s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:54,0.120s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:54,0.054s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:54,0.186s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/PDF_Tooltip""), 10)",Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:54,0.059s,PASSED
+"attribute = getAttribute(findTestObject(""Historical Pricing/PDF_Tooltip""), ""tooltip"")",Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:54,0.038s,PASSED
+"verifyMatch(attribute, ""PDF"", false)",Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:54,0.001s,PASSED
+closeBrowser(),Edge 17,,2019-01-23 21:36:54,2019-01-23 21:36:55,0.994s,PASSED
+,,,,,,
+Test Cases/Verify Header Menu Links are available with Results,Edge 17,,2019-01-23 21:36:55,2019-01-23 21:37:53,58.087s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:36:55,2019-01-23 21:37:53,57.560s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:37:53,2019-01-23 21:37:53,0.016s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-01-23 21:37:53,2019-01-23 21:37:53,0.252s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Edge 17,,2019-01-23 21:37:53,2019-01-23 21:37:53,0.085s,PASSED
+"verifyMatch(lblHeader, findTestData(""ScreenNames"").getValue(1, 1), false)",Edge 17,,2019-01-23 21:37:53,2019-01-23 21:37:53,0.016s,PASSED
+"out.println(""Screen name is: "" + lblHeader)",Edge 17,,2019-01-23 21:37:53,2019-01-23 21:37:53,0.007s,PASSED
+,,,,,,
+Test Cases/Open Factsheet on home page,Edge 17,,2019-01-23 21:37:53,2019-01-23 21:38:56,1m - 2.766s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:37:53,2019-01-23 21:38:53,59.737s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Edge 17,,2019-01-23 21:38:53,2019-01-23 21:38:53,0.022s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Edge 17,,2019-01-23 21:38:53,2019-01-23 21:38:54,0.366s,PASSED
+switchToWindowIndex(1),Edge 17,,2019-01-23 21:38:54,2019-01-23 21:38:54,0.010s,PASSED
+waitForPageLoad(10),Edge 17,,2019-01-23 21:38:54,2019-01-23 21:38:55,1.519s,PASSED
+titleActual = getWindowTitle(),Edge 17,,2019-01-23 21:38:55,2019-01-23 21:38:55,0.005s,PASSED
+"titleExpected = ""'PowerPoint Presentation - 2018_FactSheet_Final.pdf'""",Edge 17,For Firefox,2019-01-23 21:38:55,2019-01-23 21:38:55,0.000s,PASSED
+if (titleActual.equals(titleExpected)),Edge 17,,2019-01-23 21:38:55,2019-01-23 21:38:55,0.000s,PASSED
+else,Edge 17,,2019-01-23 21:38:55,2019-01-23 21:38:55,0.009s,PASSED
+closeBrowser(),Edge 17,,2019-01-23 21:38:55,2019-01-23 21:38:56,1.079s,PASSED
+,,,,,,
+Test Cases/Verify Header Menu Links are available,Edge 17,,2019-01-23 21:38:56,2019-01-23 21:39:57,1m - 1.038s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:38:56,2019-01-23 21:39:56,1m - 0.257s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:39:56,2019-01-23 21:39:56,0.021s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-01-23 21:39:56,2019-01-23 21:39:57,0.441s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:39:57,0.079s,PASSED
+"verifyMatch(lblHeader, ""Investment Calculator"", false)",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:39:57,0.001s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:39:57,0.035s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:39:57,0.027s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:39:57,0.015s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:39:57,0.125s,FAILED
+,,,,,,
+Test Cases/Validate Historical Pricing UI,Edge 17,,2019-01-23 21:39:57,2019-01-23 21:40:58,1m - 0.965s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:39:57,2019-01-23 21:40:57,59.490s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:57,0.090s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:57,0.089s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:57,0.201s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/PDF_Tooltip""), 10)",Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:57,0.078s,PASSED
+"attribute = getAttribute(findTestObject(""Historical Pricing/PDF_Tooltip""), ""tooltip"")",Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:57,0.028s,PASSED
+"verifyMatch(attribute, ""PDF"", false)",Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:57,0.001s,PASSED
+closeBrowser(),Edge 17,,2019-01-23 21:40:57,2019-01-23 21:40:58,0.981s,PASSED
+,,,,,,
+Test Cases/Verify Header Menu Links are available with Results,Edge 17,,2019-01-23 21:40:58,2019-01-23 21:41:57,58.662s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:40:58,2019-01-23 21:41:56,58.308s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:41:56,2019-01-23 21:41:56,0.014s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-01-23 21:41:56,2019-01-23 21:41:57,0.281s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Edge 17,,2019-01-23 21:41:57,2019-01-23 21:41:57,0.046s,PASSED
+"verifyMatch(lblHeader, findTestData(""ScreenNames"").getValue(1, 1), false)",Edge 17,,2019-01-23 21:41:57,2019-01-23 21:41:57,0.004s,PASSED
+"out.println(""Screen name is: "" + lblHeader)",Edge 17,,2019-01-23 21:41:57,2019-01-23 21:41:57,0.000s,PASSED

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile" time="58" tests="1" failures="0" errors="0">
+   <testsuite name="Mobile" tests="1" failures="0" errors="0" time="58" timestamp="2019-01-31 19:23:00" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Mobile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Mobile\\20190131_192255"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Mobile\\20190131_192255\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 12"/>
+         <property name="hostAddress" value="10.10.12.73"/>
+         <property name="sessionId" value="26f9c5f9a5a5f0ed798214f86e3cfe65b01fa848"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC004_Check Analyst Coverage on mobile" classname="Test Cases/TC004_Check Analyst Coverage on mobile" status="PASSED">
+         <system-out><![CDATA[2019-01-31 19:23:00 - [TEST_CASE][PASSED] - Test Cases/TC004_Check Analyst Coverage on mobile: Test Cases/TC004_Check Analyst Coverage on mobile
+
+2019-01-31 19:23:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 19:23:00 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 19:23:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 19:23:01 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-01-31 19:23:01 - [MESSAGE][INFO] - User set preference: ['device', 'iPhone XS']
+
+2019-01-31 19:23:01 - [MESSAGE][INFO] - User set preference: ['realMobile', 'true']
+
+2019-01-31 19:23:01 - [MESSAGE][INFO] - User set preference: ['os_version', '12']
+
+2019-01-31 19:23:01 - [MESSAGE][INFO] - Connecting to remote web server 'http://cakedcteam1:nxGnf9inWKyiBnPZhodt@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-01-31 19:23:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 19:23:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 19:23:33 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com/#/home"): Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-01-31 19:23:35 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-01-31 19:23:35 - [TEST_STEP][PASSED] - click(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl")): Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl' is clicked on
+
+2019-01-31 19:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl' is clicked on
+
+2019-01-31 19:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang")): Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang' is clicked on
+
+2019-01-31 19:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang' is clicked on
+
+2019-01-31 19:23:43 - [TEST_STEP][PASSED] - click(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage")): Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage' is clicked on
+
+2019-01-31 19:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage' is clicked on
+
+2019-01-31 19:23:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak"), 0): Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak' is present
+
+2019-01-31 19:23:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-31 19:23:45 - [MESSAGE][PASSED] - Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak' is present
+
+2019-01-31 19:23:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus"), 0): Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus' is present
+
+2019-01-31 19:23:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-31 19:23:45 - [MESSAGE][PASSED] - Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus' is present
+
+2019-01-31 19:23:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 19:23:45 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 19:23:00 - [TEST_SUITE][PASSED] - Mobile: Test Cases/TC004_Check Analyst Coverage on mobile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+1
+00:00:00,155 --> 00:00:00,157
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,442 --> 00:00:00,443
+1. openBrowser("")
+
+3
+00:00:02,105 --> 00:00:02,105
+1. if (getTestCaseId().contains("Sample Tests"))
+
+4
+00:00:04,166 --> 00:00:04,166
+1. if (getTestCaseId().contains("Sample Tests"))
+

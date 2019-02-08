@@ -1,0 +1,32 @@
+1
+00:00:00,168 --> 00:00:00,169
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,461 --> 00:00:00,463
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+
+3
+00:00:33,664 --> 00:00:33,667
+7. For IE Load
+
+4
+00:00:43,678 --> 00:00:43,679
+11. maximizeWindow()
+
+5
+00:00:43,686 --> 00:00:43,688
+5. verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30)
+
+6
+00:00:44,068 --> 00:00:44,070
+9. click(findTestObject("Home Page/a_Fact Sheet"))
+
+7
+00:00:44,551 --> 00:00:44,552
+13. switchToWindowIndex(1)
+
+8
+00:01:18,751 --> 00:01:18,752
+1. if (getTestCaseId().contains("Sample Tests"))
+

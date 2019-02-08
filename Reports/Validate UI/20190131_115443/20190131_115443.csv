@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-01-31 11:54:47,2019-01-31 11:57:30,2m - 42.874s,FAILED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Chrome 71.0.3578.98,,2019-01-31 11:54:48,2019-01-31 11:56:05,1m - 17.523s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 11:54:48,2019-01-31 11:54:48,0.039s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 11:54:49,2019-01-31 11:55:45,56.254s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-31 11:55:45,2019-01-31 11:55:45,0.210s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-01-31 11:55:45,2019-01-31 11:55:46,0.484s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Chrome 71.0.3578.98,,2019-01-31 11:55:46,2019-01-31 11:56:03,17.452s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 11:56:03,2019-01-31 11:56:03,0.005s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-01-31 11:56:05,2019-01-31 11:57:23,1m - 18.043s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 11:56:06,2019-01-31 11:56:06,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 11:56:06,2019-01-31 11:57:05,58.856s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-31 11:57:05,2019-01-31 11:57:05,0.100s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Chrome 71.0.3578.98,,2019-01-31 11:57:05,2019-01-31 11:57:05,0.074s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Chrome 71.0.3578.98,,2019-01-31 11:57:05,2019-01-31 11:57:05,0.254s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/PDF_Tooltip""), 10)",Chrome 71.0.3578.98,,2019-01-31 11:57:05,2019-01-31 11:57:21,15.974s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 11:57:21,2019-01-31 11:57:21,0.001s,PASSED

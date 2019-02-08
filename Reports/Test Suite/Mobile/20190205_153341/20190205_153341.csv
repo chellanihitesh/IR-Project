@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Chrome 68.0.3440.85,,2019-02-05 15:34:55,2019-02-05 15:36:14,1m - 19.554s,PASSED
+,,,,,,
+Test Cases/TC004_Check Analyst Coverage on mobile,Chrome 68.0.3440.85,,2019-02-05 15:34:55,2019-02-05 15:36:13,1m - 17.454s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.85,,2019-02-05 15:34:55,2019-02-05 15:34:55,0.020s,PASSED
+"openBrowser("""")",Chrome 68.0.3440.85,,2019-02-05 15:34:56,2019-02-05 15:35:35,38.771s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Chrome 68.0.3440.85,,2019-02-05 15:35:35,2019-02-05 15:35:46,11.504s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl""))",Chrome 68.0.3440.85,,2019-02-05 15:35:46,2019-02-05 15:35:48,1.986s,PASSED
+"click(findTestObject(""Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang""))",Chrome 68.0.3440.85,,2019-02-05 15:35:48,2019-02-05 15:35:50,1.955s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage""))",Chrome 68.0.3440.85,,2019-02-05 15:35:50,2019-02-05 15:35:52,2.128s,PASSED
+"verifyElementPresent(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:52,2019-02-05 15:35:55,2.433s,PASSED
+"verifyElementPresent(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:55,2019-02-05 15:35:55,0.616s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Atwater Thornton""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:55,2019-02-05 15:35:56,0.604s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Baird Equity Research""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:56,2019-02-05 15:35:56,0.584s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Boenning  Scattergood""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:56,2019-02-05 15:35:57,0.606s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_BofA Merrill Lynch""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:57,2019-02-05 15:35:58,0.612s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Goldman Sachs""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:58,2019-02-05 15:35:58,0.582s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Guggenheim Securities""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:58,2019-02-05 15:35:59,0.613s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_HSBC Global Research""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:59,2019-02-05 15:35:59,0.598s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Janney Montgomery Scott""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:35:59,2019-02-05 15:36:00,0.614s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Macquarie Research""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:00,2019-02-05 15:36:01,0.589s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Northcoast Research""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:01,2019-02-05 15:36:01,0.611s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_UBS Securities""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:01,2019-02-05 15:36:02,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Wells Fargo""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:02,2019-02-05 15:36:02,0.590s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Andy Cohen""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:02,2019-02-05 15:36:03,0.611s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Angie Storozynski""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:03,2019-02-05 15:36:04,0.582s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Ben Kallo""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:04,2019-02-05 15:36:04,0.567s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Dan Ford""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:04,2019-02-05 15:36:05,0.584s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_John Staszak""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:05,2019-02-05 15:36:05,0.491s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Jonathan Reeder""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:05,2019-02-05 15:36:06,0.592s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Julien Dumoulin-Smith""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:06,2019-02-05 15:36:06,0.587s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Michael Gaugler""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:06,2019-02-05 15:36:07,0.600s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Michael Lapides""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:07,2019-02-05 15:36:08,0.573s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Rich Verdi""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:08,2019-02-05 15:36:08,0.582s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Ryan Connors""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:08,2019-02-05 15:36:09,0.587s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Shar Pourreza""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:09,2019-02-05 15:36:09,0.611s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Steve Fleishman""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:09,2019-02-05 15:36:10,0.610s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Verity Mitchell""), 0, CONTINUE_ON_FAILURE)",Chrome 68.0.3440.85,,2019-02-05 15:36:10,2019-02-05 15:36:11,0.600s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.85,,2019-02-05 15:36:11,2019-02-05 15:36:11,0.002s,PASSED

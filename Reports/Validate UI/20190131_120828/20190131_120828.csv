@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,,,2019-01-31 12:15:19,2019-01-31 12:15:28,9.298s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,,,2019-01-31 12:15:19,2019-01-31 12:15:24,4.327s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-01-31 12:15:19,2019-01-31 12:15:19,0.013s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",,,2019-01-31 12:15:20,2019-01-31 12:15:22,1.944s,FAILED
+Start listener action : sampleAfterTestCase,,,2019-01-31 12:15:22,2019-01-31 12:15:22,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,,,2019-01-31 12:15:24,2019-01-31 12:15:26,2.323s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-01-31 12:15:24,2019-01-31 12:15:24,0.004s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",,,2019-01-31 12:15:24,2019-01-31 12:15:24,0.108s,FAILED
+Start listener action : sampleAfterTestCase,,,2019-01-31 12:15:24,2019-01-31 12:15:24,0.002s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,,,2019-01-31 12:15:26,2019-01-31 12:15:28,2.235s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-01-31 12:15:26,2019-01-31 12:15:26,0.007s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",,,2019-01-31 12:15:26,2019-01-31 12:15:26,0.095s,FAILED
+Start listener action : sampleAfterTestCase,,,2019-01-31 12:15:26,2019-01-31 12:15:26,0.002s,PASSED

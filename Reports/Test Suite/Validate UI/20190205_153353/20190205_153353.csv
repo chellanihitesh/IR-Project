@@ -1,0 +1,166 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Firefox 64.0,,2019-02-05 15:42:04,2019-02-05 15:50:39,8m - 34.399s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Firefox 64.0,,2019-02-05 15:42:05,2019-02-05 15:43:16,1m - 10.958s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:42:05,2019-02-05 15:42:05,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:42:05,2019-02-05 15:43:02,57.298s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Firefox 64.0,,2019-02-05 15:43:02,2019-02-05 15:43:02,0.049s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Firefox 64.0,,2019-02-05 15:43:02,2019-02-05 15:43:03,0.386s,PASSED
+switchToWindowIndex(1),Firefox 64.0,,2019-02-05 15:43:03,2019-02-05 15:43:03,0.022s,PASSED
+waitForPageLoad(10),Firefox 64.0,,2019-02-05 15:43:03,2019-02-05 15:43:08,5.665s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-02-05 15:43:08,2019-02-05 15:43:12,3.513s,PASSED
+ActualUrl = getUrl(),Firefox 64.0,,2019-02-05 15:43:12,2019-02-05 15:43:12,0.019s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Firefox 64.0,,2019-02-05 15:43:12,2019-02-05 15:43:12,0.006s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Firefox 64.0,"Comparing PDF url to expected one
+",2019-02-05 15:43:12,2019-02-05 15:43:12,0.009s,PASSED
+utilities.BasicFunctions.closeApplication(),Firefox 64.0,,2019-02-05 15:43:12,2019-02-05 15:43:13,1.491s,PASSED
+"markPassed(""Test completed succesfully!"")",Firefox 64.0,,2019-02-05 15:43:13,2019-02-05 15:43:13,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:43:13,2019-02-05 15:43:13,0.005s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Firefox 64.0,,2019-02-05 15:43:16,2019-02-05 15:44:00,44.557s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:43:16,2019-02-05 15:43:16,0.003s,PASSED
+"openBrowser("""")",Firefox 64.0,,2019-02-05 15:43:16,2019-02-05 15:43:41,25.046s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Firefox 64.0,,2019-02-05 15:43:41,2019-02-05 15:43:57,16.547s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Firefox 64.0,,2019-02-05 15:43:57,2019-02-05 15:43:58,0.778s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:43:58,2019-02-05 15:43:58,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Firefox 64.0,,2019-02-05 15:44:00,2019-02-05 15:46:17,2m - 17.366s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:44:00,2019-02-05 15:44:00,0.004s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:44:00,2019-02-05 15:44:57,56.549s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:44:57,2019-02-05 15:44:57,0.164s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Firefox 64.0,,2019-02-05 15:44:57,2019-02-05 15:44:57,0.377s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Firefox 64.0,,2019-02-05 15:44:57,2019-02-05 15:44:57,0.034s,PASSED
+"verifyMatch(lblHeader, findTestData(""Excel_Screenames"").getValue(1, 1), false, CONTINUE_ON_FAILURE)",Firefox 64.0,"Using input from excel
+",2019-02-05 15:44:57,2019-02-05 15:44:58,0.748s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:44:58,2019-02-05 15:44:58,0.132s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Firefox 64.0,,2019-02-05 15:44:58,2019-02-05 15:44:58,0.025s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:44:58,2019-02-05 15:44:58,0.019s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Firefox 64.0,,2019-02-05 15:44:58,2019-02-05 15:44:59,0.299s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:44:59,2019-02-05 15:44:59,0.013s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:44:59,2019-02-05 15:44:59,0.132s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Dividend History""), 10, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:44:59,2019-02-05 15:44:59,0.023s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Dividend History""), 10, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:44:59,2019-02-05 15:44:59,0.014s,PASSED
+"delay(10, STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:44:59,2019-02-05 15:45:09,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Dividend History""))",Firefox 64.0,,2019-02-05 15:45:09,2019-02-05 15:45:09,0.348s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Dividend History""), 10, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:45:09,2019-02-05 15:45:09,0.010s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:45:09,2019-02-05 15:45:09,0.135s,PASSED
+delay(10),Firefox 64.0,,2019-02-05 15:45:09,2019-02-05 15:45:19,10.002s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_DSSPDrip""))",Firefox 64.0,,2019-02-05 15:45:19,2019-02-05 15:45:20,0.395s,PASSED
+switchToWindowIndex(1),Firefox 64.0,,2019-02-05 15:45:20,2019-02-05 15:45:20,0.016s,PASSED
+delay(10),Firefox 64.0,,2019-02-05 15:45:20,2019-02-05 15:45:30,10.004s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-02-05 15:45:30,2019-02-05 15:45:33,3.518s,PASSED
+DSSDrip_ActualUrl = getUrl(),Firefox 64.0,,2019-02-05 15:45:33,2019-02-05 15:45:33,0.007s,PASSED
+"DSSDrip_ExpectedUrl = ""https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK""",Firefox 64.0,,2019-02-05 15:45:33,2019-02-05 15:45:33,0.001s,PASSED
+if (DSSDrip_ActualUrl == DSSDrip_ExpectedUrl),Firefox 64.0,,2019-02-05 15:45:33,2019-02-05 15:45:33,0.011s,PASSED
+closeWindowIndex(1),Firefox 64.0,,2019-02-05 15:45:33,2019-02-05 15:45:33,0.045s,PASSED
+switchToWindowIndex(0),Firefox 64.0,,2019-02-05 15:45:33,2019-02-05 15:45:33,0.013s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:45:33,2019-02-05 15:45:34,0.143s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""), 0)",Firefox 64.0,,2019-02-05 15:45:34,2019-02-05 15:45:34,0.020s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""), 0)",Firefox 64.0,,2019-02-05 15:45:34,2019-02-05 15:45:34,0.017s,PASSED
+delay(10),Firefox 64.0,,2019-02-05 15:45:34,2019-02-05 15:45:44,10.001s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""))",Firefox 64.0,,2019-02-05 15:45:44,2019-02-05 15:45:44,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Analyst Coverage""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:45:44,2019-02-05 15:45:44,0.013s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:45:44,2019-02-05 15:45:44,0.133s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_FAQ""), 0)",Firefox 64.0,,2019-02-05 15:45:44,2019-02-05 15:45:44,0.019s,PASSED
+delay(10),Firefox 64.0,,2019-02-05 15:45:44,2019-02-05 15:45:54,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_FAQ""))",Firefox 64.0,,2019-02-05 15:45:54,2019-02-05 15:45:54,0.328s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_FAQ""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:45:54,2019-02-05 15:45:54,0.010s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Financial Reports""))",Firefox 64.0,,2019-02-05 15:45:54,2019-02-05 15:45:55,0.132s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Annual Reports  Proxy Statem""), 0)",Firefox 64.0,,2019-02-05 15:45:55,2019-02-05 15:45:55,0.023s,PASSED
+delay(10),Firefox 64.0,,2019-02-05 15:45:55,2019-02-05 15:46:05,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Annual Reports  Proxy Statem""))",Firefox 64.0,,2019-02-05 15:46:05,2019-02-05 15:46:05,0.290s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Annual Reports  Proxy State""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:46:05,2019-02-05 15:46:05,0.010s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Financial Reports""))",Firefox 64.0,,2019-02-05 15:46:05,2019-02-05 15:46:05,0.127s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_SEC Filings""), 0)",Firefox 64.0,,2019-02-05 15:46:05,2019-02-05 15:46:05,0.018s,PASSED
+delay(10),Firefox 64.0,,2019-02-05 15:46:05,2019-02-05 15:46:15,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_SEC Filings""), CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:46:15,2019-02-05 15:46:15,0.295s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_SEC Filings""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:46:15,2019-02-05 15:46:15,0.010s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:46:15,2019-02-05 15:46:15,0.002s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Firefox 64.0,,2019-02-05 15:46:17,2019-02-05 15:47:40,1m - 22.259s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:46:18,2019-02-05 15:46:18,0.003s,PASSED
+utilities.BasicFunctions.invokeapplication(),Firefox 64.0,,2019-02-05 15:46:18,2019-02-05 15:47:36,1m - 17.857s,PASSED
+"verifyElementPresent(findTestObject(""Search/input_Search""), 0)",Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.018s,PASSED
+"sendKeys(findTestObject(""Search/input_Search""), findTestData(""Search_Input"").getValue(1, 1))",Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.187s,PASSED
+"sendKeys(findTestObject(""Search/input_Search""), Keys.chord(ENTER, """"))",Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.131s,PASSED
+waitForPageLoad(0),Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.027s,PASSED
+"waitForElementPresent(findTestObject(""Search/p_Results (100)""), 30)",Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.009s,PASSED
+"verifyElementText(findTestObject(""Search/h1_Search""), ""Search"")",Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.040s,PASSED
+waitForPageLoad(0),Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:36,0.028s,PASSED
+utilities.BasicFunctions.closeApplication(),Firefox 64.0,,2019-02-05 15:47:36,2019-02-05 15:47:38,1.588s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:47:38,2019-02-05 15:47:38,0.001s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Firefox 64.0,,2019-02-05 15:47:40,2019-02-05 15:49:03,1m - 22.964s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:47:40,2019-02-05 15:47:40,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Firefox 64.0,,2019-02-05 15:47:40,2019-02-05 15:48:56,1m - 15.684s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/button_Contact Us""))",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.357s,PASSED
+delay(5),Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.002s,NOT_RUN
+"click(findTestObject(""ContactUs aka RequestMaterials/button_Request Materials""))",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.002s,NOT_RUN
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/h2_Request Materials""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.008s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_or send us a questioncomment""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.011s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__firstName""), ""Hitesh"")",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.130s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__lastName""), ""Chellani"")",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.124s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__email""), ""hiteshc@Apporchid.com"")",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.128s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_MailingAddress""), ""Manikonda"")",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.085s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_City""), ""Hyderabad"")",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:56,0.057s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_State""), ""Telangana"")",Firefox 64.0,,2019-02-05 15:48:56,2019-02-05 15:48:57,0.054s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_zip""), ""400051"")",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.049s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_country""), ""India"")",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.046s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/strong_Materials""), CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.052s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/ul_Annual Report""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.067s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Annual Report""))",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.401s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_Proxy Statement""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.023s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Proxy Statement""))",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.237s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/li_Latest Earnings Release""))",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:57,0.037s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Latest Earnings Release""), CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:57,2019-02-05 15:48:58,0.231s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_Latest Press Release""), 0)",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.010s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Latest Press Release""))",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.235s,PASSED
+"verifyElementChecked(findTestObject(""ContactUs aka RequestMaterials/input_Latest Press Release""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.019s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_10-K""), 0)",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.011s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_10K""))",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.229s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/li_10-Q""), CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.033s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_10Q""))",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.227s,PASSED
+"verifyElementNotChecked(findTestObject(""ContactUs aka RequestMaterials/input_Other_other""), 0, CONTINUE_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:58,0.021s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Other_other""))",Firefox 64.0,,2019-02-05 15:48:58,2019-02-05 15:48:59,0.223s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/li_Other""))",Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:48:59,0.221s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/textarea_Other_question""), ""Questions Comments"")",Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:48:59,0.107s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/Captcha""))",Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:48:59,0.002s,NOT_RUN
+"click(findTestObject(""ContactUs aka RequestMaterials/div_Submit""))",Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:48:59,0.002s,NOT_RUN
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_Thank you for your interest""), 0)",Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:48:59,0.041s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_Please let us know if you ha""), 0)",Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:48:59,0.047s,PASSED
+utilities.BasicFunctions.closeApplication(),Firefox 64.0,,2019-02-05 15:48:59,2019-02-05 15:49:01,1.500s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:49:01,2019-02-05 15:49:01,0.002s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Firefox 64.0,,2019-02-05 15:49:03,2019-02-05 15:50:12,1m - 9.405s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:49:03,2019-02-05 15:49:03,0.001s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:49:03,2019-02-05 15:49:57,54.470s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-02-05 15:49:57,2019-02-05 15:49:57,0.143s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Firefox 64.0,,2019-02-05 15:49:57,2019-02-05 15:49:58,0.378s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Firefox 64.0,,2019-02-05 15:49:58,2019-02-05 15:49:58,0.128s,PASSED
+delay(5),Firefox 64.0,,2019-02-05 15:49:58,2019-02-05 15:50:03,5.002s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Firefox 64.0,"Click Calendar Control
+",2019-02-05 15:50:03,2019-02-05 15:50:03,0.331s,PASSED
+delay(5),Firefox 64.0,,2019-02-05 15:50:03,2019-02-05 15:50:08,5.002s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Firefox 64.0,"Select Year 2018
+	",2019-02-05 15:50:08,2019-02-05 15:50:09,0.544s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Firefox 64.0,Select Month 'December',2019-02-05 15:50:09,2019-02-05 15:50:09,0.533s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Firefox 64.0,Select Date '31',2019-02-05 15:50:09,2019-02-05 15:50:10,0.236s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Firefox 64.0,Optionally enter date text,2019-02-05 15:50:10,2019-02-05 15:50:10,0.002s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""100"")",Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.050s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.259s,PASSED
+"inputvalue = getText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""))",Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.023s,PASSED
+println(inputvalue),Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.004s,PASSED
+"DynValue = getText(findTestObject(""Investment Calculator/h1_100.00""))",Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.018s,PASSED
+println(DynValue),Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.002s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.023s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:50:10,2019-02-05 15:50:10,0.002s,PASSED
+,,,,,,
+Test Cases/TC009-Verify Analyst Coverage with checkpoint,Firefox 64.0,,2019-02-05 15:50:12,2019-02-05 15:50:14,2.227s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:50:12,2019-02-05 15:50:12,0.001s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/AnalystCoverage""), false)",Firefox 64.0,,2019-02-05 15:50:12,2019-02-05 15:50:12,0.062s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:50:12,2019-02-05 15:50:12,0.001s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Firefox 64.0,,2019-02-05 15:50:14,2019-02-05 15:50:37,22.653s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-02-05 15:50:14,2019-02-05 15:50:14,0.002s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Firefox 64.0,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-05 15:50:14,2019-02-05 15:50:35,20.442s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-02-05 15:50:35,2019-02-05 15:50:35,0.001s,PASSED

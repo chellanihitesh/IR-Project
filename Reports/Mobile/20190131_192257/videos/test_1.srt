@@ -1,0 +1,16 @@
+1
+00:00:00,211 --> 00:00:00,213
+1. openBrowser("")
+
+2
+00:00:31,922 --> 00:00:31,925
+5. navigateToUrl("https://ir.amwater.com/#/home")
+
+3
+00:00:33,661 --> 00:00:33,662
+9. click(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl"))
+
+4
+00:00:42,420 --> 00:00:42,421
+1. if (getTestCaseId().contains("Sample Tests"))
+

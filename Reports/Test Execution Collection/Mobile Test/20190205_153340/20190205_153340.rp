@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20190205_153340</name>
+   <tag></tag>
+   <displayName>20190205_153340</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/Test Suite/Mobile/20190205_153340</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>iphone x</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Test Suite/Mobile/20190205_153341</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>android_galaxy</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

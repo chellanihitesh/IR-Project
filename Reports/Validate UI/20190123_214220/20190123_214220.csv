@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Edge 17,,2019-01-23 21:42:22,2019-01-23 21:44:24,2m - 2.102s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available,Edge 17,,2019-01-23 21:42:22,2019-01-23 21:43:24,1m - 1.384s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:42:23,2019-01-23 21:43:23,1m - 0.269s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:23,0.072s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:23,0.306s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:23,0.075s,PASSED
+"verifyMatch(lblHeader, ""Investment Calculator"", false)",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:23,0.008s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:23,0.030s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:23,0.032s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:43:23,2019-01-23 21:43:24,0.024s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Edge 17,,2019-01-23 21:43:24,2019-01-23 21:43:24,0.174s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available,Edge 17,,2019-01-23 21:43:24,2019-01-23 21:44:23,59.584s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-01-23 21:43:24,2019-01-23 21:44:23,59.066s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.021s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.245s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.045s,PASSED
+"verifyMatch(lblHeader, ""Investment Calculator"", false)",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.001s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.025s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.022s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.011s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Edge 17,,2019-01-23 21:44:23,2019-01-23 21:44:23,0.126s,FAILED

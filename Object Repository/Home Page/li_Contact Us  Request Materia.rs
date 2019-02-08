@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Contact Us  Request Materia</name>
+   <tag></tag>
+   <elementGuidId>bc74da94-299c-435c-99e5-7ed04cfee640</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;exportRequestMaterialPDFToDownload&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 text-right&quot;]/ir-header-icons[1]/ul[@class=&quot;actionSetting&quot;]/modal-email-alert[1]/li[@class=&quot;notify&quot;][count(. | //li[@class = 'notify' and @placement = 'bottom' and @tooltip = 'Notification' and @ng-reflect-tooltip = 'Notification' and @ng-reflect-placement = 'bottom']) = count(//li[@class = 'notify' and @placement = 'bottom' and @tooltip = 'Notification' and @ng-reflect-tooltip = 'Notification' and @ng-reflect-placement = 'bottom'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='exportRequestMaterialPDFToDownload']/div/div[2]/ir-header-icons/ul/modal-email-alert/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>notify</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placement</name>
+      <type>Main</type>
+      <value>bottom</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tooltip</name>
+      <type>Main</type>
+      <value>Notification</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-tooltip</name>
+      <type>Main</type>
+      <value>Notification</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-placement</name>
+      <type>Main</type>
+      <value>bottom</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;exportRequestMaterialPDFToDownload&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 text-right&quot;]/ir-header-icons[1]/ul[@class=&quot;actionSetting&quot;]/modal-email-alert[1]/li[@class=&quot;notify&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='exportRequestMaterialPDFToDownload']/div/div[2]/ir-header-icons/ul/modal-email-alert/li</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Us / Request Materials'])[1]/following::li[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notification'])[1]/preceding::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Materials…'])[1]/preceding::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//modal-email-alert/li</value>
+   </webElementXpaths>
+</WebElementEntity>

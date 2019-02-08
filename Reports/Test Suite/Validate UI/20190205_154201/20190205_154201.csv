@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-02-05 15:56:28,2019-02-05 15:58:17,1m - 48.966s,FAILED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-02-05 15:56:28,2019-02-05 15:57:12,43.487s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:56:28,2019-02-05 15:56:28,0.018s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-05 15:56:29,2019-02-05 15:56:54,24.859s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Chrome 71.0.3578.98,,2019-02-05 15:56:54,2019-02-05 15:57:09,15.149s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Chrome 71.0.3578.98,,2019-02-05 15:57:09,2019-02-05 15:57:10,1.054s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:57:10,2019-02-05 15:57:10,0.005s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Chrome 71.0.3578.98,,2019-02-05 15:57:12,2019-02-05 15:58:16,1m - 4.178s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:57:12,2019-02-05 15:57:12,0.003s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:57:12,2019-02-05 15:58:02,50.250s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:58:02,2019-02-05 15:58:03,0.069s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-05 15:58:03,2019-02-05 15:58:03,0.164s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:58:03,2019-02-05 15:58:03,0.071s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-05 15:58:03,2019-02-05 15:58:08,5.016s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Chrome 71.0.3578.98,"Click Calendar Control
+",2019-02-05 15:58:08,2019-02-05 15:58:08,0.124s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-05 15:58:08,2019-02-05 15:58:13,5.004s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Chrome 71.0.3578.98,"Select Year 2018
+	",2019-02-05 15:58:13,2019-02-05 15:58:13,0.333s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Chrome 71.0.3578.98,Select Month 'December',2019-02-05 15:58:13,2019-02-05 15:58:14,0.329s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Chrome 71.0.3578.98,Select Date '31',2019-02-05 15:58:14,2019-02-05 15:58:14,0.083s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Chrome 71.0.3578.98,Optionally enter date text,2019-02-05 15:58:14,2019-02-05 15:58:14,0.003s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""100"")",Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.139s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.065s,PASSED
+"inputvalue = getText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""))",Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.051s,PASSED
+println(inputvalue),Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.003s,PASSED
+"DynValue = getText(findTestObject(""Investment Calculator/h1_100.00""))",Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.019s,PASSED
+println(DynValue),Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.001s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.040s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:58:14,2019-02-05 15:58:14,0.001s,PASSED

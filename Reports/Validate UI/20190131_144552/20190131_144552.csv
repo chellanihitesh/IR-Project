@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-01-31 14:45:56,2019-01-31 14:47:46,1m - 50.413s,PASSED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 71.0.3578.98,,2019-01-31 14:45:56,2019-01-31 14:46:53,56.312s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 14:45:56,2019-01-31 14:45:56,0.033s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 14:45:57,2019-01-31 14:46:48,51.266s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-01-31 14:46:48,2019-01-31 14:46:48,0.072s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 71.0.3578.98,,2019-01-31 14:46:48,2019-01-31 14:46:48,0.128s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-01-31 14:46:48,2019-01-31 14:46:48,0.029s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-01-31 14:46:48,2019-01-31 14:46:49,1.082s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-31 14:46:49,2019-01-31 14:46:49,0.006s,PASSED
+ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-01-31 14:46:49,2019-01-31 14:46:49,0.018s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Chrome 71.0.3578.98,,2019-01-31 14:46:49,2019-01-31 14:46:49,0.001s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Chrome 71.0.3578.98,"Comparing PDF url to expected one
+",2019-01-31 14:46:49,2019-01-31 14:46:49,0.013s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-01-31 14:46:49,2019-01-31 14:46:51,1.109s,PASSED
+"markPassed(""Test completed succesfully!"")",Chrome 71.0.3578.98,,2019-01-31 14:46:51,2019-01-31 14:46:51,0.026s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 14:46:51,2019-01-31 14:46:51,0.015s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-01-31 14:46:53,2019-01-31 14:47:46,53.735s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 14:46:53,2019-01-31 14:46:53,0.000s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 14:46:53,2019-01-31 14:47:43,50.026s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-31 14:47:43,2019-01-31 14:47:43,0.454s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Chrome 71.0.3578.98,,2019-01-31 14:47:43,2019-01-31 14:47:43,0.034s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Chrome 71.0.3578.98,,2019-01-31 14:47:43,2019-01-31 14:47:43,0.133s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/li_Historical Pricing PDF""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 14:47:43,2019-01-31 14:47:44,0.046s,PASSED
+"attribute = getAttribute(findTestObject(""Historical Pricing/li_Historical Pricing PDF""), ""tooltip"")",Chrome 71.0.3578.98,,2019-01-31 14:47:44,2019-01-31 14:47:44,0.036s,PASSED
+"verifyMatch(attribute, ""PDF"", false)",Chrome 71.0.3578.98,"Verifying tooltip
+",2019-01-31 14:47:44,2019-01-31 14:47:44,0.007s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-31 14:47:44,2019-01-31 14:47:44,0.841s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 14:47:44,2019-01-31 14:47:44,0.002s,PASSED

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-01-31 11:50:09,2019-01-31 11:54:42,4m - 33.413s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 71.0.3578.98,,2019-01-31 11:50:10,2019-01-31 11:51:46,1m - 35.926s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 11:50:10,2019-01-31 11:50:10,0.089s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 11:50:13,2019-01-31 11:51:16,1m - 2.665s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-01-31 11:51:16,2019-01-31 11:51:16,0.834s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 71.0.3578.98,,2019-01-31 11:51:16,2019-01-31 11:51:18,1.883s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-01-31 11:51:18,2019-01-31 11:51:19,0.295s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-01-31 11:51:19,2019-01-31 11:51:21,2.180s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-31 11:51:21,2019-01-31 11:51:22,1.697s,PASSED
+ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-01-31 11:51:22,2019-01-31 11:51:23,0.248s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Chrome 71.0.3578.98,,2019-01-31 11:51:23,2019-01-31 11:51:23,0.003s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Chrome 71.0.3578.98,"Comparing PDF url to expected one
+",2019-01-31 11:51:23,2019-01-31 11:51:23,0.012s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-01-31 11:51:23,2019-01-31 11:51:44,20.872s,PASSED
+"markPassed(""Test completed succesfully!"")",Chrome 71.0.3578.98,,2019-01-31 11:51:44,2019-01-31 11:51:44,0.015s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 11:51:44,2019-01-31 11:51:44,0.006s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Chrome 71.0.3578.98,,2019-01-31 11:51:46,2019-01-31 11:53:12,1m - 26.242s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 11:51:46,2019-01-31 11:51:46,0.008s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 11:51:46,2019-01-31 11:52:42,56.156s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-31 11:52:42,2019-01-31 11:52:45,2.476s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-01-31 11:52:45,2019-01-31 11:52:48,2.746s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Chrome 71.0.3578.98,,2019-01-31 11:52:48,2019-01-31 11:53:10,22.110s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 11:53:10,2019-01-31 11:53:10,0.002s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-01-31 11:53:12,2019-01-31 11:54:40,1m - 28.269s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 11:53:12,2019-01-31 11:53:12,0.006s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 11:53:13,2019-01-31 11:54:15,1m - 2.652s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-31 11:54:15,2019-01-31 11:54:16,0.405s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Chrome 71.0.3578.98,,2019-01-31 11:54:16,2019-01-31 11:54:16,0.171s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Chrome 71.0.3578.98,,2019-01-31 11:54:16,2019-01-31 11:54:17,0.899s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/PDF_Tooltip""), 10)",Chrome 71.0.3578.98,,2019-01-31 11:54:17,2019-01-31 11:54:38,21.281s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 11:54:38,2019-01-31 11:54:38,0.002s,PASSED

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Chrome 68.0.3440.85,,2019-01-31 16:14:12,2019-01-31 16:15:30,1m - 18.224s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 68.0.3440.85,,2019-01-31 16:14:12,2019-01-31 16:15:19,1m - 6.574s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.85,,2019-01-31 16:14:12,2019-01-31 16:14:12,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 68.0.3440.85,,2019-01-31 16:14:13,2019-01-31 16:15:11,58.407s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 68.0.3440.85,,2019-01-31 16:15:11,2019-01-31 16:15:12,0.554s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 68.0.3440.85,,2019-01-31 16:15:12,2019-01-31 16:15:17,5.116s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.85,,2019-01-31 16:15:17,2019-01-31 16:15:17,0.003s,PASSED

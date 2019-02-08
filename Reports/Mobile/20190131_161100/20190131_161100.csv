@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Safari 12,,2019-01-31 16:11:05,2019-01-31 16:12:06,1m - 1.288s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Safari 12,,2019-01-31 16:11:05,2019-01-31 16:11:55,49.586s,FAILED
+Start listener action : sampleBeforeTestCase,Safari 12,,2019-01-31 16:11:05,2019-01-31 16:11:05,0.016s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Safari 12,,2019-01-31 16:11:05,2019-01-31 16:11:52,47.173s,FAILED
+Start listener action : sampleAfterTestCase,Safari 12,,2019-01-31 16:11:52,2019-01-31 16:11:52,0.000s,PASSED

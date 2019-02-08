@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Safari 12,,2019-01-31 11:39:01,2019-01-31 11:39:58,57.394s,PASSED
+,,,,,,
+Test Cases/TT001-Launch Application,Safari 12,,2019-01-31 11:39:01,2019-01-31 11:39:47,45.684s,PASSED
+Start listener action : sampleBeforeTestCase,Safari 12,,2019-01-31 11:39:01,2019-01-31 11:39:01,0.020s,PASSED
+"openBrowser("""")",Safari 12,,2019-01-31 11:39:02,2019-01-31 11:39:33,31.309s,PASSED
+"navigateToUrl(findTestData(""URLs"").getValue(1, 1))",Safari 12,,2019-01-31 11:39:33,2019-01-31 11:39:35,1.828s,PASSED
+delay(10),Safari 12,For IE Load,2019-01-31 11:39:35,2019-01-31 11:39:45,10.032s,PASSED
+maximizeWindow(),Safari 12,,2019-01-31 11:39:45,2019-01-31 11:39:45,0.005s,NOT_RUN
+"takeScreenshot(""D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots"")",Safari 12,,2019-01-31 11:39:45,2019-01-31 11:39:45,0.004s,NOT_RUN
+Start listener action : sampleAfterTestCase,Safari 12,,2019-01-31 11:39:45,2019-01-31 11:39:45,0.005s,PASSED

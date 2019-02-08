@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>AnalystCoverage</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/AnalystCoverage_StaticText</source-url>
+   </source-info>
+   <taken-date>2019-02-04T16:55:42.561</taken-date>
+   <column-names>
+      <column-name>Analyst Coverage text</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Argus",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "John Staszak",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Atwater Thornton",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Rich Verdi",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Baird Equity Research",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Ben Kallo",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Boenning \u0026amp; Scattergood",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Ryan Connors",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "BofA Merrill Lynch",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Julien Dumoulin-Smith",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Goldman Sachs",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Michael Lapides",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Guggenheim Securities",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Shar Pourreza",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "HSBC Global Research",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Verity Mitchell",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Janney Montgomery Scott",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Michael Gaugler",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Macquarie Research",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Angie Storozynski",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Northcoast Research",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Andy Cohen",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "UBS Securities",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Dan Ford",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Wells Fargo",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Jonathan Reeder",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Wolfe Securities",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Steve Fleishman",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

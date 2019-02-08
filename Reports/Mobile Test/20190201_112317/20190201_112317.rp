@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20190201_112317</name>
+   <tag></tag>
+   <displayName>20190201_112317</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190201_112317</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>iphone x</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190201_112318</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>android_galaxy</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190201_112319</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>ipad</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

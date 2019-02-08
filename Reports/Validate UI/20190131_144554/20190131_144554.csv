@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,,,2019-01-31 14:50:20,2019-01-31 14:50:27,7.027s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,,,2019-01-31 14:50:20,2019-01-31 14:50:25,4.210s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-01-31 14:50:20,2019-01-31 14:50:20,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",,,2019-01-31 14:50:21,2019-01-31 14:50:23,1.819s,FAILED
+Start listener action : sampleAfterTestCase,,,2019-01-31 14:50:23,2019-01-31 14:50:23,0.003s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,,,2019-01-31 14:50:25,2019-01-31 14:50:27,2.322s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-01-31 14:50:25,2019-01-31 14:50:25,0.016s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",,,2019-01-31 14:50:25,2019-01-31 14:50:25,0.108s,FAILED
+Start listener action : sampleAfterTestCase,,,2019-01-31 14:50:25,2019-01-31 14:50:25,0.002s,PASSED

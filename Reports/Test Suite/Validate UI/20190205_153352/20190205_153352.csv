@@ -1,0 +1,166 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-02-05 15:33:56,2019-02-05 15:41:52,7m - 55.773s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 71.0.3578.98,,2019-02-05 15:33:57,2019-02-05 15:34:56,59.589s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:33:57,2019-02-05 15:33:57,0.022s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:33:57,2019-02-05 15:34:51,53.916s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-02-05 15:34:51,2019-02-05 15:34:51,0.109s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 71.0.3578.98,,2019-02-05 15:34:51,2019-02-05 15:34:52,0.127s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-02-05 15:34:52,2019-02-05 15:34:52,0.030s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-02-05 15:34:52,2019-02-05 15:34:53,1.102s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-05 15:34:53,2019-02-05 15:34:53,0.006s,PASSED
+ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-02-05 15:34:53,2019-02-05 15:34:53,0.020s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Chrome 71.0.3578.98,,2019-02-05 15:34:53,2019-02-05 15:34:53,0.002s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Chrome 71.0.3578.98,"Comparing PDF url to expected one
+",2019-02-05 15:34:53,2019-02-05 15:34:53,0.010s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-02-05 15:34:53,2019-02-05 15:34:54,1.602s,PASSED
+"markPassed(""Test completed succesfully!"")",Chrome 71.0.3578.98,,2019-02-05 15:34:54,2019-02-05 15:34:54,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:34:54,2019-02-05 15:34:54,0.002s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-02-05 15:34:56,2019-02-05 15:35:40,43.928s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:34:56,2019-02-05 15:34:56,0.006s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-05 15:34:57,2019-02-05 15:35:21,23.841s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Chrome 71.0.3578.98,,2019-02-05 15:35:21,2019-02-05 15:35:37,16.788s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Chrome 71.0.3578.98,,2019-02-05 15:35:37,2019-02-05 15:35:38,1.060s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:35:38,2019-02-05 15:35:38,0.003s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Chrome 71.0.3578.98,,2019-02-05 15:35:40,2019-02-05 15:37:48,2m - 8.023s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:35:40,2019-02-05 15:35:40,0.005s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:35:41,2019-02-05 15:36:31,50.433s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:36:31,2019-02-05 15:36:31,0.120s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-05 15:36:31,2019-02-05 15:36:32,0.186s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-05 15:36:32,2019-02-05 15:36:32,0.082s,PASSED
+"verifyMatch(lblHeader, findTestData(""Excel_Screenames"").getValue(1, 1), false, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Using input from excel
+",2019-02-05 15:36:32,2019-02-05 15:36:33,1.236s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:36:33,2019-02-05 15:36:33,0.066s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10)",Chrome 71.0.3578.98,,2019-02-05 15:36:33,2019-02-05 15:36:33,0.139s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:36:33,2019-02-05 15:36:33,0.070s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Historical Pricing""))",Chrome 71.0.3578.98,,2019-02-05 15:36:33,2019-02-05 15:36:33,0.285s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Historical Pricing""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:36:33,2019-02-05 15:36:33,0.075s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:36:33,2019-02-05 15:36:34,0.034s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Dividend History""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:36:34,2019-02-05 15:36:34,0.059s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Dividend History""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:36:34,2019-02-05 15:36:34,0.017s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:36:34,2019-02-05 15:36:44,10.004s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Dividend History""))",Chrome 71.0.3578.98,,2019-02-05 15:36:44,2019-02-05 15:36:44,0.169s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Dividend History""), 10, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:36:44,2019-02-05 15:36:44,0.050s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:36:44,2019-02-05 15:36:44,0.049s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-05 15:36:44,2019-02-05 15:36:54,10.002s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_DSSPDrip""))",Chrome 71.0.3578.98,,2019-02-05 15:36:54,2019-02-05 15:36:54,0.183s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-02-05 15:36:54,2019-02-05 15:36:54,0.011s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-05 15:36:54,2019-02-05 15:37:04,10.002s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-05 15:37:04,2019-02-05 15:37:04,0.008s,PASSED
+DSSDrip_ActualUrl = getUrl(),Chrome 71.0.3578.98,,2019-02-05 15:37:04,2019-02-05 15:37:05,1.037s,PASSED
+"DSSDrip_ExpectedUrl = ""https://us.astfinancial.com/InvestOnline/Invest/PlanInfo?ticker=AWK""",Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.001s,PASSED
+if (DSSDrip_ActualUrl == DSSDrip_ExpectedUrl),Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.013s,PASSED
+closeWindowIndex(1),Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.050s,PASSED
+switchToWindowIndex(0),Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.015s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.062s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.136s,PASSED
+"waitForElementPresent(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:05,0.015s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-05 15:37:05,2019-02-05 15:37:15,10.002s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Analyst Coverage""))",Chrome 71.0.3578.98,,2019-02-05 15:37:15,2019-02-05 15:37:16,0.129s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Analyst Coverage""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:37:16,2019-02-05 15:37:16,0.036s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:37:16,2019-02-05 15:37:16,0.053s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_FAQ""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:37:16,2019-02-05 15:37:16,0.033s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-05 15:37:16,2019-02-05 15:37:26,10.002s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_FAQ""))",Chrome 71.0.3578.98,,2019-02-05 15:37:26,2019-02-05 15:37:26,0.115s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_FAQ""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:37:26,2019-02-05 15:37:26,0.052s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Financial Reports""))",Chrome 71.0.3578.98,,2019-02-05 15:37:26,2019-02-05 15:37:26,0.056s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_Annual Reports  Proxy Statem""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:37:26,2019-02-05 15:37:26,0.034s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-05 15:37:26,2019-02-05 15:37:36,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Annual Reports  Proxy Statem""))",Chrome 71.0.3578.98,,2019-02-05 15:37:36,2019-02-05 15:37:36,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_Annual Reports  Proxy State""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:37:36,2019-02-05 15:37:36,0.053s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Financial Reports""))",Chrome 71.0.3578.98,,2019-02-05 15:37:36,2019-02-05 15:37:36,0.042s,PASSED
+"scrollToElement(findTestObject(""Menu_SubMenu_Links/a_SEC Filings""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:37:36,2019-02-05 15:37:36,0.030s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-05 15:37:36,2019-02-05 15:37:46,10.003s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_SEC Filings""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:37:46,2019-02-05 15:37:46,0.121s,PASSED
+"verifyElementPresent(findTestObject(""Menu_SubMenu_Links/h1_SEC Filings""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:37:46,2019-02-05 15:37:46,0.046s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:37:46,2019-02-05 15:37:46,0.002s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Chrome 71.0.3578.98,,2019-02-05 15:37:48,2019-02-05 15:39:02,1m - 13.951s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:37:48,2019-02-05 15:37:48,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Chrome 71.0.3578.98,,2019-02-05 15:37:49,2019-02-05 15:38:59,1m - 10.266s,PASSED
+"verifyElementPresent(findTestObject(""Search/input_Search""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.104s,PASSED
+"sendKeys(findTestObject(""Search/input_Search""), findTestData(""Search_Input"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.181s,PASSED
+"sendKeys(findTestObject(""Search/input_Search""), Keys.chord(ENTER, """"))",Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.093s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.016s,PASSED
+"waitForElementPresent(findTestObject(""Search/p_Results (100)""), 30)",Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.032s,PASSED
+"verifyElementText(findTestObject(""Search/h1_Search""), ""Search"")",Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.065s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:38:59,0.008s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-02-05 15:38:59,2019-02-05 15:39:00,0.913s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:39:00,2019-02-05 15:39:00,0.001s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Chrome 71.0.3578.98,,2019-02-05 15:39:02,2019-02-05 15:40:18,1m - 16.104s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:39:02,2019-02-05 15:39:02,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Chrome 71.0.3578.98,,2019-02-05 15:39:03,2019-02-05 15:40:12,1m - 9.532s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/button_Contact Us""))",Chrome 71.0.3578.98,,2019-02-05 15:40:12,2019-02-05 15:40:12,0.214s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-05 15:40:12,2019-02-05 15:40:12,0.002s,NOT_RUN
+"click(findTestObject(""ContactUs aka RequestMaterials/button_Request Materials""))",Chrome 71.0.3578.98,,2019-02-05 15:40:12,2019-02-05 15:40:12,0.002s,NOT_RUN
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/h2_Request Materials""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:12,2019-02-05 15:40:12,0.036s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_or send us a questioncomment""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:12,2019-02-05 15:40:12,0.046s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__firstName""), ""Hitesh"")",Chrome 71.0.3578.98,,2019-02-05 15:40:12,2019-02-05 15:40:13,0.166s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__lastName""), ""Chellani"")",Chrome 71.0.3578.98,,2019-02-05 15:40:13,2019-02-05 15:40:13,0.140s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__email""), ""hiteshc@Apporchid.com"")",Chrome 71.0.3578.98,,2019-02-05 15:40:13,2019-02-05 15:40:13,0.504s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_MailingAddress""), ""Manikonda"")",Chrome 71.0.3578.98,,2019-02-05 15:40:13,2019-02-05 15:40:14,0.332s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_City""), ""Hyderabad"")",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.178s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_State""), ""Telangana"")",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.178s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_zip""), ""400051"")",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.147s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_country""), ""India"")",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.138s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/strong_Materials""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.066s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/ul_Annual Report""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.045s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Annual Report""))",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.136s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_Proxy Statement""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:14,0.033s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Proxy Statement""))",Chrome 71.0.3578.98,,2019-02-05 15:40:14,2019-02-05 15:40:15,0.072s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/li_Latest Earnings Release""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.055s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Latest Earnings Release""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.065s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_Latest Press Release""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.026s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Latest Press Release""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.080s,PASSED
+"verifyElementChecked(findTestObject(""ContactUs aka RequestMaterials/input_Latest Press Release""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.046s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_10-K""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.028s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_10K""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.069s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/li_10-Q""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.043s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_10Q""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.064s,PASSED
+"verifyElementNotChecked(findTestObject(""ContactUs aka RequestMaterials/input_Other_other""), 0, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.042s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Other_other""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.067s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/li_Other""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.065s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/textarea_Other_question""), ""Questions Comments"")",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.206s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/Captcha""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.002s,NOT_RUN
+"click(findTestObject(""ContactUs aka RequestMaterials/div_Submit""))",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.001s,NOT_RUN
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_Thank you for your interest""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.055s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_Please let us know if you ha""), 0)",Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:15,0.027s,PASSED
+utilities.BasicFunctions.closeApplication(),Chrome 71.0.3578.98,,2019-02-05 15:40:15,2019-02-05 15:40:16,0.951s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:40:16,2019-02-05 15:40:16,0.001s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Chrome 71.0.3578.98,,2019-02-05 15:40:18,2019-02-05 15:41:24,1m - 5.679s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:40:19,2019-02-05 15:40:19,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:40:19,2019-02-05 15:41:10,51.762s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-02-05 15:41:10,2019-02-05 15:41:11,0.057s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-02-05 15:41:11,2019-02-05 15:41:11,0.203s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-05 15:41:11,2019-02-05 15:41:11,0.062s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-05 15:41:11,2019-02-05 15:41:16,5.003s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Chrome 71.0.3578.98,"Click Calendar Control
+",2019-02-05 15:41:16,2019-02-05 15:41:16,0.119s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-05 15:41:16,2019-02-05 15:41:21,5.003s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Chrome 71.0.3578.98,"Select Year 2018
+	",2019-02-05 15:41:21,2019-02-05 15:41:21,0.371s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Chrome 71.0.3578.98,Select Month 'December',2019-02-05 15:41:21,2019-02-05 15:41:22,0.319s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Chrome 71.0.3578.98,Select Date '31',2019-02-05 15:41:22,2019-02-05 15:41:22,0.175s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Chrome 71.0.3578.98,Optionally enter date text,2019-02-05 15:41:22,2019-02-05 15:41:22,0.001s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""100"")",Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.142s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.076s,PASSED
+"inputvalue = getText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""))",Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.030s,PASSED
+println(inputvalue),Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.003s,PASSED
+"DynValue = getText(findTestObject(""Investment Calculator/h1_100.00""))",Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.025s,PASSED
+println(DynValue),Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.001s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.057s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:41:22,2019-02-05 15:41:22,0.001s,PASSED
+,,,,,,
+Test Cases/TC009-Verify Analyst Coverage with checkpoint,Chrome 71.0.3578.98,,2019-02-05 15:41:24,2019-02-05 15:41:26,2.306s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:41:24,2019-02-05 15:41:24,0.003s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/AnalystCoverage""), false)",Chrome 71.0.3578.98,,2019-02-05 15:41:24,2019-02-05 15:41:24,0.137s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:41:24,2019-02-05 15:41:24,0.002s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Chrome 71.0.3578.98,,2019-02-05 15:41:26,2019-02-05 15:41:51,24.769s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-05 15:41:26,2019-02-05 15:41:26,0.003s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Chrome 71.0.3578.98,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-05 15:41:27,2019-02-05 15:41:49,22.589s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-05 15:41:49,2019-02-05 15:41:49,0.002s,PASSED

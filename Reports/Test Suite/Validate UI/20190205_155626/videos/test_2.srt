@@ -1,0 +1,81 @@
+1
+00:00:00,397 --> 00:00:00,401
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,778 --> 00:00:00,780
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+
+3
+00:00:29,958 --> 00:00:29,959
+7. For IE Load
+
+4
+00:00:39,967 --> 00:00:39,968
+11. maximizeWindow()
+
+5
+00:00:39,994 --> 00:00:39,995
+5. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+6
+00:00:40,037 --> 00:00:40,038
+9. click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator"))
+
+7
+00:00:40,297 --> 00:00:40,298
+13. lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator"))
+
+8
+00:00:40,359 --> 00:00:40,360
+19. Using input from excel
+
+
+9
+00:00:41,207 --> 00:00:41,208
+23. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+10
+00:00:41,224 --> 00:00:41,225
+27. scrollToElement(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10)
+
+11
+00:00:41,263 --> 00:00:41,265
+31. waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10, CONTINUE_ON_FAILURE)
+
+12
+00:00:41,295 --> 00:00:41,296
+35. click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"))
+
+13
+00:00:41,518 --> 00:00:41,519
+39. verifyElementPresent(findTestObject("Menu_SubMenu_Links/h1_Historical Pricing"), 10, CONTINUE_ON_FAILURE)
+
+14
+00:00:41,574 --> 00:00:41,575
+43. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+15
+00:00:41,594 --> 00:00:41,595
+47. scrollToElement(findTestObject("Menu_SubMenu_Links/a_Dividend History"), 10, CONTINUE_ON_FAILURE)
+
+16
+00:00:41,616 --> 00:00:41,617
+51. waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Dividend History"), 10, CONTINUE_ON_FAILURE)
+
+17
+00:00:41,627 --> 00:00:41,627
+55. delay(10, STOP_ON_FAILURE)
+
+18
+00:00:51,629 --> 00:00:51,631
+59. click(findTestObject("Menu_SubMenu_Links/a_Dividend History"))
+
+19
+00:00:51,744 --> 00:00:51,744
+1. if (getTestCaseId().contains("Sample Tests"))
+
+20
+00:00:53,824 --> 00:00:53,825
+1. if (getTestCaseId().contains("Sample Tests"))
+

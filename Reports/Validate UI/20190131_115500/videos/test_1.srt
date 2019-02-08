@@ -1,0 +1,44 @@
+1
+00:00:00,440 --> 00:00:00,449
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,197 --> 00:00:01,199
+1. openBrowser("")
+
+3
+00:00:34,187 --> 00:00:34,188
+5. navigateToUrl(findTestData("URLs").getValue(1, 1))
+
+4
+00:00:59,788 --> 00:00:59,790
+11. For IE Load
+
+5
+00:01:09,800 --> 00:01:09,803
+15. maximizeWindow()
+
+6
+00:01:09,806 --> 00:01:09,808
+19. takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+7
+00:01:09,832 --> 00:01:09,833
+5. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+8
+00:01:10,089 --> 00:01:10,090
+9. click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator"))
+
+9
+00:01:10,581 --> 00:01:10,582
+13. lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator"))
+
+10
+00:01:26,003 --> 00:01:26,007
+1. if (getTestCaseId().contains("Sample Tests"))
+
+11
+00:01:28,231 --> 00:01:28,235
+1. if (getTestCaseId().contains("Sample Tests"))
+

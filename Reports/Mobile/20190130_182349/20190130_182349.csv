@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Chrome 68.0.3440.85,,2019-01-30 18:25:01,2019-01-30 18:26:09,1m - 7.393s,PASSED
+,,,,,,
+Test Cases/TT001-Launch Application,Chrome 68.0.3440.85,,2019-01-30 18:25:02,2019-01-30 18:25:57,55.905s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.85,,2019-01-30 18:25:02,2019-01-30 18:25:02,0.014s,PASSED
+"openBrowser("""")",Chrome 68.0.3440.85,,2019-01-30 18:25:02,2019-01-30 18:25:38,36.250s,PASSED
+"navigateToUrl(findTestData(""URLs"").getValue(1, 1))",Chrome 68.0.3440.85,,2019-01-30 18:25:38,2019-01-30 18:25:47,9.413s,PASSED
+delay(10),Chrome 68.0.3440.85,For IE Load,2019-01-30 18:25:47,2019-01-30 18:25:57,10.036s,PASSED
+maximizeWindow(),Chrome 68.0.3440.85,,2019-01-30 18:25:57,2019-01-30 18:25:57,0.003s,NOT_RUN
+"takeScreenshot(""D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots"")",Chrome 68.0.3440.85,,2019-01-30 18:25:57,2019-01-30 18:25:57,0.001s,NOT_RUN
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.85,,2019-01-30 18:25:57,2019-01-30 18:25:57,0.005s,PASSED

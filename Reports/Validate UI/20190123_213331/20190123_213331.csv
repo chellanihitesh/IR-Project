@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,IE 11,,2019-01-23 21:33:38,2019-01-23 21:42:41,9m - 3.007s,FAILED
+,,,,,,
+Test Cases/Open Factsheet on home page,IE 11,,2019-01-23 21:33:40,2019-01-23 21:34:58,1m - 18.283s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:33:42,2019-01-23 21:34:51,1m - 9.531s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",IE 11,,2019-01-23 21:34:51,2019-01-23 21:34:52,0.345s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",IE 11,,2019-01-23 21:34:52,2019-01-23 21:34:56,3.846s,PASSED
+switchToWindowIndex(1),IE 11,,2019-01-23 21:34:56,2019-01-23 21:34:58,2.421s,PASSED
+waitForPageLoad(10),IE 11,,2019-01-23 21:34:58,2019-01-23 21:34:58,0.155s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available,IE 11,,2019-01-23 21:34:58,2019-01-23 21:36:05,1m - 6.808s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:34:59,2019-01-23 21:36:04,1m - 5.082s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",IE 11,,2019-01-23 21:36:04,2019-01-23 21:36:04,0.353s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",IE 11,,2019-01-23 21:36:04,2019-01-23 21:36:05,0.879s,FAILED
+,,,,,,
+Test Cases/Validate Historical Pricing UI,IE 11,,2019-01-23 21:36:05,2019-01-23 21:37:07,1m - 2.090s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:36:05,2019-01-23 21:37:06,1m - 0.889s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",IE 11,,2019-01-23 21:37:06,2019-01-23 21:37:07,0.964s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available with Results,IE 11,,2019-01-23 21:37:07,2019-01-23 21:38:08,1m - 1.045s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:37:07,2019-01-23 21:38:07,59.710s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",IE 11,,2019-01-23 21:38:07,2019-01-23 21:38:07,0.400s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",IE 11,,2019-01-23 21:38:07,2019-01-23 21:38:08,0.772s,FAILED
+,,,,,,
+Test Cases/Open Factsheet on home page,IE 11,,2019-01-23 21:38:08,2019-01-23 21:39:32,1m - 24.095s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:38:08,2019-01-23 21:39:09,1m - 1.240s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",IE 11,,2019-01-23 21:39:09,2019-01-23 21:39:10,0.137s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",IE 11,,2019-01-23 21:39:10,2019-01-23 21:39:12,2.223s,PASSED
+switchToWindowIndex(1),IE 11,,2019-01-23 21:39:12,2019-01-23 21:39:14,1.830s,PASSED
+waitForPageLoad(10),IE 11,,2019-01-23 21:39:14,2019-01-23 21:39:32,18.653s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available,IE 11,,2019-01-23 21:39:32,2019-01-23 21:40:36,1m - 3.954s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:39:32,2019-01-23 21:40:35,1m - 2.287s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",IE 11,,2019-01-23 21:40:35,2019-01-23 21:40:35,0.807s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",IE 11,,2019-01-23 21:40:35,2019-01-23 21:40:36,0.840s,FAILED
+,,,,,,
+Test Cases/Validate Historical Pricing UI,IE 11,,2019-01-23 21:40:36,2019-01-23 21:41:38,1m - 2.033s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:40:36,2019-01-23 21:41:37,1m - 1.078s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",IE 11,,2019-01-23 21:41:37,2019-01-23 21:41:38,0.943s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available with Results,IE 11,,2019-01-23 21:41:38,2019-01-23 21:42:40,1m - 2.121s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",IE 11,,2019-01-23 21:41:38,2019-01-23 21:42:39,1m - 0.942s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",IE 11,,2019-01-23 21:42:39,2019-01-23 21:42:40,0.340s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",IE 11,,2019-01-23 21:42:40,2019-01-23 21:42:40,0.827s,FAILED

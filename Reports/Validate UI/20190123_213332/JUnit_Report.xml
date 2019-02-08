@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate UI" time="499" tests="6" failures="2" errors="0">
+   <testsuite name="Validate UI" tests="6" failures="2" errors="0" time="499" timestamp="2019-01-23 21:33:38" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Validate UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190123_213332"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190123_213332\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190123_213332\\1548259555449.png, D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190123_213332\\1548259797566.png"/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Edge 17"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="A1CFDF7E-3B7C-4A70-BCDD-E723F77459E3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Factsheet on home page" classname="Test Cases/Open Factsheet on home page" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:33:40 - [TEST_CASE][PASSED] - Test Cases/Open Factsheet on home page: Test Cases/Open Factsheet on home page
+
+2019-01-23 21:33:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:33:42 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:33:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:33:43 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:33:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-23 21:34:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:34:09 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:34:18 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:34:18 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:34:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:34:48 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:34:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:34:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30): Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-23 21:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-23 21:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/a_Fact Sheet")): Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-23 21:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-23 21:34:49 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-01-23 21:34:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-01-23 21:34:49 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-23 21:34:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:34:50 - [TEST_STEP][PASSED] - titleActual = getWindowTitle(): Current window's title is: '9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-23 21:34:50 - [MESSAGE][PASSED] - Current window's title is: '9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-23 21:34:50 - [TEST_STEP][PASSED] - titleExpected = "'PowerPoint Presentation - 2018_FactSheet_Final.pdf'": null
+
+2019-01-23 21:34:50 - [TEST_STEP][PASSED] - if (titleActual.equals(titleExpected)): null
+
+2019-01-23 21:34:50 - [TEST_STEP][PASSED] - else: Execute JavaScript 'alert('Page title not matched or has an exception')' successfully
+
+2019-01-23 21:34:50 - [TEST_STEP][PASSED] - executeJavaScript("alert('Page title not matched or has an exception')", null): Execute JavaScript 'alert('Page title not matched or has an exception')' successfully
+
+2019-01-23 21:34:50 - [MESSAGE][PASSED] - Execute JavaScript 'alert('Page title not matched or has an exception')' successfully
+
+2019-01-23 21:34:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-23 21:34:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Header Menu Links are available" classname="Test Cases/Verify Header Menu Links are available" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-23 21:34:52 - [TEST_CASE][FAILED] - Test Cases/Verify Header Menu Links are available: Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)
+
+
+2019-01-23 21:34:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:34:52 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:34:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:34:52 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:35:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:35:15 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:35:24 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:35:24 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:35:54 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:35:54 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:35:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:35:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:35:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - verifyMatch(lblHeader, "Investment Calculator", false): Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10): Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-01-23 21:35:55 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-01-23 21:35:55 - [TEST_STEP][FAILED] - click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")): click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)
+
+
+2019-01-23 21:35:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+[[ATTACHMENT|D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190123_213332\\1548259555449.png]]
+
+2019-01-23 21:35:55 - [MESSAGE][FAILED] - click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-23 21:34:52 - [TEST_CASE][FAILED] - Test Cases/Verify Header Menu Links are available: Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validate Historical Pricing UI" classname="Test Cases/Validate Historical Pricing UI" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:35:55 - [TEST_CASE][PASSED] - Test Cases/Validate Historical Pricing UI: Test Cases/Validate Historical Pricing UI
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:35:55 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:35:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:35:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-23 21:35:56 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:36:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:36:19 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:36:24 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:36:24 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Investing With Us")): Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Historical Pricing/a_Historical Pricing"), 20): Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Historical Pricing")): Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Historical Pricing/PDF_Tooltip"), 10): Scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' successfully
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' successfully
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - attribute = getAttribute(findTestObject("Historical Pricing/PDF_Tooltip"), "tooltip"): Attribute 'tooltip' of object 'Object Repository/Historical Pricing/PDF_Tooltip' is: 'PDF'
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Attribute 'tooltip' of object 'Object Repository/Historical Pricing/PDF_Tooltip' is: 'PDF'
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - verifyMatch(attribute, "PDF", false): Actual text 'PDF' and expected text 'PDF' are matched 
+
+2019-01-23 21:36:54 - [MESSAGE][PASSED] - Actual text 'PDF' and expected text 'PDF' are matched 
+
+2019-01-23 21:36:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-23 21:36:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Header Menu Links are available with Results" classname="Test Cases/Verify Header Menu Links are available with Results" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:36:55 - [TEST_CASE][PASSED] - Test Cases/Verify Header Menu Links are available with Results: Test Cases/Verify Header Menu Links are available with Results
+
+2019-01-23 21:36:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:36:55 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:36:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:36:55 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:37:18 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:37:23 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:37:23 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - verifyMatch(lblHeader, findTestData("ScreenNames").getValue(1, 1), false): Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:37:53 - [MESSAGE][PASSED] - Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - out.println("Screen name is: " + lblHeader): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open Factsheet on home page" classname="Test Cases/Open Factsheet on home page" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:37:53 - [TEST_CASE][PASSED] - Test Cases/Open Factsheet on home page: Test Cases/Open Factsheet on home page
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:37:53 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:37:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:37:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-23 21:37:55 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:38:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:38:17 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:38:23 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:38:23 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:38:53 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:38:53 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:38:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:38:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:38:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30): Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-23 21:38:53 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-23 21:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/a_Fact Sheet")): Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-23 21:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-23 21:38:54 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-01-23 21:38:54 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-01-23 21:38:54 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-23 21:38:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:38:55 - [TEST_STEP][PASSED] - titleActual = getWindowTitle(): Current window's title is: '9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-23 21:38:55 - [MESSAGE][PASSED] - Current window's title is: '9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-23 21:38:55 - [TEST_STEP][PASSED] - titleExpected = "'PowerPoint Presentation - 2018_FactSheet_Final.pdf'": null
+
+2019-01-23 21:38:55 - [TEST_STEP][PASSED] - if (titleActual.equals(titleExpected)): null
+
+2019-01-23 21:38:55 - [TEST_STEP][PASSED] - else: Execute JavaScript 'alert('Page title not matched or has an exception')' successfully
+
+2019-01-23 21:38:55 - [TEST_STEP][PASSED] - executeJavaScript("alert('Page title not matched or has an exception')", null): Execute JavaScript 'alert('Page title not matched or has an exception')' successfully
+
+2019-01-23 21:38:55 - [MESSAGE][PASSED] - Execute JavaScript 'alert('Page title not matched or has an exception')' successfully
+
+2019-01-23 21:38:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-23 21:38:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Header Menu Links are available" classname="Test Cases/Verify Header Menu Links are available" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 5B1AF03B-7B87-4DAE-BCB3-1ED748F3BE05)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-23 21:38:56 - [TEST_CASE][FAILED] - Test Cases/Verify Header Menu Links are available: Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 5B1AF03B-7B87-4DAE-BCB3-1ED748F3BE05)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)
+
+
+2019-01-23 21:38:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:38:56 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:38:56 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:39:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:39:19 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:39:26 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:39:26 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:39:56 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:39:56 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:39:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:39:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:39:56 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - verifyMatch(lblHeader, "Investment Calculator", false): Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:39:57 - [MESSAGE][PASSED] - Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10): Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-01-23 21:39:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' successfully
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Menu_SubMenu_Links/a_Historical Pricing"), 10): Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-01-23 21:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' is present
+
+2019-01-23 21:39:57 - [TEST_STEP][FAILED] - click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")): click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 5B1AF03B-7B87-4DAE-BCB3-1ED748F3BE05)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)
+
+
+2019-01-23 21:39:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 5B1AF03B-7B87-4DAE-BCB3-1ED748F3BE05)
+[[ATTACHMENT|D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190123_213332\\1548259797566.png]]
+
+2019-01-23 21:39:57 - [MESSAGE][FAILED] - click(findTestObject("Menu_SubMenu_Links/a_Historical Pricing")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 5B1AF03B-7B87-4DAE-BCB3-1ED748F3BE05)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-23 21:38:56 - [TEST_CASE][FAILED] - Test Cases/Verify Header Menu Links are available: Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 5B1AF03B-7B87-4DAE-BCB3-1ED748F3BE05)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validate Historical Pricing UI" classname="Test Cases/Validate Historical Pricing UI" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:39:57 - [TEST_CASE][PASSED] - Test Cases/Validate Historical Pricing UI: Test Cases/Validate Historical Pricing UI
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:39:57 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:39:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:39:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-23 21:39:58 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:40:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:40:21 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:40:27 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:40:27 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Investing With Us")): Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Historical Pricing/a_Historical Pricing"), 20): Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Historical Pricing")): Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Historical Pricing/PDF_Tooltip"), 10): Scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' successfully
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' successfully
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - attribute = getAttribute(findTestObject("Historical Pricing/PDF_Tooltip"), "tooltip"): Attribute 'tooltip' of object 'Object Repository/Historical Pricing/PDF_Tooltip' is: 'PDF'
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Attribute 'tooltip' of object 'Object Repository/Historical Pricing/PDF_Tooltip' is: 'PDF'
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - verifyMatch(attribute, "PDF", false): Actual text 'PDF' and expected text 'PDF' are matched 
+
+2019-01-23 21:40:57 - [MESSAGE][PASSED] - Actual text 'PDF' and expected text 'PDF' are matched 
+
+2019-01-23 21:40:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-23 21:40:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Header Menu Links are available with Results" classname="Test Cases/Verify Header Menu Links are available with Results" status="PASSED">
+         <system-out><![CDATA[2019-01-23 21:40:58 - [TEST_CASE][PASSED] - Test Cases/Verify Header Menu Links are available with Results: Test Cases/Verify Header Menu Links are available with Results
+
+2019-01-23 21:40:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:40:58 - [TEST_CASE][PASSED] - Test Cases/Launch Application: Test Cases/Launch Application
+
+2019-01-23 21:40:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 21:40:58 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-01-23 21:41:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 21:41:20 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com"): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:41:26 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-23 21:41:26 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-23 21:41:56 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-23 21:41:56 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-01-23 21:41:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-23 21:41:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Launch Application' successfully
+
+2019-01-23 21:41:56 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-23 21:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-23 21:41:57 - [TEST_STEP][PASSED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:41:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' is: 'Investment Calculator'
+
+2019-01-23 21:41:57 - [TEST_STEP][PASSED] - verifyMatch(lblHeader, findTestData("ScreenNames").getValue(1, 1), false): Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:41:57 - [MESSAGE][PASSED] - Actual text 'Investment Calculator' and expected text 'Investment Calculator' are matched 
+
+2019-01-23 21:41:57 - [TEST_STEP][PASSED] - out.println("Screen name is: " + lblHeader): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 21:33:38 - [TEST_SUITE][FAILED] - Validate UI: Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-23 21:33:38 - [TEST_SUITE][FAILED] - Validate UI: Test Cases/Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Menu_SubMenu_Links/a_Historical Pricing' (Root cause: org.openqa.selenium.WebDriverException: Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AOHYDLT0059', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: B35A816E-FC4C-4E2B-843F-A531D59CBAF0)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Verify Header Menu Links are available.run(Verify Header Menu Links are available:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548259412275.run(TempTestSuite1548259412275.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

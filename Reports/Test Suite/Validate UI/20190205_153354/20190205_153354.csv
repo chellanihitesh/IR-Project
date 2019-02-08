@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Edge 17,,2019-02-05 15:50:49,2019-02-05 15:56:16,5m - 26.234s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Edge 17,,2019-02-05 15:50:50,2019-02-05 15:51:36,46.479s,PASSED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:50:50,2019-02-05 15:50:50,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-05 15:50:50,2019-02-05 15:51:31,40.841s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Edge 17,,2019-02-05 15:51:31,2019-02-05 15:51:31,0.065s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Edge 17,,2019-02-05 15:51:31,2019-02-05 15:51:32,0.668s,PASSED
+switchToWindowIndex(1),Edge 17,,2019-02-05 15:51:32,2019-02-05 15:51:32,0.031s,PASSED
+waitForPageLoad(10),Edge 17,,2019-02-05 15:51:32,2019-02-05 15:51:33,1.058s,PASSED
+maximizeWindow(),Edge 17,,2019-02-05 15:51:33,2019-02-05 15:51:33,0.005s,PASSED
+ActualUrl = getUrl(),Edge 17,,2019-02-05 15:51:33,2019-02-05 15:51:33,0.027s,PASSED
+"ExpectedUrl = ""https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae""",Edge 17,,2019-02-05 15:51:33,2019-02-05 15:51:33,0.002s,PASSED
+if (ActualUrl.equals(ExpectedUrl)),Edge 17,"Comparing PDF url to expected one
+",2019-02-05 15:51:33,2019-02-05 15:51:33,0.009s,PASSED
+utilities.BasicFunctions.closeApplication(),Edge 17,,2019-02-05 15:51:33,2019-02-05 15:51:34,1.273s,PASSED
+"markPassed(""Test completed succesfully!"")",Edge 17,,2019-02-05 15:51:34,2019-02-05 15:51:34,0.007s,PASSED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:51:34,2019-02-05 15:51:34,0.002s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Edge 17,,2019-02-05 15:51:36,2019-02-05 15:52:07,31.171s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:51:36,2019-02-05 15:51:36,0.004s,PASSED
+"openBrowser("""")",Edge 17,,2019-02-05 15:51:36,2019-02-05 15:51:59,22.297s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Edge 17,,2019-02-05 15:51:59,2019-02-05 15:52:05,5.926s,PASSED
+"click(findTestObject(""Object Repository/Factsheet_mobile/Page_Investor Relations/i_Investing With Us_fas fa-bar""))",Edge 17,,2019-02-05 15:52:05,2019-02-05 15:52:05,0.769s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:52:05,2019-02-05 15:52:05,0.002s,PASSED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Edge 17,,2019-02-05 15:52:07,2019-02-05 15:52:49,42.057s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:52:07,2019-02-05 15:52:07,0.002s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-05 15:52:08,2019-02-05 15:52:47,39.346s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-02-05 15:52:47,2019-02-05 15:52:47,0.050s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-02-05 15:52:47,2019-02-05 15:52:47,0.272s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:52:47,2019-02-05 15:52:47,0.004s,PASSED
+,,,,,,
+Test Cases/TC005-Search,Edge 17,,2019-02-05 15:52:49,2019-02-05 15:53:51,1m - 1.853s,FAILED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:52:49,2019-02-05 15:52:49,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Edge 17,,2019-02-05 15:52:50,2019-02-05 15:53:49,59.544s,FAILED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:53:49,2019-02-05 15:53:49,0.002s,PASSED
+,,,,,,
+Test Cases/TC006-Verify ContactUs aka Request materials,Edge 17,,2019-02-05 15:53:51,2019-02-05 15:54:57,1m - 5.260s,PASSED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:53:51,2019-02-05 15:53:51,0.002s,PASSED
+utilities.BasicFunctions.invokeapplication(),Edge 17,,2019-02-05 15:53:52,2019-02-05 15:54:51,59.327s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/button_Contact Us""))",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.274s,PASSED
+delay(5),Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.002s,NOT_RUN
+"click(findTestObject(""ContactUs aka RequestMaterials/button_Request Materials""))",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.002s,NOT_RUN
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/h2_Request Materials""), 0, CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.056s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_or send us a questioncomment""), 0, CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.018s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__firstName""), ""Hitesh"")",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.102s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__lastName""), ""Chellani"")",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:51,0.174s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input__email""), ""hiteshc@Apporchid.com"")",Edge 17,,2019-02-05 15:54:51,2019-02-05 15:54:52,0.049s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_MailingAddress""), ""Manikonda"")",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.054s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_City""), ""Hyderabad"")",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.036s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_State""), ""Telangana"")",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.293s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_zip""), ""400051"")",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.160s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/input_country""), ""India"")",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.035s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/strong_Materials""), CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.023s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/ul_Annual Report""), 0, CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.013s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Annual Report""))",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.123s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_Proxy Statement""), 0, CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.049s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Proxy Statement""))",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:52,0.134s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/li_Latest Earnings Release""))",Edge 17,,2019-02-05 15:54:52,2019-02-05 15:54:53,0.083s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Latest Earnings Release""), CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.105s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_Latest Press Release""), 0)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.041s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Latest Press Release""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.095s,PASSED
+"verifyElementChecked(findTestObject(""ContactUs aka RequestMaterials/input_Latest Press Release""), 0, CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.059s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/li_10-K""), 0)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.011s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_10K""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.062s,PASSED
+"verifyElementVisible(findTestObject(""ContactUs aka RequestMaterials/li_10-Q""), CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.089s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_10Q""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.051s,PASSED
+"verifyElementNotChecked(findTestObject(""ContactUs aka RequestMaterials/input_Other_other""), 0, CONTINUE_ON_FAILURE)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.058s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/input_Other_other""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.066s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/li_Other""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.090s,PASSED
+"setText(findTestObject(""ContactUs aka RequestMaterials/textarea_Other_question""), ""Questions Comments"")",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.185s,PASSED
+"click(findTestObject(""ContactUs aka RequestMaterials/Captcha""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.002s,NOT_RUN
+"click(findTestObject(""ContactUs aka RequestMaterials/div_Submit""))",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.002s,NOT_RUN
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_Thank you for your interest""), 0)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.021s,PASSED
+"verifyElementPresent(findTestObject(""ContactUs aka RequestMaterials/p_Please let us know if you ha""), 0)",Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:53,0.021s,PASSED
+utilities.BasicFunctions.closeApplication(),Edge 17,,2019-02-05 15:54:53,2019-02-05 15:54:54,1.027s,PASSED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:54:55,2019-02-05 15:54:55,0.002s,PASSED
+,,,,,,
+Test Cases/TC007-Calculate Price appreciation or depreciation over period,Edge 17,,2019-02-05 15:54:57,2019-02-05 15:55:49,52.338s,ERROR
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:54:57,2019-02-05 15:54:57,0.003s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Edge 17,,2019-02-05 15:54:57,2019-02-05 15:55:36,38.709s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Edge 17,,2019-02-05 15:55:36,2019-02-05 15:55:36,0.018s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Edge 17,,2019-02-05 15:55:36,2019-02-05 15:55:36,0.313s,PASSED
+"mouseOver(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""), STOP_ON_FAILURE)",Edge 17,,2019-02-05 15:55:36,2019-02-05 15:55:36,0.046s,PASSED
+delay(5),Edge 17,,2019-02-05 15:55:36,2019-02-05 15:55:41,5.003s,PASSED
+"click(findTestObject(""Investment Calculator/i_Total Return_far fa-calendar""))",Edge 17,"Click Calendar Control
+",2019-02-05 15:55:41,2019-02-05 15:55:41,0.276s,PASSED
+delay(5),Edge 17,,2019-02-05 15:55:41,2019-02-05 15:55:46,5.002s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_20082009201020112012201""), ""2018"", true)",Edge 17,"Select Year 2018
+	",2019-02-05 15:55:46,2019-02-05 15:55:46,0.199s,PASSED
+"selectOptionByValue(findTestObject(""Investment Calculator/select_JanFebMarAprMayJunJulAu""), ""12"", true)",Edge 17,Select Month 'December',2019-02-05 15:55:46,2019-02-05 15:55:47,0.171s,PASSED
+"click(findTestObject(""Investment Calculator/div_28""))",Edge 17,Select Date '31',2019-02-05 15:55:47,2019-02-05 15:55:47,0.081s,PASSED
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n""), ""01/01/2019"")",Edge 17,Optionally enter date text,2019-02-05 15:55:47,2019-02-05 15:55:47,0.001s,NOT_RUN
+"setText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""), ""100"")",Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.051s,PASSED
+"click(findTestObject(""Investment Calculator/button_Calculate Price""))",Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.066s,PASSED
+"inputvalue = getText(findTestObject(""Investment Calculator/input_Total Return_txt w-100 n_4""))",Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.032s,PASSED
+println(inputvalue),Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.004s,PASSED
+"DynValue = getText(findTestObject(""Investment Calculator/h1_100.00""))",Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.012s,PASSED
+println(DynValue),Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.002s,PASSED
+"TodayPrice = getText(findTestObject(""Investment Calculator/p_Current Price""))",Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.014s,ERROR
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:55:47,2019-02-05 15:55:47,0.002s,PASSED
+,,,,,,
+Test Cases/TC009-Verify Analyst Coverage with checkpoint,Edge 17,,2019-02-05 15:55:49,2019-02-05 15:55:52,3.107s,PASSED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:55:49,2019-02-05 15:55:49,0.001s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/AnalystCoverage""), false)",Edge 17,,2019-02-05 15:55:49,2019-02-05 15:55:50,1.003s,PASSED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:55:50,2019-02-05 15:55:50,0.002s,PASSED
+,,,,,,
+Test Cases/TC010_CheckPageTitleOfSite_CopiedFromSelenium,Edge 17,,2019-02-05 15:55:52,2019-02-05 15:56:15,22.602s,PASSED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-02-05 15:55:52,2019-02-05 15:55:52,0.003s,PASSED
+utilities.BasicFunctions.Sel_CheckPageTitle(),Edge 17,Call the Selenium Script designed and call in Katalon. It will verifies the page title.,2019-02-05 15:55:52,2019-02-05 15:56:13,20.368s,PASSED
+Start listener action : sampleAfterTestCase,Edge 17,,2019-02-05 15:56:13,2019-02-05 15:56:13,0.001s,PASSED

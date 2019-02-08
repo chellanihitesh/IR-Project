@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate UI" time="213" tests="1" failures="2" errors="0">
+   <testsuite name="Validate UI" tests="1" failures="2" errors="0" time="213" timestamp="2019-01-31 12:11:44" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Validate UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_120827"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_120827\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_120827\\1548917042897.png, D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_120827\\1548917114103.png"/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="10.10.12.73"/>
+         <property name="sessionId" value="16b4ddf2-d734-43b8-8c4c-63757920659a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001-Check Factsheet URL on home page" classname="Test Cases/TC001-Check Factsheet URL on home page" status="PASSED">
+         <system-out><![CDATA[2019-01-31 12:11:44 - [TEST_CASE][PASSED] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page
+
+2019-01-31 12:11:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 12:11:44 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 12:11:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 12:11:45 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-01-31 12:11:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 12:11:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-31 12:11:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 12:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 12:12:11 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("URLs").getValue(1, 1)): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-31 12:12:30 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-31 12:12:30 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-31 12:12:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-31 12:12:40 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-01-31 12:12:40 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-01-31 12:12:40 - [TEST_STEP][NOT_RUN] - takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots"): NOT_RUN: takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+2019-01-31 12:12:40 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+2019-01-31 12:12:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 12:12:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30): Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-31 12:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-31 12:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/a_Fact Sheet")): Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-31 12:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-31 12:12:41 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-01-31 12:12:41 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-01-31 12:12:41 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-31 12:12:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-31 12:12:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-31 12:12:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-31 12:12:52 - [TEST_STEP][PASSED] - ActualUrl = getUrl(): Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-31 12:12:52 - [MESSAGE][PASSED] - Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-31 12:12:52 - [TEST_STEP][PASSED] - ExpectedUrl = "https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae": null
+
+2019-01-31 12:12:52 - [TEST_STEP][PASSED] - if (ActualUrl.equals(ExpectedUrl)): URL for the factshet is as expected
+
+2019-01-31 12:12:52 - [TEST_STEP][PASSED] - comment("URL for the factshet is as expected"): URL for the factshet is as expected
+
+2019-01-31 12:12:52 - [MESSAGE][INFO] - URL for the factshet is as expected
+
+2019-01-31 12:12:52 - [TEST_STEP][PASSED] - utilities.BasicFunctions.closeApplication(): utilities.BasicFunctions.closeApplication is PASSED
+
+2019-01-31 12:12:53 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-31 12:12:53 - [MESSAGE][PASSED] - utilities.BasicFunctions.closeApplication is PASSED
+
+2019-01-31 12:12:53 - [TEST_STEP][PASSED] - markPassed("Test completed succesfully!"): Test completed succesfully!
+
+2019-01-31 12:12:53 - [MESSAGE][PASSED] - Test completed succesfully!
+
+2019-01-31 12:12:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 12:12:53 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003-Verify Header Menu Links are available" classname="Test Cases/TC003-Verify Header Menu Links are available" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC003-Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id(&quot;exportInvestmentCalculatorPDFToDownload&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 content_Search&quot;]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-31 12:12:55 - [TEST_CASE][FAILED] - Test Cases/TC003-Verify Header Menu Links are available: Test Cases/TC003-Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+
+
+2019-01-31 12:12:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 12:12:55 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 12:12:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 12:12:55 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-01-31 12:12:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 12:12:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-31 12:13:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 12:13:20 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("URLs").getValue(1, 1)): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-31 12:13:37 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-31 12:13:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-31 12:13:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-31 12:13:47 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-01-31 12:13:47 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-01-31 12:13:47 - [TEST_STEP][NOT_RUN] - takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots"): NOT_RUN: takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+2019-01-31 12:13:47 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+2019-01-31 12:13:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 12:13:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-31 12:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investing With Us' is hovered
+
+2019-01-31 12:13:47 - [TEST_STEP][PASSED] - click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator")): Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-31 12:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_SubMenu_Links/a_Investment Calculator' is clicked on
+
+2019-01-31 12:13:47 - [TEST_STEP][FAILED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")): lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+
+
+2019-01-31 12:14:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-31 12:14:02 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+[[ATTACHMENT|D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_120827\\1548917042897.png]]
+
+2019-01-31 12:14:02 - [MESSAGE][FAILED] - lblHeader = getText(findTestObject("Menu_SubMenu_Links/h1_Investment Calculator")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+
+
+2019-01-31 12:14:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 12:14:02 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-01-31 12:12:55 - [TEST_CASE][FAILED] - Test Cases/TC003-Verify Header Menu Links are available: Test Cases/TC003-Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002-Check Tooltips on Historical Pricing" classname="Test Cases/TC002-Check Tooltips on Historical Pricing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Historical Pricing/PDF_Tooltip' located by 'By.xpath: id(&quot;exportHistoryPricingPDFToDownload&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 text-right&quot;]/ir-header-icons[1]/ul[@class=&quot;actionSetting&quot;]/li[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$11.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-31 12:14:05 - [TEST_CASE][FAILED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Historical Pricing/PDF_Tooltip' located by 'By.xpath: id("exportHistoryPricingPDFToDownload")/div[@class="row"]/div[@class="col-sm-4 text-right"]/ir-header-icons[1]/ul[@class="actionSetting"]/li[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$11.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+
+
+2019-01-31 12:14:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 12:14:05 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 12:14:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 12:14:05 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-01-31 12:14:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 12:14:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-31 12:14:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-31 12:14:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 12:14:31 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("URLs").getValue(1, 1)): Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-31 12:14:48 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com' successfully
+
+2019-01-31 12:14:48 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-31 12:14:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-31 12:14:58 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-01-31 12:14:58 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-01-31 12:14:58 - [TEST_STEP][NOT_RUN] - takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots"): NOT_RUN: takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+2019-01-31 12:14:58 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot("D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots")
+
+2019-01-31 12:14:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 12:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Investing With Us")): Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-31 12:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-31 12:14:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Historical Pricing/a_Historical Pricing"), 20): Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-31 12:14:58 - [MESSAGE][PASSED] - Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-31 12:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Historical Pricing")): Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-31 12:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-31 12:14:58 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Historical Pricing/PDF_Tooltip"), 10): scrollToElement(findTestObject("Historical Pricing/PDF_Tooltip"), 10) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Historical Pricing/PDF_Tooltip' located by 'By.xpath: id("exportHistoryPricingPDFToDownload")/div[@class="row"]/div[@class="col-sm-4 text-right"]/ir-header-icons[1]/ul[@class="actionSetting"]/li[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$11.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+
+
+2019-01-31 12:15:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("exportHistoryPricingPDFToDownload")/div[@class="row"]/div[@class="col-sm-4 text-right"]/ir-header-icons[1]/ul[@class="actionSetting"]/li[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-31 12:15:14 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Historical Pricing/PDF_Tooltip' located by 'By.xpath: id("exportHistoryPricingPDFToDownload")/div[@class="row"]/div[@class="col-sm-4 text-right"]/ir-header-icons[1]/ul[@class="actionSetting"]/li[1]' not found)
+[[ATTACHMENT|D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_120827\\1548917114103.png]]
+
+2019-01-31 12:15:14 - [MESSAGE][FAILED] - scrollToElement(findTestObject("Historical Pricing/PDF_Tooltip"), 10) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Historical Pricing/PDF_Tooltip' located by 'By.xpath: id("exportHistoryPricingPDFToDownload")/div[@class="row"]/div[@class="col-sm-4 text-right"]/ir-header-icons[1]/ul[@class="actionSetting"]/li[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$11.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)
+
+
+2019-01-31 12:15:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 12:15:14 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[2019-01-31 12:14:05 - [TEST_CASE][FAILED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Historical Pricing/PDF_Tooltip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Historical Pricing/PDF_Tooltip' located by 'By.xpath: id("exportHistoryPricingPDFToDownload")/div[@class="row"]/div[@class="col-sm-4 text-right"]/ir-header-icons[1]/ul[@class="actionSetting"]/li[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$11.call(Unknown Source)
+	at TC002-Check Tooltips on Historical Pricing.run(TC002-Check Tooltips on Historical Pricing:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 12:11:44 - [TEST_SUITE][FAILED] - Validate UI: Test Cases/TC003-Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-31 12:11:44 - [TEST_SUITE][FAILED] - Validate UI: Test Cases/TC003-Verify Header Menu Links are available FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Menu_SubMenu_Links/h1_Investment Calculator' located by 'By.xpath: id("exportInvestmentCalculatorPDFToDownload")/div[@class="row"]/div[@class="col-sm-8 content_Search"]/h1[1][count(. | //h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')]) = count(//h1[(text() = 'Investment Calculator' or . = 'Investment Calculator')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC003-Verify Header Menu Links are available.run(TC003-Verify Header Menu Links are available:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548916707641.run(TempTestSuite1548916707641.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

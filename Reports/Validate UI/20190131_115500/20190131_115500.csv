@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Firefox 64.0,,2019-01-31 11:55:05,2019-01-31 11:57:59,2m - 54.378s,FAILED
+,,,,,,
+Test Cases/TC003-Verify Header Menu Links are available,Firefox 64.0,,2019-01-31 11:55:06,2019-01-31 11:56:35,1m - 28.825s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-01-31 11:55:06,2019-01-31 11:55:06,0.076s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-01-31 11:55:07,2019-01-31 11:56:16,1m - 9.392s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Firefox 64.0,,2019-01-31 11:56:16,2019-01-31 11:56:17,0.257s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Firefox 64.0,,2019-01-31 11:56:17,2019-01-31 11:56:17,0.491s,PASSED
+"lblHeader = getText(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""))",Firefox 64.0,,2019-01-31 11:56:17,2019-01-31 11:56:33,15.417s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-01-31 11:56:33,2019-01-31 11:56:33,0.007s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Firefox 64.0,,2019-01-31 11:56:35,2019-01-31 11:57:58,1m - 23.096s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-01-31 11:56:35,2019-01-31 11:56:35,0.006s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-01-31 11:56:35,2019-01-31 11:57:40,1m - 4.320s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Firefox 64.0,,2019-01-31 11:57:40,2019-01-31 11:57:40,0.307s,PASSED
+"waitForElementPresent(findTestObject(""Historical Pricing/a_Historical Pricing""), 20)",Firefox 64.0,,2019-01-31 11:57:40,2019-01-31 11:57:40,0.034s,PASSED
+"click(findTestObject(""Historical Pricing/a_Historical Pricing""))",Firefox 64.0,,2019-01-31 11:57:40,2019-01-31 11:57:41,0.466s,PASSED
+"scrollToElement(findTestObject(""Historical Pricing/PDF_Tooltip""), 10)",Firefox 64.0,,2019-01-31 11:57:41,2019-01-31 11:57:56,15.276s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-01-31 11:57:56,2019-01-31 11:57:56,0.002s,PASSED

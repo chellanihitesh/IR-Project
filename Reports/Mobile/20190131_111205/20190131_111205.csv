@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Edge 17,,2019-01-31 11:12:11,2019-01-31 11:13:18,1m - 7.002s,PASSED
+,,,,,,
+Test Cases/TT001-Launch Application,Edge 17,,2019-01-31 11:12:11,2019-01-31 11:13:16,1m - 4.890s,PASSED
+Start listener action : sampleBeforeTestCase,Edge 17,,2019-01-31 11:12:11,2019-01-31 11:12:11,0.016s,PASSED
+"openBrowser("""")",Edge 17,,2019-01-31 11:12:11,2019-01-31 11:12:43,31.271s,PASSED
+"navigateToUrl(findTestData(""URLs"").getValue(1, 1))",Edge 17,,2019-01-31 11:12:43,2019-01-31 11:13:06,23.324s,PASSED
+delay(10),Edge 17,For IE Load,2019-01-31 11:13:06,2019-01-31 11:13:16,10.112s,PASSED
+maximizeWindow(),Edge 17,,2019-01-31 11:13:16,2019-01-31 11:13:16,0.002s,NOT_RUN
+"takeScreenshot(""D://Katalon_Studio_Windows_64-5.10.1//projects//IR Project//ErrorScreenshots"")",Edge 17,,2019-01-31 11:13:16,2019-01-31 11:13:16,0.002s,NOT_RUN
+Start listener action : sampleAfterTestCase,Edge 17,,2019-01-31 11:13:16,2019-01-31 11:13:16,0.004s,PASSED

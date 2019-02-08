@@ -1,0 +1,94 @@
+1
+00:00:00,181 --> 00:00:00,181
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,244 --> 00:00:00,245
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+
+3
+00:00:40,719 --> 00:00:40,720
+7. For IE Load
+
+4
+00:00:50,807 --> 00:00:50,808
+11. maximizeWindow()
+
+5
+00:00:51,943 --> 00:00:51,944
+5. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+6
+00:00:52,001 --> 00:00:52,001
+9. click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator"))
+
+7
+00:00:52,203 --> 00:00:52,204
+13. mouseOver(findTestObject("Investment Calculator/i_Total Return_far fa-calendar"), STOP_ON_FAILURE)
+
+8
+00:00:52,265 --> 00:00:52,266
+17. delay(5)
+
+9
+00:00:57,268 --> 00:00:57,269
+23. Click Calendar Control
+
+
+10
+00:00:57,388 --> 00:00:57,388
+27. delay(5)
+
+11
+00:01:02,390 --> 00:01:02,391
+33. Select Year 2018
+	
+
+12
+00:01:02,762 --> 00:01:02,762
+39. Select Month 'December'
+
+13
+00:01:03,081 --> 00:01:03,081
+45. Select Date '31'
+
+14
+00:01:03,256 --> 00:01:03,257
+51. Optionally enter date text
+
+15
+00:01:03,258 --> 00:01:03,259
+55. setText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n_4"), "100")
+
+16
+00:01:03,401 --> 00:01:03,401
+59. click(findTestObject("Investment Calculator/button_Calculate Price"))
+
+17
+00:01:03,477 --> 00:01:03,477
+63. inputvalue = getText(findTestObject("Investment Calculator/input_Total Return_txt w-100 n_4"))
+
+18
+00:01:03,507 --> 00:01:03,508
+67. println(inputvalue)
+
+19
+00:01:03,510 --> 00:01:03,511
+71. DynValue = getText(findTestObject("Investment Calculator/h1_100.00"))
+
+20
+00:01:03,536 --> 00:01:03,536
+75. println(DynValue)
+
+21
+00:01:03,537 --> 00:01:03,538
+79. TodayPrice = getText(findTestObject("Investment Calculator/p_Current Price"))
+
+22
+00:01:03,596 --> 00:01:03,596
+1. if (getTestCaseId().contains("Sample Tests"))
+
+23
+00:01:05,664 --> 00:01:05,664
+1. if (getTestCaseId().contains("Sample Tests"))
+

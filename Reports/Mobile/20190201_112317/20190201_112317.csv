@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Safari 12,,2019-02-01 11:23:21,2019-02-01 11:24:14,53.075s,PASSED
+,,,,,,
+Test Cases/TC004_Check Analyst Coverage on mobile,Safari 12,,2019-02-01 11:23:22,2019-02-01 11:24:13,51.196s,PASSED
+Start listener action : sampleBeforeTestCase,Safari 12,,2019-02-01 11:23:22,2019-02-01 11:23:22,0.015s,PASSED
+"openBrowser("""")",Safari 12,,2019-02-01 11:23:22,2019-02-01 11:23:54,31.471s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Safari 12,,2019-02-01 11:23:54,2019-02-01 11:23:56,1.875s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl""))",Safari 12,,2019-02-01 11:23:56,2019-02-01 11:24:02,6.586s,PASSED
+"click(findTestObject(""Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang""))",Safari 12,,2019-02-01 11:24:02,2019-02-01 11:24:03,0.630s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage""))",Safari 12,,2019-02-01 11:24:03,2019-02-01 11:24:04,0.643s,PASSED
+"verifyElementPresent(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:04,2019-02-01 11:24:04,0.360s,PASSED
+"verifyElementPresent(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:04,2019-02-01 11:24:04,0.256s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Atwater Thornton""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:04,2019-02-01 11:24:05,0.297s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Baird Equity Research""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:05,2019-02-01 11:24:05,0.242s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Boenning  Scattergood""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:05,2019-02-01 11:24:05,0.275s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_BofA Merrill Lynch""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:05,2019-02-01 11:24:05,0.238s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Goldman Sachs""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:05,2019-02-01 11:24:06,0.238s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Guggenheim Securities""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:06,2019-02-01 11:24:06,0.247s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_HSBC Global Research""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:06,2019-02-01 11:24:06,0.262s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Janney Montgomery Scott""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:06,2019-02-01 11:24:06,0.270s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Macquarie Research""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:06,2019-02-01 11:24:07,0.234s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Northcoast Research""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:07,2019-02-01 11:24:07,0.234s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_UBS Securities""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:07,2019-02-01 11:24:07,0.234s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/h5_Wells Fargo""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:07,2019-02-01 11:24:07,0.245s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Andy Cohen""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:07,2019-02-01 11:24:08,0.249s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Angie Storozynski""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:08,2019-02-01 11:24:08,0.237s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Ben Kallo""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:08,2019-02-01 11:24:08,0.235s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Dan Ford""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:08,2019-02-01 11:24:08,0.239s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_John Staszak""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:08,2019-02-01 11:24:09,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Jonathan Reeder""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:09,2019-02-01 11:24:09,0.276s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Julien Dumoulin-Smith""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:09,2019-02-01 11:24:09,0.239s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Michael Gaugler""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:09,2019-02-01 11:24:09,0.250s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Michael Lapides""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:09,2019-02-01 11:24:10,0.234s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Rich Verdi""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:10,2019-02-01 11:24:10,0.232s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Ryan Connors""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:10,2019-02-01 11:24:10,0.229s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Shar Pourreza""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:10,2019-02-01 11:24:10,0.230s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Steve Fleishman""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:10,2019-02-01 11:24:10,0.263s,PASSED
+"verifyElementPresent(findTestObject(""Analyst Coverage/p_Verity Mitchell""), 0, CONTINUE_ON_FAILURE)",Safari 12,,2019-02-01 11:24:10,2019-02-01 11:24:11,0.243s,PASSED
+Start listener action : sampleAfterTestCase,Safari 12,,2019-02-01 11:24:11,2019-02-01 11:24:11,0.002s,PASSED

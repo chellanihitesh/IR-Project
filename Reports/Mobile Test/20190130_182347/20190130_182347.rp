@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20190130_182347</name>
+   <tag></tag>
+   <displayName>20190130_182347</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190130_182347</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>Edge</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190130_182348</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>remoteWebDriverType</key>
+                  <value>Selenium</value>
+               </entry>
+               <entry>
+                  <key>remoteWebDriverUrl</key>
+                  <value>iphone X</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Remote</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190130_182349</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>android_galaxy</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Mobile/20190130_182350</reportLocation>
+         <runConfigDescription>
+            <groupName>Custom</groupName>
+            <profileName>IR</profileName>
+            <runConfigurationId>ipad</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

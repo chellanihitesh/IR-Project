@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile,Safari 12,,2019-02-01 11:25:37,2019-02-01 11:26:23,46.379s,FAILED
+,,,,,,
+Test Cases/TC004_Check Analyst Coverage on mobile,Safari 12,,2019-02-01 11:25:37,2019-02-01 11:26:22,44.796s,FAILED
+Start listener action : sampleBeforeTestCase,Safari 12,,2019-02-01 11:25:37,2019-02-01 11:25:37,0.014s,PASSED
+"openBrowser("""")",Safari 12,,2019-02-01 11:25:37,2019-02-01 11:26:08,30.633s,PASSED
+"navigateToUrl(""https://ir.amwater.com/#/home"")",Safari 12,,2019-02-01 11:26:08,2019-02-01 11:26:10,1.753s,PASSED
+"click(findTestObject(""mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl""))",Safari 12,,2019-02-01 11:26:10,2019-02-01 11:26:20,10.007s,FAILED
+Start listener action : sampleAfterTestCase,Safari 12,,2019-02-01 11:26:20,2019-02-01 11:26:20,0.004s,PASSED

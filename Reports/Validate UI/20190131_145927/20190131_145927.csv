@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-01-31 14:59:30,2019-01-31 15:01:35,2m - 4.655s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Chrome 71.0.3578.98,,2019-01-31 14:59:31,2019-01-31 15:00:41,1m - 9.903s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 14:59:31,2019-01-31 14:59:31,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 14:59:31,2019-01-31 15:00:07,35.807s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-01-31 15:00:07,2019-01-31 15:00:39,31.641s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 15:00:39,2019-01-31 15:00:39,0.000s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Chrome 71.0.3578.98,,2019-01-31 15:00:41,2019-01-31 15:01:34,53.506s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-31 15:00:41,2019-01-31 15:00:41,0.000s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 15:00:41,2019-01-31 15:01:16,35.428s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-31 15:01:16,2019-01-31 15:01:32,15.815s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-31 15:01:32,2019-01-31 15:01:32,0.001s,PASSED

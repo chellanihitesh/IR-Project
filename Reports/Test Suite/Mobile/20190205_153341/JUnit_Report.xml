@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile" time="79" tests="1" failures="0" errors="0">
+   <testsuite name="Mobile" tests="1" failures="0" errors="0" time="79" timestamp="2019-02-05 15:34:55" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Test Suite/Mobile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Test Suite\\Mobile\\20190205_153341"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Test Suite\\Mobile\\20190205_153341\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.85"/>
+         <property name="hostAddress" value="10.10.11.27"/>
+         <property name="sessionId" value="fb688e70bdf29b6ffbb3260c8f3ce8f80843c372"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC004_Check Analyst Coverage on mobile" classname="Test Cases/TC004_Check Analyst Coverage on mobile" status="PASSED">
+         <system-out><![CDATA[2019-02-05 15:34:55 - [TEST_CASE][PASSED] - Test Cases/TC004_Check Analyst Coverage on mobile: Test Cases/TC004_Check Analyst Coverage on mobile
+
+2019-02-05 15:34:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-05 15:34:55 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-02-05 15:34:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-05 15:34:56 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-02-05 15:34:56 - [MESSAGE][INFO] - User set preference: ['device', 'Samsung Galaxy Note 9']
+
+2019-02-05 15:34:56 - [MESSAGE][INFO] - User set preference: ['realMobile', 'true']
+
+2019-02-05 15:34:56 - [MESSAGE][INFO] - User set preference: ['os_version', '8.1']
+
+2019-02-05 15:34:56 - [MESSAGE][INFO] - Connecting to remote web server 'http://cakedcteam1:nxGnf9inWKyiBnPZhodt@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-02-05 15:34:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-05 15:35:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 15:35:35 - [TEST_STEP][PASSED] - navigateToUrl("https://ir.amwater.com/#/home"): Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-02-05 15:35:46 - [MESSAGE][PASSED] - Navigate to 'https://ir.amwater.com/#/home' successfully
+
+2019-02-05 15:35:46 - [TEST_STEP][PASSED] - click(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl")): Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl' is clicked on
+
+2019-02-05 15:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl' is clicked on
+
+2019-02-05 15:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang")): Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang' is clicked on
+
+2019-02-05 15:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang' is clicked on
+
+2019-02-05 15:35:50 - [TEST_STEP][PASSED] - click(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage")): Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage' is clicked on
+
+2019-02-05 15:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/a_Analyst Coverage' is clicked on
+
+2019-02-05 15:35:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak' is present
+
+2019-02-05 15:35:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:55 - [MESSAGE][PASSED] - Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak' is present
+
+2019-02-05 15:35:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus' is present
+
+2019-02-05 15:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:55 - [MESSAGE][PASSED] - Object 'Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus' is present
+
+2019-02-05 15:35:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Atwater Thornton"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Atwater Thornton' is present
+
+2019-02-05 15:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Atwater Thornton' is present
+
+2019-02-05 15:35:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Baird Equity Research"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Baird Equity Research' is present
+
+2019-02-05 15:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Baird Equity Research' is present
+
+2019-02-05 15:35:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Boenning  Scattergood"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Boenning  Scattergood' is present
+
+2019-02-05 15:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:57 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Boenning  Scattergood' is present
+
+2019-02-05 15:35:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_BofA Merrill Lynch"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_BofA Merrill Lynch' is present
+
+2019-02-05 15:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_BofA Merrill Lynch' is present
+
+2019-02-05 15:35:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Goldman Sachs"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Goldman Sachs' is present
+
+2019-02-05 15:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Goldman Sachs' is present
+
+2019-02-05 15:35:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Guggenheim Securities"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Guggenheim Securities' is present
+
+2019-02-05 15:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Guggenheim Securities' is present
+
+2019-02-05 15:35:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_HSBC Global Research"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_HSBC Global Research' is present
+
+2019-02-05 15:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_HSBC Global Research' is present
+
+2019-02-05 15:35:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Janney Montgomery Scott"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Janney Montgomery Scott' is present
+
+2019-02-05 15:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Janney Montgomery Scott' is present
+
+2019-02-05 15:36:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Macquarie Research"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Macquarie Research' is present
+
+2019-02-05 15:36:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Macquarie Research' is present
+
+2019-02-05 15:36:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Northcoast Research"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Northcoast Research' is present
+
+2019-02-05 15:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Northcoast Research' is present
+
+2019-02-05 15:36:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_UBS Securities"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_UBS Securities' is present
+
+2019-02-05 15:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:02 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_UBS Securities' is present
+
+2019-02-05 15:36:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/h5_Wells Fargo"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/h5_Wells Fargo' is present
+
+2019-02-05 15:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:02 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/h5_Wells Fargo' is present
+
+2019-02-05 15:36:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Andy Cohen"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Andy Cohen' is present
+
+2019-02-05 15:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:03 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Andy Cohen' is present
+
+2019-02-05 15:36:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Angie Storozynski"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Angie Storozynski' is present
+
+2019-02-05 15:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Angie Storozynski' is present
+
+2019-02-05 15:36:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Ben Kallo"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Ben Kallo' is present
+
+2019-02-05 15:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Ben Kallo' is present
+
+2019-02-05 15:36:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Dan Ford"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Dan Ford' is present
+
+2019-02-05 15:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:05 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Dan Ford' is present
+
+2019-02-05 15:36:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_John Staszak"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_John Staszak' is present
+
+2019-02-05 15:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:05 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_John Staszak' is present
+
+2019-02-05 15:36:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Jonathan Reeder"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Jonathan Reeder' is present
+
+2019-02-05 15:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Jonathan Reeder' is present
+
+2019-02-05 15:36:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Julien Dumoulin-Smith"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Julien Dumoulin-Smith' is present
+
+2019-02-05 15:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Julien Dumoulin-Smith' is present
+
+2019-02-05 15:36:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Michael Gaugler"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Michael Gaugler' is present
+
+2019-02-05 15:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Michael Gaugler' is present
+
+2019-02-05 15:36:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Michael Lapides"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Michael Lapides' is present
+
+2019-02-05 15:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Michael Lapides' is present
+
+2019-02-05 15:36:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Rich Verdi"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Rich Verdi' is present
+
+2019-02-05 15:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Rich Verdi' is present
+
+2019-02-05 15:36:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Ryan Connors"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Ryan Connors' is present
+
+2019-02-05 15:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Ryan Connors' is present
+
+2019-02-05 15:36:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Shar Pourreza"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Shar Pourreza' is present
+
+2019-02-05 15:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Shar Pourreza' is present
+
+2019-02-05 15:36:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Steve Fleishman"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Steve Fleishman' is present
+
+2019-02-05 15:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:10 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Steve Fleishman' is present
+
+2019-02-05 15:36:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Analyst Coverage/p_Verity Mitchell"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Analyst Coverage/p_Verity Mitchell' is present
+
+2019-02-05 15:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-05 15:36:11 - [MESSAGE][PASSED] - Object 'Object Repository/Analyst Coverage/p_Verity Mitchell' is present
+
+2019-02-05 15:36:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-05 15:36:11 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-05 15:34:55 - [TEST_SUITE][PASSED] - Mobile: Test Cases/TC004_Check Analyst Coverage on mobile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

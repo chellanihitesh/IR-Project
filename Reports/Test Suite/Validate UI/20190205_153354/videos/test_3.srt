@@ -1,0 +1,32 @@
+1
+00:00:00,269 --> 00:00:00,270
+1. callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,344 --> 00:00:00,345
+1. openBrowser(findTestData("URLs").getValue(1, 1))
+
+3
+00:00:29,604 --> 00:00:29,605
+7. For IE Load
+
+4
+00:00:39,607 --> 00:00:39,608
+11. maximizeWindow()
+
+5
+00:00:39,616 --> 00:00:39,617
+5. mouseOver(findTestObject("Menu_SubMenu_Links/a_Investing With Us"))
+
+6
+00:00:39,667 --> 00:00:39,669
+9. click(findTestObject("Menu_SubMenu_Links/a_Investment Calculator"))
+
+7
+00:00:39,944 --> 00:00:39,945
+1. if (getTestCaseId().contains("Sample Tests"))
+
+8
+00:00:42,053 --> 00:00:42,054
+1. if (getTestCaseId().contains("Sample Tests"))
+

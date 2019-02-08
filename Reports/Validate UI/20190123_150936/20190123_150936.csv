@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-01-23 15:09:37,2019-01-23 15:10:53,1m - 15.396s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available with Results,Chrome 71.0.3578.98,,2019-01-23 15:09:38,2019-01-23 15:10:52,1m - 14.048s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 15:09:38,2019-01-23 15:10:51,1m - 12.884s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-23 15:10:51,2019-01-23 15:10:51,0.134s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-01-23 15:10:51,2019-01-23 15:10:51,0.282s,PASSED
+"lblHeader = getAttribute(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""), ""text"")",Chrome 71.0.3578.98,,2019-01-23 15:10:51,2019-01-23 15:10:52,0.169s,PASSED
+"verifyMatch(lblHeader, ""Investment Calculator"", false)",Chrome 71.0.3578.98,,2019-01-23 15:10:52,2019-01-23 15:10:52,0.018s,FAILED

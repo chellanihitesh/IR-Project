@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Firefox 64.0,,2019-01-31 15:01:47,2019-01-31 15:03:59,2m - 12.708s,FAILED
+,,,,,,
+Test Cases/TC001-Check Factsheet URL on home page,Firefox 64.0,,2019-01-31 15:01:47,2019-01-31 15:03:00,1m - 13.187s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-01-31 15:01:47,2019-01-31 15:01:47,0.015s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-01-31 15:01:47,2019-01-31 15:02:27,40.109s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Firefox 64.0,,2019-01-31 15:02:27,2019-01-31 15:02:58,30.629s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-01-31 15:02:58,2019-01-31 15:02:58,0.003s,PASSED
+,,,,,,
+Test Cases/TC002-Check Tooltips on Historical Pricing,Firefox 64.0,,2019-01-31 15:03:00,2019-01-31 15:03:58,57.624s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 64.0,,2019-01-31 15:03:00,2019-01-31 15:03:00,0.004s,PASSED
+"callTestCase(findTestCase(""TT001-Launch Application""), [:], STOP_ON_FAILURE)",Firefox 64.0,,2019-01-31 15:03:00,2019-01-31 15:03:40,40.035s,PASSED
+"click(findTestObject(""Historical Pricing/a_Investing With Us""))",Firefox 64.0,,2019-01-31 15:03:40,2019-01-31 15:03:56,15.278s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 64.0,,2019-01-31 15:03:56,2019-01-31 15:03:56,0.002s,PASSED

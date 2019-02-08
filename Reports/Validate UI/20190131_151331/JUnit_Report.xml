@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate UI" time="114" tests="2" failures="0" errors="0">
+   <testsuite name="Validate UI" tests="2" failures="0" errors="0" time="114" timestamp="2019-01-31 15:13:34" hostname="hiteshc - AOHYDLT0059.apporchid.com" id="Test Suites/Validate UI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_151331"/>
+         <property name="logFiles" value="D:\\Katalon_Studio_Windows_64-5.10.1\\projects\\IR Project\\Reports\\Validate UI\\20190131_151331\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hiteshc - AOHYDLT0059.apporchid.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.10.12.73"/>
+         <property name="sessionId" value="16c7ce907100ef9fa2e398b1b4648011"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001-Check Factsheet URL on home page" classname="Test Cases/TC001-Check Factsheet URL on home page" status="PASSED">
+         <system-out><![CDATA[2019-01-31 15:13:34 - [TEST_CASE][PASSED] - Test Cases/TC001-Check Factsheet URL on home page: Test Cases/TC001-Check Factsheet URL on home page
+
+2019-01-31 15:13:35 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 15:13:35 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 15:13:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 15:13:35 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-01-31 15:13:35 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-01-31 15:13:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 15:13:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 15:14:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-01-31 15:14:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-31 15:14:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-31 15:14:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-31 15:14:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-31 15:14:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 15:14:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/a_Fact Sheet"), 30): Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-31 15:14:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/a_Fact Sheet' is present
+
+2019-01-31 15:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/a_Fact Sheet")): Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-31 15:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/a_Fact Sheet' is clicked on
+
+2019-01-31 15:14:27 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-01-31 15:14:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-01-31 15:14:27 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-31 15:14:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-31 15:14:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-31 15:14:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-31 15:14:28 - [TEST_STEP][PASSED] - ActualUrl = getUrl(): Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-31 15:14:28 - [MESSAGE][PASSED] - Current window's url is: 'https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae'
+
+2019-01-31 15:14:28 - [TEST_STEP][PASSED] - ExpectedUrl = "https://ir.amwater.com/cp-content-ms/documents/259581/0/2018_FactSheet_Final.pdf/9af8b6a2-99ad-41f7-927d-cf12840d32ae": null
+
+2019-01-31 15:14:28 - [TEST_STEP][PASSED] - if (ActualUrl.equals(ExpectedUrl)): URL for the factshet is as expected
+
+2019-01-31 15:14:28 - [TEST_STEP][PASSED] - comment("URL for the factshet is as expected"): URL for the factshet is as expected
+
+2019-01-31 15:14:28 - [MESSAGE][INFO] - URL for the factshet is as expected
+
+2019-01-31 15:14:28 - [TEST_STEP][PASSED] - utilities.BasicFunctions.closeApplication(): utilities.BasicFunctions.closeApplication is PASSED
+
+2019-01-31 15:14:29 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-31 15:14:29 - [MESSAGE][PASSED] - utilities.BasicFunctions.closeApplication is PASSED
+
+2019-01-31 15:14:29 - [TEST_STEP][PASSED] - markPassed("Test completed succesfully!"): Test completed succesfully!
+
+2019-01-31 15:14:29 - [MESSAGE][PASSED] - Test completed succesfully!
+
+2019-01-31 15:14:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 15:14:29 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002-Check Tooltips on Historical Pricing" classname="Test Cases/TC002-Check Tooltips on Historical Pricing" status="PASSED">
+         <system-out><![CDATA[2019-01-31 15:14:31 - [TEST_CASE][PASSED] - Test Cases/TC002-Check Tooltips on Historical Pricing: Test Cases/TC002-Check Tooltips on Historical Pricing
+
+2019-01-31 15:14:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-01-31 15:14:31 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null
+
+2019-01-31 15:14:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TT001-Launch Application"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 15:14:32 - [TEST_CASE][PASSED] - Test Cases/TT001-Launch Application: Test Cases/TT001-Launch Application
+
+2019-01-31 15:14:32 - [TEST_STEP][PASSED] - openBrowser(findTestData("URLs").getValue(1, 1)): Browser is opened with url: 'https://ir.amwater.com'
+
+2019-01-31 15:14:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 15:15:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ir.amwater.com'
+
+2019-01-31 15:15:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-31 15:15:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-31 15:15:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TT001-Launch Application' successfully
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Investing With Us")): Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Investing With Us' is clicked on
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Historical Pricing/a_Historical Pricing"), 20): Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Historical Pricing/a_Historical Pricing' is present
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Historical Pricing/a_Historical Pricing")): Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Historical Pricing/a_Historical Pricing' is clicked on
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Historical Pricing/li_Historical Pricing PDF"), 10, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/Historical Pricing/li_Historical Pricing PDF' successfully
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Historical Pricing/li_Historical Pricing PDF' successfully
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - attribute = getAttribute(findTestObject("Historical Pricing/li_Historical Pricing PDF"), "tooltip"): Attribute 'tooltip' of object 'Object Repository/Historical Pricing/li_Historical Pricing PDF' is: 'PDF'
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Attribute 'tooltip' of object 'Object Repository/Historical Pricing/li_Historical Pricing PDF' is: 'PDF'
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - verifyMatch(attribute, "PDF", false): Actual text 'PDF' and expected text 'PDF' are matched 
+
+2019-01-31 15:15:25 - [MESSAGE][PASSED] - Actual text 'PDF' and expected text 'PDF' are matched 
+
+2019-01-31 15:15:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-31 15:15:26 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-31 15:15:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-31 15:15:26 - [TEST_STEP][PASSED] - if (getTestCaseId().contains("Sample Tests")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 15:13:34 - [TEST_SUITE][PASSED] - Validate UI: Test Cases/TC002-Check Tooltips on Historical Pricing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

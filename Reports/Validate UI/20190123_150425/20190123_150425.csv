@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate UI,Chrome 71.0.3578.98,,2019-01-23 15:04:26,2019-01-23 15:07:03,2m - 36.215s,FAILED
+,,,,,,
+Test Cases/Verify Header Menu Links are available with Results,Chrome 71.0.3578.98,,2019-01-23 15:04:27,2019-01-23 15:05:37,1m - 10.601s,FAILED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 15:04:27,2019-01-23 15:05:37,1m - 9.679s,PASSED
+"mouseOver(findTestObject(""Menu_SubMenu_Links/a_Investing With Us""))",Chrome 71.0.3578.98,,2019-01-23 15:05:37,2019-01-23 15:05:37,0.122s,PASSED
+"click(findTestObject(""Menu_SubMenu_Links/a_Investment Calculator""))",Chrome 71.0.3578.98,,2019-01-23 15:05:37,2019-01-23 15:05:37,0.262s,PASSED
+"lblHeader = getAttribute(findTestObject(""Menu_SubMenu_Links/h1_Investment Calculator""), ""text"")",Chrome 71.0.3578.98,,2019-01-23 15:05:37,2019-01-23 15:05:37,0.089s,PASSED
+"verifyMatch(lblHeader, ""Investment Calculator"", false)",Chrome 71.0.3578.98,,2019-01-23 15:05:37,2019-01-23 15:05:37,0.015s,FAILED
+,,,,,,
+Test Cases/Open Factsheet on home page,Chrome 71.0.3578.98,,2019-01-23 15:05:37,2019-01-23 15:07:03,1m - 25.250s,PASSED
+"callTestCase(findTestCase(""Launch Application""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 15:05:38,2019-01-23 15:07:00,1m - 22.603s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/a_Fact Sheet""), 30)",Chrome 71.0.3578.98,,2019-01-23 15:07:00,2019-01-23 15:07:00,0.047s,PASSED
+"click(findTestObject(""Home Page/a_Fact Sheet""))",Chrome 71.0.3578.98,,2019-01-23 15:07:00,2019-01-23 15:07:00,0.151s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-01-23 15:07:00,2019-01-23 15:07:01,0.029s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2019-01-23 15:07:01,2019-01-23 15:07:02,1.055s,PASSED
+titleActual = getWindowTitle(),Chrome 71.0.3578.98,,2019-01-23 15:07:02,2019-01-23 15:07:02,0.027s,PASSED
+"titleExpected = ""'PowerPoint Presentation - 2018_FactSheet_Final.pdf'""",Chrome 71.0.3578.98,For Firefox,2019-01-23 15:07:02,2019-01-23 15:07:02,0.001s,PASSED
+if (titleActual.equals(titleExpected)),Chrome 71.0.3578.98,,2019-01-23 15:07:02,2019-01-23 15:07:02,0.000s,PASSED
+else,Chrome 71.0.3578.98,,2019-01-23 15:07:02,2019-01-23 15:07:02,0.029s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 15:07:02,2019-01-23 15:07:03,1.045s,PASSED
