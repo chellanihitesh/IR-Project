@@ -75,28 +75,19 @@ class BasicFunctions {
 	}
 
 	/*@keyword
-	def extractNumbersFromString() {
-
-		//*************** Extracting int values *************************
-
-		String searchCountStr = “There are 280 search results”;
-		// or String cartCountStr = “There are total 6 items in your cart”;
-
-		int searchCount = Integer.parseInt(searchCountStr.replaceAll(“\D”,""));
-		
-		System.out.println(searchCount);
-		
-		//*************** Extracting double values *************************
-		
-		String totalPriceStr = "Your have paid £154.75 for this order”;
-		// or String totalPriceStr = “Total Price: £154.75”;
-		
-		double totalPrice = Double.parseDouble(totalPriceStr.replaceAll(“[^0-9\\.]+”, “”));
-		
-		System.out.println(totalPrice);
-		
-		}
-	}*/
+	 def extractNumbersFromString() {
+	 //*************** Extracting int values *************************
+	 String searchCountStr = “There are 280 search results”;
+	 // or String cartCountStr = “There are total 6 items in your cart”;
+	 int searchCount = Integer.parseInt(searchCountStr.replaceAll(“\D”,""));
+	 System.out.println(searchCount);
+	 //*************** Extracting double values *************************
+	 String totalPriceStr = "Your have paid £154.75 for this order”;
+	 // or String totalPriceStr = “Total Price: £154.75”;
+	 double totalPrice = Double.parseDouble(totalPriceStr.replaceAll(“[^0-9\\.]+”, “”));
+	 System.out.println(totalPrice);
+	 }
+	 }*/
 
 	/*@Keyword
 	 def killwebdriver() {

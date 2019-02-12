@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC004_Check Analyst Coverage on mobile</name>
+   <name>TC004.0_Check Analyst Coverage on mobile</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6a591240-0c62-400b-a86d-69489b8b9875</testCaseGuid>

@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ir.amwater.com/#/home')
 
+
 WebUI.click(findTestObject('mobile_AnalystCoverage_new/Page_Investor Relations/button_Investing With Us_toggl'))
 
 WebUI.click(findTestObject('Object Repository/mobile_AnalystCoverage_new/Page_Investor Relations/Page_Investor Relations/i_Investing With Us_fas fa-ang'))
