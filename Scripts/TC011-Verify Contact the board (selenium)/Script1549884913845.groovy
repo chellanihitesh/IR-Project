@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('TT001-Launch Application'), [:], FailureHandlin
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.mouseOver(findTestObject('Menu_SubMenu_Links/a_Financial Reports'))
+not_run: WebUI.mouseOver(findTestObject('Menu_SubMenu_Links/a_Financial Reports'))
 
 WebElement corporateGovernance = driver.findElement(By.cssSelector('ul.navbar-nav:nth-child(2) > li:nth-child(4) > a:nth-child(1)'))
 
@@ -66,5 +66,9 @@ if (expectedText.equals(actualText)) {
     println('Content mismatches')
 }
 
-WebUI.verifyElementClickable(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 20)
-//A[@href='mailto:contacttheboard@amwater.com'][text()='contacttheboard@amwater.com']
+WebUI.scrollToElement(findTestObject('ContactTheBoard/a_contacttheboardamwater.com'), 2)
+
+WebUI.verifyElementClickable(findTestObject('ContactTheBoard/a_contacttheboardamwater.com'), FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'utilities.BasicFunctions.closeApplication'()
+
