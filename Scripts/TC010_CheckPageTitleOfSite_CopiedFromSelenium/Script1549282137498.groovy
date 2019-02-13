@@ -15,6 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 
-'Call the Selenium Script designed and call in Katalon. It will verifies the page title.'
+'Call the Selenium Script designed and used in Katalon. It will verifies the page title.'
 CustomKeywords.'utilities.BasicFunctions.Sel_CheckPageTitle'()
 
