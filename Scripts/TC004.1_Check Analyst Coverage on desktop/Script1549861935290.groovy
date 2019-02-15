@@ -81,3 +81,5 @@ WebUI.verifyElementPresent(findTestObject('Analyst Coverage/p_Steve Fleishman'),
 
 WebUI.verifyElementPresent(findTestObject('Analyst Coverage/p_Verity Mitchell'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+CustomKeywords.'utilities.BasicFunctions.closeApplication'()
+

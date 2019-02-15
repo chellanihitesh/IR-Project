@@ -22,7 +22,10 @@ WebUI.click(findTestObject('Menu_SubMenu_Links/a_Investor Presentations'))
 
 WebUI.delay(3)
 
+WebUI.verifyElementPresent(, 0, FailureHandling.STOP_ON_FAILURE))
+
 String lblHeader = WebUI.getText(findTestObject('Menu_SubMenu_Links/h1_Investor Presentations'))
+
 
 WebUI.verifyMatch(lblHeader, 'Investor Presentations', false, FailureHandling.CONTINUE_ON_FAILURE)
 
