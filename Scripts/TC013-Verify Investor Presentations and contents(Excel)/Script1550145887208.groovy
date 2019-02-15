@@ -25,11 +25,6 @@ WebUI.delay(3)
 String lblHeader = WebUI.getText(findTestObject('Menu_SubMenu_Links/h1_Investor Presentations'))
 
 WebUI.verifyMatch(lblHeader, 'Investor Presentations', false, FailureHandling.CONTINUE_ON_FAILURE)
-def rowcount;
-for(i=0;i<=rowcount;i++)
-{
-	
-}
 
 WebUI.click(findTestObject('Investor Presentations/span_2019 1 Total'))
 

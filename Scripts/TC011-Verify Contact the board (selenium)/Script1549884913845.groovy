@@ -44,7 +44,8 @@ WebUI.delay(2)
 //driver.findElement(By.xpath("//[@class='contact-content'][text()='Shareholders and interested parties can contact the American Water Board of Directors to provide comments, to report concerns, or to ask a question, at the following address.']"))
 String actualText = driver.findElement(By.xpath('//DIV[@class=\'contact-content\']')).getText()
 
-String text1 = 'Shareholders and interested parties can contact the American Water Board of Directors to provide comments, to report concerns, or to ask a question, at the following address.'
+//Replace string concat with groovy 
+/*String text1 = 'Shareholders and interested parties can contact the American Water Board of Directors to provide comments, to report concerns, or to ask a question, at the following address.'
 
 String text2 = 'American Water Board of Directors'
 
@@ -56,11 +57,21 @@ String text5 = 'or via email: contacttheboard@amwater.com'
 
 String expectedText = ((((((((text1 + '\n') + '\n') + text2) + '\n') + text3) + '\n') + text4) + '\n') + text5
 
-System.out.println(expectedText)
+System.out.println(expectedText)*/
+
+
+def x = """Shareholders and interested parties can contact the American Water Board of Directors to provide comments, to report concerns, or to ask a question, at the following address.
+
+American Water Board of Directors
+1 Water St,
+Camden, NJ 08102"""
+
 
 System.out.println(actualText)
 
-if (expectedText.equals(actualText)) {
+println x
+
+if (x.equals(actualText)) {
     println('Content matches')
 } else {
     println('Content mismatches')
