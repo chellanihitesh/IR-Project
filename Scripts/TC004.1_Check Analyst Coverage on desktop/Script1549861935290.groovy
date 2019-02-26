@@ -25,9 +25,10 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu_SubMenu_Links/a_Analyst Coverage'))
 
+WebUI.verifyElementPresent(findTestObject('mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('mobile_AnalystCoverage_new/Page_Investor Relations/p_John Staszak'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('mobile_AnalystCoverage_new/Page_Investor Relations/h5_Argus'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Analyst Coverage/h5_Atwater Thornton'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

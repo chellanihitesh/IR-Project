@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Webcast</name>
+   <tag></tag>
+   <elementGuidId>3566163d-3138-4992-a564-28171572bbf0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;irscroll&quot;)/ir-header[1]/header[1]/ion-slides[@class=&quot;slides slides-md slides-0&quot;]/div[@class=&quot;swiper-container swiper-container-horizontal swiper-container-rtl&quot;]/div[@class=&quot;swiper-wrapper&quot;]/ion-slide[@class=&quot;swiper-slide swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev&quot;]/div[@class=&quot;slide-zoom&quot;]/div[@class=&quot;caption&quot;]/div[@class=&quot;captionCenter&quot;]/div[@class=&quot;mt-4 eventbutton&quot;]/button[@class=&quot;btn-more activated&quot;][count(. | //button[@class = 'btn-more activated' and (text() = ' Webcast ' or . = ' Webcast ')]) = count(//button[@class = 'btn-more activated' and (text() = ' Webcast ' or . = ' Webcast ')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='irscroll']/ir-header/header/ion-slides/div/div/ion-slide[2]/div/div/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-more activated</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Webcast </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;irscroll&quot;)/ir-header[1]/header[1]/ion-slides[@class=&quot;slides slides-md slides-0&quot;]/div[@class=&quot;swiper-container swiper-container-horizontal swiper-container-rtl&quot;]/div[@class=&quot;swiper-wrapper&quot;]/ion-slide[@class=&quot;swiper-slide swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev&quot;]/div[@class=&quot;slide-zoom&quot;]/div[@class=&quot;caption&quot;]/div[@class=&quot;captionCenter&quot;]/div[@class=&quot;mt-4 eventbutton&quot;]/button[@class=&quot;btn-more activated&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='irscroll']/ir-header/header/ion-slides/div/div/ion-slide[2]/div/div/div/div[2]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//ion-slide[2]/div/div/div/div[2]/button</value>
+   </webElementXpaths>
+</WebElementEntity>
