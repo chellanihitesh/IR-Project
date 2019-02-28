@@ -17,5 +17,21 @@ WebUI.verifyElementVisible(findTestObject('Home Page/img_logo'))
 
 WebUI.verifyElementClickable(findTestObject('Home Page/img_logo'))
 
-WebUI.takeScreenshot('ErrorScreenshots/Demo.png')
+def ImgLink = WebUI.getAttribute(findTestObject('Home Page/img_logo'), 'baseURI')
+
+def HomePageLink = 'https://ir.amwater.com/#/home'
+
+if (ImgLink == HomePageLink) {
+    println('The home page link is correct on logo')
+} else {
+    println('Test case failed')
+}
+
+WebUI.delay(5)
+
+CustomKeywords.'com.at.util.ScreenshotHelper.takeWebElementScreenshot'(findTestObject('Home Page/img_logo'))
+
+WebUI.delay(5)
+
+not_run: WebUI.takeScreenshot('ErrorScreenshots/Demo.png')
 

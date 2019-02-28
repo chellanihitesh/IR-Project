@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logo</name>
+   <tag></tag>
+   <elementGuidId>cc94b237-429d-4e98-b71d-31bee409deb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/ion-app/ng-component/div/div[1]/ir-main-header/nav/div/div[1]/a/img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/ion-app/ng-component/div/div[1]/ir-main-header/nav/div/div[1]/a/img</value>
+   </webElementProperties>
+</WebElementEntity>
