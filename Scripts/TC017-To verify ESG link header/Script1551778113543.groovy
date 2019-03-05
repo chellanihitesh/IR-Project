@@ -17,13 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('TT001-Launch Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Home Page/QuickLinks/li_Presentations'), 5)
+WebUI.scrollToElement(findTestObject('Home Page/QuickLinks/li_ESG'), 5)
 
-WebUI.click(findTestObject('Home Page/QuickLinks/li_Presentations'))
+WebUI.click(findTestObject('Home Page/QuickLinks/li_ESG'))
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-String lblHeader = WebUI.getText(findTestObject('Menu_SubMenu_Links/h1_Investor Presentations'))
+WebUI.scrollToElement(findTestObject('Menu_SubMenu_Links/Page_Investor Relations/h2_Environment Social  Governance (ESG)'), 
+    3)
+
+String lblHeader = WebUI.getText(findTestObject('Menu_SubMenu_Links/Page_Investor Relations/h2_Environment Social  Governance (ESG)'))
 
 /*
 if(lblHeader =='Investor Presentations' )
@@ -34,8 +37,8 @@ else
 {
 	println "Test case failed"
 }*/
-if (WebUI.verifyMatch(lblHeader, 'Investor Presentations', false) == true) {
-    println('Link is navigated to  Presentations page')
+if (WebUI.verifyMatch(lblHeader, 'Environment, Social & Governance (ESG)', false) == true) {
+    println('Link is navigated to  ESG page')
 } else {
     println('Test case failed')
 }

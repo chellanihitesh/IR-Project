@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Environment Social  Governa</name>
+   <name>h2_ESG</name>
    <tag></tag>
    <elementGuidId>b009968a-c9fb-4275-98f7-406ea19acd4a</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;exportSustainAbilityPDFToDownload&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 content_Search&quot;]/h2[1][count(. | //h2[(text() = 'Environment, Social &amp; Governance (ESG)' or . = 'Environment, Social &amp; Governance (ESG)')]) = count(//h2[(text() = 'Environment, Social &amp; Governance (ESG)' or . = 'Environment, Social &amp; Governance (ESG)')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='exportSustainAbilityPDFToDownload']/div/div/h2</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +35,7 @@
       <value>Environment, Social &amp; Governance (ESG)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

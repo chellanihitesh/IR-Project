@@ -17,13 +17,12 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 WebUI.openBrowser(findTestData('URLs').getValue(1, 1))
 
 'For IE Load'
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.maximizeWindow()
 
 //Check incompatibity of browser
-if (WebUI.verifyElementNotPresent(findTestObject('NonCompatibilityPopup/BrowserNonCompatibilityPopup'), 10, FailureHandling.OPTIONAL))
- {
+if (WebUI.verifyElementNotPresent(findTestObject('NonCompatibilityPopup/BrowserNonCompatibilityPopup'), 10, FailureHandling.OPTIONAL)) {
     KeywordLogger log = new KeywordLogger()
 
     log.logInfo('This is a compatible browser')
