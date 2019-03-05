@@ -3,7 +3,7 @@
    <description></description>
    <name>h4_Email Alerts</name>
    <tag></tag>
-   <elementGuidId>efb83c99-4434-4e4d-8157-bcc38911942e</elementGuidId>
+   <elementGuidId>83705676-658d-49bb-b6eb-fd99b1fd0c4c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h4[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::h4[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,30 +48,30 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow Us'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Me'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Newly scheduled Corporate events.'])[1]/preceding::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h4</value>
+      <value>//modal-container/div/div/div/div/div[2]/h4</value>
    </webElementXpaths>
 </WebElementEntity>
