@@ -6,11 +6,15 @@
    <elementGuidId>4051ac10-2771-4566-91b4-51ebc8cd2fd2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Investor Presentations' or . = 'Investor Presentations')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='exportInvestorPresentPDFToDownload']/div/div/h1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
