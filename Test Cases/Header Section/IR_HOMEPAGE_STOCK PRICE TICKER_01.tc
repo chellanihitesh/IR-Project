@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking if stock price widget section is displaying on the header section</description>
+   <name>IR_HOMEPAGE_STOCK PRICE TICKER_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1b6c347-4c97-44f9-b925-18fbfcb82120</testCaseGuid>
+</TestCaseEntity>
