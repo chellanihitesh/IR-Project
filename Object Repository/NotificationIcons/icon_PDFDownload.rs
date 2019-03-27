@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_PDFDownload</name>
+   <tag></tag>
+   <elementGuidId>f339ca60-8fed-498a-a602-458cc73b54ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Featured Articles']/div/div[2]/ir-header-icons/ul/li</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;Featured Articles&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 text-right&quot;]/ir-header-icons[1]/ul[@class=&quot;actionSetting&quot;]/li[@class=&quot;toggle-paginatiion-header-icon&quot;][count(. | //li[@class = 'toggle-paginatiion-header-icon' and @placement = 'bottom' and @tooltip = 'PDF' and @aria-describedby = 'tooltip-14']) = count(//li[@class = 'toggle-paginatiion-header-icon' and @placement = 'bottom' and @tooltip = 'PDF' and @aria-describedby = 'tooltip-14'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>toggle-paginatiion-header-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placement</name>
+      <type>Main</type>
+      <value>bottom</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tooltip</name>
+      <type>Main</type>
+      <value>PDF</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip-14</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Featured Articles&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 text-right&quot;]/ir-header-icons[1]/ul[@class=&quot;actionSetting&quot;]/li[@class=&quot;toggle-paginatiion-header-icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='Featured Articles']/div/div[2]/ir-header-icons/ul/li</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Articles'])[1]/following::li[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDF'])[1]/preceding::li[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The 2019 Gender-Equality Index highlights 230 firms that are trailblazers ...'])[1]/preceding::li[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//ir-header-icons/ul/li</value>
+   </webElementXpaths>
+</WebElementEntity>

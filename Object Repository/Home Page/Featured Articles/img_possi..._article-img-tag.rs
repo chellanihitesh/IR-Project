@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_possi..._article-img-tag</name>
+   <tag></tag>
+   <elementGuidId>34dc327a-2fc0-423b-a1c0-8a4572ba4a1a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>article-img-tag</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ir.amwater.com/cp-content-ms/documents/259581/457459/Winter_scenery_compressed.jpg/bf3c1997-121e-0f84-8f55-b4ebc1d27acc?t=1543567463842</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;irscroll&quot;)/page-home[1]/div[@class=&quot;container-content home pt-5&quot;]/div[@class=&quot;container-home homeFeature_article&quot;]/div[@class=&quot;featureArticle_new row&quot;]/div[@class=&quot;featuredArticle col-sm-6 col-md-3 col-lg-3 col-12&quot;]/div[@class=&quot;article-list&quot;]/div[@class=&quot;article-image-resize&quot;]/img[@class=&quot;article-img-tag&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='irscroll']/page-home/div/div[2]/div[2]/div[4]/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='possi...'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Growing Impact of Climate Change on Water Quantity and Quality'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Five W’s of Winter Pipe Preparedness'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[contains(@src,'https://ir.amwater.com/cp-content-ms/documents/259581/457459/Winter_scenery_compressed.jpg/bf3c1997-121e-0f84-8f55-b4ebc1d27acc?t=1543567463842')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[4]/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

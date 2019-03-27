@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_All Articles_envelope</name>
+   <tag></tag>
+   <elementGuidId>6bf8543b-0aef-420a-9664-5d8d1510aa24</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>st0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M-31.6,11C-31.6,11-31.7,11-31.6,11c-0.6,0-1.1-0.1-1.8-0.5c-0.4-0.2-4.8-3.7-5.7-4.4V12   c0,0.2,0.1,0.3,0.2,0.4c0.1,0.1,0.3,0.2,0.4,0.2h6.4c-0.1,0.6-0.1,1.1-0.1,1.7h-6.9c-0.5,0-0.8-0.2-1.2-0.5   c-0.3-0.3-0.5-0.8-0.5-1.3v-10c0-0.5,0.2-0.9,0.5-1.2c0.3-0.3,0.8-0.5,1.3-0.5h14.4c0.5,0,0.9,0.2,1.3,0.5c0.3,0.3,0.5,0.8,0.5,1.2   c0,0.6,0,1.2,0,1.8c-1,0.1-2,0.3-3,0.6c0.6-0.5,1.1-0.9,1.3-1V2.6h-14.6V4c0.8,0.6,6,4.8,6.3,4.9c0.4,0.3,0.8,0.4,1.1,0.4   c0.3,0,0.6-0.1,1.1-0.4c0,0,0.1,0,0.1-0.1c-0.1,0.2-0.2,0.3-0.3,0.5C-31.1,9.9-31.4,10.4-31.6,11z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>envelope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;envelope&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>
